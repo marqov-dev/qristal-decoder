@@ -23,10 +23,12 @@ add_executable(CITests_decoder
   ${CMAKE_CURRENT_LIST_DIR}/../tests/SimplifiedDecoderAlgorithm.cpp
   ${CMAKE_CURRENT_LIST_DIR}/../tests/DecoderKernel.cpp
   ${CMAKE_CURRENT_LIST_DIR}/../tests/QuantumDecoderAlgorithm.cpp
+  ${CMAKE_CURRENT_LIST_DIR}/../tests/CommunityQualification.cpp
 )
 target_link_libraries(CITests_decoder
   PRIVATE
     qristal::core
+    simplified_decoder
     GTest::gtest
     GTest::gtest_main
     GTest::gmock

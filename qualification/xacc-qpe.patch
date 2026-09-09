@@ -1,0 +1,10 @@
+--- a/quantum/plugins/CMakeLists.txt
++++ b/quantum/plugins/CMakeLists.txt
+@@ -4,6 +4,7 @@
+   add_subdirectory(optimizers)
+   add_subdirectory(staq)
+   add_subdirectory(xasm)
++  add_subdirectory(algorithms/qpe)
+   # Aer embeds Python for its optional pulse adapter; keep the global XACC
+   # Python API disabled while supplying Python development files to this plugin.
+   function(add_cpu_aer_stack)
