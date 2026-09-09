@@ -6,7 +6,6 @@
 #include "IRProvider.hpp"
 #include "InstructionIterator.hpp"
 #include "xacc.hpp"
-#include "xacc_plugin.hpp"
 #include "xacc_service.hpp"
 
 #include <assert.h>
@@ -27,7 +26,8 @@ namespace qristal {
 
       // Function performs kernel operation post-measurement
       std::function<std::string(std::string)> f_kernel_; //Converts selected ionput string to form of corresponding output string (beam)
-      xacc::Accelerator *qpu_;          //Accelerator, optional
+      std::shared_ptr<xacc::Accelerator> owned_qpu_;
+      xacc::Accelerator *qpu_ = nullptr;          //Accelerator, optional
       bool is_msb = false;    //
 
       //Qubit registers

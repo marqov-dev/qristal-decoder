@@ -49,7 +49,7 @@ endif()
 message(STATUS "Installation directory for ${PROJECT_NAME} set to ${CMAKE_INSTALL_PREFIX}.")
 
 # Work out build type
-set(CMAKE_BUILD_TYPE "None" CACHE STRING "Type of build: None, Release, Debug, RelWithDebInfo or MinSizeRel." FORCE)
+set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Type of build: None, Release, Debug, RelWithDebInfo or MinSizeRel.")
 set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "None" "Debug" "Release" "MinSizeRel" "RelWithDebInfo")
 
 # Find the core

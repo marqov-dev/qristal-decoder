@@ -1,0 +1,76 @@
+Note: Google Test filter = CommunityQualification.*:SimplifiedDecoderAlgorithm.*
+[==========] Running 7 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from SimplifiedDecoderAlgorithm
+[ RUN      ] SimplifiedDecoderAlgorithm.checkSimple
+num qubits = 4  4
+execute()
+max beam:01
+01: 243
+0110: 122
+0111: 124
+10: 243
+1001: 146
+1011: 122
+best beam:01
+nb_beams:6
+beam_0: 01   243
+beam_1: 0110   122
+beam_2: 0111   124
+beam_3: 10   243
+beam_4: 1001   146
+beam_5: 1011   122
+upper_nb_beams: 9 9 
+[       OK ] SimplifiedDecoderAlgorithm.checkSimple (23 ms)
+[ RUN      ] SimplifiedDecoderAlgorithm.check_aer
+getAlgorithm()
+execute()
+max beam:0111
+0111: 1000
+best beam:0111
+[       OK ] SimplifiedDecoderAlgorithm.check_aer (36 ms)
+[ RUN      ] SimplifiedDecoderAlgorithm.check_lsb
+getAlgorithm()
+execute()
+max beam:1110
+1110: 1000
+best beam:1110
+[       OK ] SimplifiedDecoderAlgorithm.check_lsb (3 ms)
+[----------] 3 tests from SimplifiedDecoderAlgorithm (63 ms total)
+
+[----------] 4 tests from CommunityQualification
+[ RUN      ] CommunityQualification.RejectsMalformedInputs
+[       OK ] CommunityQualification.RejectsMalformedInputs (0 ms)
+[ RUN      ] CommunityQualification.DeterministicCPUBackends
+max beam:0111
+0111: 1024
+max beam:0111
+0111: 1024
+max beam:0111
+0111: 1024
+[       OK ] CommunityQualification.DeterministicCPUBackends (15 ms)
+[ RUN      ] CommunityQualification.NamedBackendSelectionIsPerInitialization
+max beam:1
+1: 1
+max beam:1
+1: 1
+[       OK ] CommunityQualification.NamedBackendSelectionIsPerInitialization (2 ms)
+[ RUN      ] CommunityQualification.CollapseRepeatsBeforeRemovingBlanks
+max beam:010111
+010111: 128
+max beam:
+: 128
+max beam:010111
+010111: 128
+max beam:
+: 128
+max beam:010111
+010111: 128
+max beam:
+: 128
+[       OK ] CommunityQualification.CollapseRepeatsBeforeRemovingBlanks (73 ms)
+[----------] 4 tests from CommunityQualification (90 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 2 test suites ran. (155 ms total)
+[  PASSED  ] 7 tests.

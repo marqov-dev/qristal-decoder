@@ -1,0 +1,45 @@
+Note: Google Test filter = CommunityQualification.*
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from CommunityQualification
+[ RUN      ] CommunityQualification.RejectsMalformedInputs
+[       OK ] CommunityQualification.RejectsMalformedInputs (3 ms)
+[ RUN      ] CommunityQualification.DeterministicCPUBackends
+max beam:1011
+1011: 1024
+/work/qristal-decoder/tests/CommunityQualification.cpp:36: Failure
+Expected equality of these values:
+  info.at("best_beam").as<std::string>()
+    Which is: "1011"
+  "0111"
+Google Test trace:
+/work/qristal-decoder/tests/CommunityQualification.cpp:28: qpp
+
+max beam:0111
+0111: 1024
+max beam:1011
+1011: 1024
+/work/qristal-decoder/tests/CommunityQualification.cpp:36: Failure
+Expected equality of these values:
+  info.at("best_beam").as<std::string>()
+    Which is: "1011"
+  "0111"
+Google Test trace:
+/work/qristal-decoder/tests/CommunityQualification.cpp:28: sparse-sim
+
+[  FAILED  ] CommunityQualification.DeterministicCPUBackends (83 ms)
+[ RUN      ] CommunityQualification.NamedBackendSelectionIsPerInitialization
+max beam:1
+1: 1
+max beam:1
+1: 1
+[       OK ] CommunityQualification.NamedBackendSelectionIsPerInitialization (2 ms)
+[----------] 3 tests from CommunityQualification (89 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (91 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CommunityQualification.DeterministicCPUBackends
+
+ 1 FAILED TEST

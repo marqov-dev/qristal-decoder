@@ -4,17 +4,23 @@
 #include "Algorithm.hpp"
 #include "xacc.hpp"
 #include "xacc_service.hpp"
+#include "xacc_plugin.hpp"
+#include <stdexcept>
 
 #include <assert.h>
 #include <bitset>
 #include <iomanip>
 #include <memory>
 #include <string>
+#include <set>
 
 namespace qristal {
 
   bool SimplifiedDecoder::initialize(const xacc::HeterogeneousMap &parameters) {
 
+    qpu_ = nullptr;
+    owned_qpu_.reset();
+    is_msb = false;
     //std::vector<std::vector<float>> probability_table;
     if (!parameters.keyExists<std::vector<std::vector<float>>>("probability_table")) {
         return false;
@@ -26,6 +32,26 @@ namespace qristal {
         return false;
     }
     qubits_string = parameters.get<std::vector<int>>("qubits_string");
+
+    // Validate before division/indexing; asserts are disabled in release builds.
+    if (probability_table.empty() || qubits_string.empty()) return false;
+    const size_t symbols = probability_table.front().size();
+    if (symbols < 2 || symbols > 32) return false;
+    const size_t bits_per_symbol = static_cast<size_t>(std::ceil(std::log2(symbols)));
+    if (qubits_string.size() != probability_table.size() * bits_per_symbol) return false;
+    std::set<int> unique_qubits;
+    for (int bit : qubits_string) {
+      if (bit < 0 || !unique_qubits.insert(bit).second) return false;
+    }
+    for (const auto& row : probability_table) {
+      if (row.size() != symbols) return false;
+      double total = 0;
+      for (float probability : row) {
+        if (!std::isfinite(probability) || probability < 0 || probability > 1) return false;
+        total += probability;
+      }
+      if (std::abs(total - 1.0) > 1e-5) return false;
+    }
 
     nb_timesteps = probability_table.size();
     nq_string = qubits_string.size() ;
@@ -51,22 +77,25 @@ namespace qristal {
         // Assert that given builder_name is acceptable and
     }
 
+    if (method != "ry") return false;
+
     //////////////////////////////////////////////////////////////////////////////////////
 
     //Initialize qpu accelerator
     qpu_ = nullptr;
     if (parameters.stringExists("qpu")) {
-      static auto acc =
-          xacc::getAccelerator(parameters.getString("qpu"), {{"shots", 1}});
-      qpu_ = acc.get();
+      owned_qpu_ = xacc::getAccelerator(parameters.getString("qpu"), {{"shots", 1}});
+      qpu_ = owned_qpu_.get();
+    } else if (parameters.keyExists<std::shared_ptr<xacc::Accelerator>>("qpu")) {
+      owned_qpu_ = parameters.get<std::shared_ptr<xacc::Accelerator>>("qpu");
+      qpu_ = owned_qpu_.get();
     } else if (parameters.pointerLikeExists<xacc::Accelerator>("qpu")) {
       qpu_ = parameters.getPointerLike<xacc::Accelerator>("qpu");
     }
 
     if (!qpu_) {
-      static auto qpp = xacc::getAccelerator("qpp", {{"shots", 1}});
-      // Default to qpp if none provided
-      qpu_ = qpp.get();
+      owned_qpu_ = xacc::getAccelerator("qpp", {{"shots", 1}});
+      qpu_ = owned_qpu_.get();
     }
 
     if (parameters.keyExists<bool>("is_msb")) {
@@ -96,6 +125,7 @@ namespace qristal {
   void SimplifiedDecoder::execute(
       const std::shared_ptr<xacc::AcceleratorBuffer> buffer) const {
 
+      if (!qpu_) throw std::logic_error("Decoder must be successfully initialized before execution");
       qristal::CircuitBuilder circ;
 
       const int nq_symbol_const = nq_symbol;
@@ -127,80 +157,23 @@ namespace qristal {
 
     /////////////////////////////////////////////////////////////////////////////////////////////
 
-    //Initiate kernel function
-    const std::function<std::string(std::string)> f_kernel_ = [&](std::string string_) {
-        std::string no_repeats_;
-        std::string beam_;
-        std::string null_char_ ;
-        // nq_symbol cannot be known at compile time
-        switch (nq_symbol) {
-            case 1:
-                null_char_ = std::bitset<1>(0).to_string();
-                break;
-            case 2:
-                null_char_ = std::bitset<2>(0).to_string();
-                break;
-            case 3:
-                null_char_ = std::bitset<3>(0).to_string();
-                break;
-            case 4:
-                null_char_ = std::bitset<4>(0).to_string();
-                break;
-            case 5:
-                null_char_ = std::bitset<5>(0).to_string();
-                break;
-      default:
-          throw std::runtime_error("Invalid number of nq_symbol!\n");
-        }
-
-        // Contract repeats in string_
-        std::string current_char_;
-        current_char_ = string_.substr(0,nq_symbol);
-        int current_place_ = 0;  // Last new symbol
-        int next_place_ = current_place_;
-        std::string next_char_ = current_char_;    // Next non-repeat symbol
-        int no_repeat_length = 0;
-        while (current_place_ < nb_timesteps) {
-      if (is_msb) {
-                no_repeats_ = current_char_ + no_repeats_;
+    // Normalize backend counts to increasing register order, then write each
+    // symbol MSB-first. Collapse adjacent repeated symbols before removing blank.
+    const auto f_kernel_ = [&](std::string measured) {
+      if (measured.size() != qubits_string.size())
+        throw std::runtime_error("Unexpected decoder measurement width");
+      if (is_msb) std::reverse(measured.begin(), measured.end());
+      const std::string blank(nq_symbol, '0');
+      std::string beam, previous;
+      for (size_t offset = 0; offset < measured.size(); offset += nq_symbol) {
+        auto symbol = measured.substr(offset, nq_symbol);
+        std::reverse(symbol.begin(), symbol.end());
+        if (symbol != previous && symbol != blank) beam += symbol;
+        previous = symbol;
       }
-      else {
-                no_repeats_ += current_char_;
-      }
-            no_repeat_length++;
-            next_place_++;
-            next_char_ = string_.substr(next_place_*nq_symbol,nq_symbol);
-            while ((next_char_ == current_char_) and (current_place_ < nb_timesteps)) {
-                current_place_ = next_place_;
-                next_place_++;
-                next_char_ = string_.substr(next_place_*nq_symbol,nq_symbol);
-            }
-            current_char_ = next_char_;
-            current_place_ = next_place_;
-        }
-
-        // Remove nulls from no_repeats_.
-        current_place_ = -1;
-        next_char_ = "";
-        while (current_place_ < no_repeat_length) {
-            beam_ += next_char_;  // no_repeats_.substr(current_place_, next_place_-(nq_symbol*current_place_));
-            current_place_++;
-            next_char_ = no_repeats_.substr(current_place_*nq_symbol,nq_symbol);
-            if ((next_char_ == null_char_) & (current_place_ < no_repeat_length)){
-                current_place_++;
-                next_char_ = no_repeats_.substr(current_place_*nq_symbol,nq_symbol);
-            }
-            //std::cout << "beam: " << beam_ << std::endl;
-        }
-        //std::cout << "final beam:" << beam_ << std::endl;
-
-        //buffer->addExtraInfo("output string",beam_);
-
-        return beam_; };
-
-
-    /////////////////////////////////////////////////////////////////////////////////////////////
-
+      return beam;
+    };
+    if (measurements.empty()) throw std::runtime_error("Decoder received no measurements");
 
       std::map<std::string, int>::iterator iter;
       std::map<std::string, int> beams;
