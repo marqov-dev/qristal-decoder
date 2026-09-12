@@ -1,0 +1,17 @@
+name: Decoder register safety
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  standalone:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Release checks with sanitizers (no XACC or simulator)
+        run: |
+          g++ -std=c++17 -O1 -DNDEBUG -Wall -Wextra -Werror -fsanitize=address,undefined -Iinclude tests/RegisterValidationStandalone.cpp -o /tmp/decoder-register-validation
+          /tmp/decoder-register-validation
