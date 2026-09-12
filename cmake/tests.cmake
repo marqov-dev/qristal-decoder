@@ -23,11 +23,13 @@ add_executable(CITests_decoder
   ${CMAKE_CURRENT_LIST_DIR}/../tests/SimplifiedDecoderAlgorithm.cpp
   ${CMAKE_CURRENT_LIST_DIR}/../tests/DecoderKernel.cpp
   ${CMAKE_CURRENT_LIST_DIR}/../tests/QuantumDecoderAlgorithm.cpp
+  ${CMAKE_CURRENT_LIST_DIR}/../tests/FullDecoderInputValidation.cpp
   ${CMAKE_CURRENT_LIST_DIR}/../tests/CommunityQualification.cpp
 )
 target_link_libraries(CITests_decoder
   PRIVATE
     qristal::core
+    decoder
     simplified_decoder
     GTest::gtest
     GTest::gtest_main
@@ -35,3 +37,11 @@ target_link_libraries(CITests_decoder
     GTest::gmock_main
 )
 add_test(NAME ci_tester COMMAND CITests_decoder)
+
+# Dependency-free checks can also be compiled directly without XACC or Docker.
+add_executable(decoder_register_validation
+  ${CMAKE_CURRENT_LIST_DIR}/../tests/RegisterValidationStandalone.cpp)
+target_include_directories(decoder_register_validation PRIVATE
+  ${CMAKE_CURRENT_LIST_DIR}/../include)
+target_compile_features(decoder_register_validation PRIVATE cxx_std_17)
+add_test(NAME decoder_register_validation COMMAND decoder_register_validation)

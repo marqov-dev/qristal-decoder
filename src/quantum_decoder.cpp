@@ -1,13 +1,15 @@
 // Copyright (c) 2022 Quantum Brilliance Pty Ltd
 
 #include "qristal/decoder/quantum_decoder.hpp"
+#include "qristal/decoder/register_validation.hpp"
+#include "qristal/decoder/result_accumulator.hpp"
+#include <stdexcept>
 
 #include "Algorithm.hpp"
 #include "xacc.hpp"
 #include "xacc_service.hpp"
 
 #include <assert.h>
-#include <bitset>
 #include <iomanip>
 #include <memory>
 
@@ -15,17 +17,44 @@ namespace qristal {
 
   bool QuantumDecoder::initialize(const xacc::HeterogeneousMap &parameters) {
 
-    // W prime unitary parameters
-    iteration = parameters.get<int>("iteration");
+    qpu_ = nullptr;
+    owned_qpu_.reset();
 
-    probability_table = {};
-    if (parameters.keyExists<std::vector<std::vector<float>>>(
-            "probability_table")) {
-      probability_table =
-          parameters.get<std::vector<std::vector<float>>>("probability_table");
+    // Validate before indexing rows or dividing by the number of timesteps.
+    // These checks must remain active in Release builds (unlike assert).
+    if (!parameters.keyExists<int>("iteration") ||
+        !parameters.keyExists<std::vector<std::vector<float>>>("probability_table")) {
+      return false;
     }
+    const auto table =
+        parameters.get<std::vector<std::vector<float>>>("probability_table");
+    if (table.empty() || table.front().empty()) {
+      return false;
+    }
+    for (const auto &row : table) {
+      if (row.size() != table.front().size()) {
+        return false;
+      }
+      double sum = 0.0;
+      for (float probability : row) {
+        if (!std::isfinite(probability) || probability < 0.0f || probability > 1.0f) {
+          return false;
+        }
+        sum += probability;
+      }
+      if (std::abs(sum - 1.0) > 1e-5) {
+        return false;
+      }
+    }
+    if (!parameters.keyExists<int>("N_TRIALS") ||
+        parameters.get<int>("N_TRIALS") <= 0 || parameters.get<int>("iteration") <= 0 ||
+        static_cast<size_t>(parameters.get<int>("iteration")) > table.size()) return false;
+    if (parameters.key_exists_any_type("method") && !parameters.stringExists("method")) return false;
+    method = parameters.stringExists("method") ? parameters.getString("method") : "canonical";
+    if (method != "canonical") return false;
+    iteration = parameters.get<int>("iteration");
+    probability_table = table;
 
-    int num_timesteps = probability_table.size();
     int alphabet_size = probability_table[0].size();
 
     //////////////////////////////////////////////////////////////////////////////////////
@@ -35,25 +64,23 @@ namespace qristal {
     if (parameters.keyExists<std::vector<int>>("qubits_metric")) {
       qubits_metric = parameters.get<std::vector<int>>("qubits_metric");
     }
-    int metric_letter_precision = (int)qubits_metric.size() / num_timesteps;
 
     qubits_string = {};
     if (parameters.keyExists<std::vector<int>>("qubits_string")) {
       qubits_string = parameters.get<std::vector<int>>("qubits_string");
     }
-    int num_qubits_per_letter = (int)qubits_string.size() / num_timesteps;
-    assert(num_qubits_per_letter >= std::log2((float)alphabet_size));
+
 
     //////////////////////////////////////////////////////////////////////////////////////
 
     //Parameters for comparator oracle in exponential search
+    if (parameters.key_exists_any_type("BestScore") && !parameters.keyExists<int>("BestScore")) return false;
     BestScore = parameters.get_or_default("BestScore", 0);
 
     qubits_best_score = {};
     if (parameters.keyExists<std::vector<int>>("qubits_best_score")) {
       qubits_best_score = parameters.get<std::vector<int>>("qubits_best_score");
     }
-    int metric_beam_precision = qubits_best_score.size();
 
     //////////////////////////////////////////////////////////////////////////////////////
 
@@ -76,13 +103,13 @@ namespace qristal {
       return false;
     }
     qubits_init_null = parameters.get<std::vector<int>>("qubits_init_null");
-    assert((int)qubits_init_null.size() == num_timesteps);
+
 
     if (!parameters.keyExists<std::vector<int>>("qubits_init_repeat")) {
       return false;
     }
     qubits_init_repeat = parameters.get<std::vector<int>>("qubits_init_repeat");
-    assert((int)qubits_init_repeat.size() == num_timesteps);
+
 
     qubits_ancilla_pool = {};
     if (parameters.keyExists<std::vector<int>>("qubits_ancilla_pool"))
@@ -95,34 +122,46 @@ namespace qristal {
       return false;
     }
     qubits_superfluous_flags = parameters.get<std::vector<int>>("qubits_superfluous_flags");
-    assert((int)qubits_superfluous_flags.size() == num_timesteps);
+
 
     qubits_beam_metric = {};
     if (parameters.keyExists<std::vector<int>>("qubits_beam_metric"))
     {
       qubits_beam_metric = parameters.get<std::vector<int>>("qubits_beam_metric");
     }
-    assert((int)qubits_beam_metric.size() == metric_beam_precision);
+
 
     //////////////////////////////////////////////////////////////////////////////////////
+
+    if (!detail::valid_decoder_registers(probability_table.size(), alphabet_size,
+        qubits_metric, qubits_string, qubits_init_null, qubits_init_repeat,
+        qubits_superfluous_flags, qubits_total_metric_buffer, qubits_beam_metric,
+        qubits_best_score, qubits_ancilla_pool)) return false;
+
+    if (BestScore < 0 || static_cast<unsigned int>(BestScore) >=
+        (1u << qubits_best_score.size())) return false;
 
     //Initialize qpu accelerator
     qpu_ = nullptr;
     if (parameters.stringExists("qpu")) {
-      static auto acc =
+      owned_qpu_ =
           xacc::getAccelerator(parameters.getString("qpu"), {{"shots", 1}});
-      qpu_ = acc.get();
+      qpu_ = owned_qpu_.get();
+    } else if (parameters.keyExists<std::shared_ptr<xacc::Accelerator>>("qpu")) {
+      owned_qpu_ = parameters.get<std::shared_ptr<xacc::Accelerator>>("qpu");
+      qpu_ = owned_qpu_.get();
     } else if (parameters.pointerLikeExists<xacc::Accelerator>("qpu")) {
       qpu_ = parameters.getPointerLike<xacc::Accelerator>("qpu");
     }
 
+    if (!qpu_ && parameters.key_exists_any_type("qpu")) return false;
     if (!qpu_) {
-      static auto qpp = xacc::getAccelerator("qpp", {{"shots", 1}});
+      owned_qpu_ = xacc::getAccelerator("qpp", {{"shots", 1}});
       // Default to qpp if none provided
-      qpu_ = qpp.get();
+      qpu_ = owned_qpu_.get();
     }
 
-    return true;
+    return qpu_ != nullptr;
   } //QuantumDecoder::initialize
 
   /////////////////////////////////////////////////////////////////////////////////////////////
@@ -131,13 +170,14 @@ namespace qristal {
     return {"probability_table", "iteration", "qubits_metric", "qubits_string",
             "method", "BestScore", "qubits_beam_metric", "qubits_superfluous_flags",
             "qubits_init_null", "qubits_init_repeat",
-            "qubits_best_score", "qubits_ancilla_pool", "N_TRIALS"};
+            "qubits_best_score", "qubits_ancilla_pool", "qubits_total_metric_buffer", "N_TRIALS"};
   }
 
   /////////////////////////////////////////////////////////////////////////////////////////////
 
   void QuantumDecoder::execute(
       const std::shared_ptr<xacc::AcceleratorBuffer> buffer) const {
+    if (!qpu_ || !buffer) throw std::logic_error("Full Decoder requires successful initialization and a result buffer");
     auto gateRegistry = xacc::getService<xacc::IRProvider>("quantum");
 
     // qubits_next_letter and qubits_next_metric required at the same time
@@ -363,10 +403,7 @@ namespace qristal {
           auto oracle = gateRegistry->createComposite("oracle");
 
           // Encode BestScore as a bitstring
-          std::string BestScore_binary =
-              std::bitset<sizeof(BestScore)>(BestScore).to_string();
-          std::string BestScore_binary_n = BestScore_binary.substr(
-              BestScore_binary.size() < n ? 0 : BestScore_binary.size() - n);
+          const std::string BestScore_binary_n = detail::decoder_score_bits(BestScore, n);
 
           // Prepare |BestScore>
           for (int i = 0; i < n; i++) {
@@ -427,9 +464,8 @@ namespace qristal {
 
     /////////////////////////////////////////////////////////////////////////////////////////////
 
+    detail::DecoderResult result(BestScore, qubits_string.size());
     int current_best_score = BestScore;
-    int max_best_score = current_best_score;
-    std::string best_string;
     int total_num_qubits = 3*L + 2*mb + ms - ml + S*L + ml*L + qubits_ancilla_pool.size();
 
     std::cout<< "Total number qubits = " << total_num_qubits << "\n";
@@ -452,22 +488,16 @@ namespace qristal {
                                {"total_metric", qubits_beam_metric},
                                {"qpu", qpu_}});
 
-      auto buffer = xacc::qalloc(total_num_qubits);
-      exp_search_algo->execute(buffer);
-      auto info = buffer->getInformation();
+      auto trial_buffer = xacc::qalloc(total_num_qubits);
+      exp_search_algo->execute(trial_buffer);
+      auto info = trial_buffer->getInformation();
       //    std::cout << buffer->toString() << std::endl;
       int bs = info.at("best-score").as<int>();
 
-      int previous_best_score = current_best_score;
-      current_best_score = bs; // Set best score to that of the current best score
-                               // for the subsequent loop.
-
-      if (current_best_score > previous_best_score) {
-        std::cout << "New best score: " << current_best_score << std::endl;
-        best_string = info.at("best-string").as<std::string>();
-      }
-      if (current_best_score > max_best_score)
-        max_best_score = current_best_score;
+      // Check the score's declared width, then bind only strict improvements.
+      detail::decoder_score_bits(bs, qubits_best_score.size());
+      result.observe(bs, info.at("best-string").as<std::string>());
+      current_best_score = result.score();
       // if (current_best_score <= previous_best_score && previous_best_score > 0)
       // {
       //   std::cout << std::endl;
@@ -484,7 +514,15 @@ namespace qristal {
                 << std::endl;
       std::cout << std::endl;
     }
-    assert(max_best_score >= BestScore);
+    // Publish only after every trial completed. This is a quantized search
+    // observation, not a probability or a certified most-likely decoded beam.
+    buffer->addExtraInfo("initial-score", result.initial());
+    buffer->addExtraInfo("best-score", result.score());
+    buffer->addExtraInfo("best-string", result.bits());
+    buffer->addExtraInfo("has-improving-candidate", result.found());
+    buffer->addExtraInfo("trials-completed", result.trials());
+    buffer->addExtraInfo("method", method);
+    buffer->addExtraInfo("result-kind", std::string("quantized-search-observation"));
 
   } // QuantumDecoder::execute
 

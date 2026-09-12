@@ -38,7 +38,9 @@ namespace qristal {
         state_prep_circuit_gen_;
 
       std::function<int(int)> f_score_; //Return the score for a bitstring
-      xacc::Accelerator *qpu_;          //Accelerator, optional
+      xacc::Accelerator *qpu_ = nullptr;          //Accelerator, optional
+
+      std::shared_ptr<xacc::Accelerator> owned_qpu_;
 
       int BestScore; //Tracking the best score, default is 0 if none provided
 
@@ -51,8 +53,7 @@ namespace qristal {
 
       //Choose which method to use. Currently supported methods are:
       //"canonical" - canonical exponential search (default)
-      //"CQAE" - using canonical QAE
-      //"MLQAE" - using MLQAE
+      // Other methods are rejected until implemented and qualified.
       std::string method;
 
       //Parameters for W prime unitary

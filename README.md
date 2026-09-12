@@ -24,3 +24,69 @@ CI tests are included for both decoders and for the quantum kernel. However, the
 
 ## License
 [Apache 2.0](LICENSE)
+
+## Community qualification status (2026-09-12)
+
+The simplified Decoder has native CPU qualification coverage. The full Decoder
+is still experimental: its historical test invokes the algorithm without an
+active assertion about the decoded answer. A resource-bounded run of that test
+reached its 60-second limit; this is inconclusive about algorithm correctness.
+The source also shadows the caller's result buffer with a local buffer, so an
+explicit result contract and independent answer oracle are still needed.
+
+Full Decoder initialization now rejects missing or incorrectly typed table/iteration
+inputs and empty, ragged, non-finite, negative, out-of-range or unnormalized
+probability tables before row indexing or timestep division. Each row must sum
+to one within an absolute tolerance of `1e-5`. This validation remains active in
+Release builds. It is not complete register validation or algorithm qualification;
+existing register assertions and backend ownership still need separate review.
+
+`FullDecoderInputValidation.*` tests exercise rejected tables and accepted
+normalized inputs without executing the full algorithm. The historical full
+algorithm fixture should be run only with explicit time and resource limits.
+
+### Register and backend follow-up (review branch)
+
+The full Decoder now checks required register dimensions, distinct nonnegative
+qubit IDs, a dense allocation, minimum ancilla capacity and signed score-width
+limits before choosing a backend. Register widths follow the existing algorithm's
+precision formulas; the signed-int score implementation limits widths to 30 bits.
+Only the implemented `canonical` method is accepted. Iterations must be positive
+and no greater than the table's timestep count; trial count must be positive.
+
+Named and shared backends are owned per Decoder instance. An explicitly invalid
+or null backend is rejected rather than silently replaced, and failed
+reinitialization invalidates execution. Raw backend pointers remain borrowed.
+Score encoding now produces the requested register width; the old `sizeof(int)`
+bitset could truncate scores and index beyond the generated string.
+
+Validation is deliberately split: 43 dependency-free C++ checks passed on macOS
+with `-DNDEBUG`, AddressSanitizer and UndefinedBehaviorSanitizer. A Linux workflow
+runs the same checks. These checks exercise the production register/score helper.
+The expanded XACC-linked tests and the installed runtime rebuild are pending;
+the earlier three native tests apply to the earlier table-only source revision.
+No full Decoder correctness or caller-visible result qualification is claimed.
+
+Standalone reproduction, requiring only a C++17 compiler:
+
+```sh
+c++ -std=c++17 -O1 -DNDEBUG -Wall -Wextra -Werror -fsanitize=address,undefined -Iinclude tests/RegisterValidationStandalone.cpp -o /tmp/decoder-register-validation
+/tmp/decoder-register-validation
+```
+
+### Caller-visible search observation (review branch)
+
+After all trials complete, `execute` writes `initial-score`, `best-score`,
+`best-string`, `has-improving-candidate`, `trials-completed`, `method` and
+`result-kind=quantized-search-observation` to the supplied buffer. The score/string
+pair is retained only from a strict improvement over the current maximum.
+Equal or lower subsequent scores cannot replace the winning string. If no
+improvement occurs, the score remains the initial threshold, the string is empty
+and `has-improving-candidate` is false. These fields do not certify the globally
+best beam, and the integer score is not a normalized probability.
+
+The production result accumulator adds ten checks for maximum/pair preservation,
+no-improvement behavior, malformed observations and trial accounting: 53 total
+standalone sanitizer checks now pass. Full source and integration-test syntax
+checks also pass. Native XACC execution remains pending at this revision; the
+prior table-only native evidence does not validate this new result publication.
