@@ -2,6 +2,7 @@
 
 #include "qristal/decoder/quantum_decoder.hpp"
 #include "qristal/decoder/register_validation.hpp"
+#include "qristal/decoder/result_accumulator.hpp"
 #include <stdexcept>
 
 #include "Algorithm.hpp"
@@ -463,9 +464,8 @@ namespace qristal {
 
     /////////////////////////////////////////////////////////////////////////////////////////////
 
+    detail::DecoderResult result(BestScore, qubits_string.size());
     int current_best_score = BestScore;
-    int max_best_score = current_best_score;
-    std::string best_string;
     int total_num_qubits = 3*L + 2*mb + ms - ml + S*L + ml*L + qubits_ancilla_pool.size();
 
     std::cout<< "Total number qubits = " << total_num_qubits << "\n";
@@ -488,22 +488,16 @@ namespace qristal {
                                {"total_metric", qubits_beam_metric},
                                {"qpu", qpu_}});
 
-      auto buffer = xacc::qalloc(total_num_qubits);
-      exp_search_algo->execute(buffer);
-      auto info = buffer->getInformation();
+      auto trial_buffer = xacc::qalloc(total_num_qubits);
+      exp_search_algo->execute(trial_buffer);
+      auto info = trial_buffer->getInformation();
       //    std::cout << buffer->toString() << std::endl;
       int bs = info.at("best-score").as<int>();
 
-      int previous_best_score = current_best_score;
-      current_best_score = bs; // Set best score to that of the current best score
-                               // for the subsequent loop.
-
-      if (current_best_score > previous_best_score) {
-        std::cout << "New best score: " << current_best_score << std::endl;
-        best_string = info.at("best-string").as<std::string>();
-      }
-      if (current_best_score > max_best_score)
-        max_best_score = current_best_score;
+      // Check the score's declared width, then bind only strict improvements.
+      detail::decoder_score_bits(bs, qubits_best_score.size());
+      result.observe(bs, info.at("best-string").as<std::string>());
+      current_best_score = result.score();
       // if (current_best_score <= previous_best_score && previous_best_score > 0)
       // {
       //   std::cout << std::endl;
@@ -520,7 +514,15 @@ namespace qristal {
                 << std::endl;
       std::cout << std::endl;
     }
-    assert(max_best_score >= BestScore);
+    // Publish only after every trial completed. This is a quantized search
+    // observation, not a probability or a certified most-likely decoded beam.
+    buffer->addExtraInfo("initial-score", result.initial());
+    buffer->addExtraInfo("best-score", result.score());
+    buffer->addExtraInfo("best-string", result.bits());
+    buffer->addExtraInfo("has-improving-candidate", result.found());
+    buffer->addExtraInfo("trials-completed", result.trials());
+    buffer->addExtraInfo("method", method);
+    buffer->addExtraInfo("result-kind", std::string("quantized-search-observation"));
 
   } // QuantumDecoder::execute
 

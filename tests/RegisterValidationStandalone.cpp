@@ -1,4 +1,5 @@
 #include <qristal/decoder/register_validation.hpp>
+#include <qristal/decoder/result_accumulator.hpp>
 #include <iostream>
 #include <stdexcept>
 #include <string>
@@ -56,5 +57,29 @@ int main() {
     catch (const std::invalid_argument&) { rejected = true; }
     check(rejected, "invalid score/width");
   }
+  qristal::detail::DecoderResult result(4, 2);
+  result.observe(4, "11");
+  check(!result.found() && result.bits().empty(), "threshold is not an observed pair");
+  result.observe(7, "01");
+  result.observe(5, "10");
+  result.observe(7, "11");
+  check(result.score() == 7 && result.bits() == "01", "keep original maximum pair");
+  result.observe(9, "10");
+  check(result.score() == 9 && result.bits() == "10", "replace pair on improvement");
+  check(result.trials() == 5 && result.initial() == 4, "trial accounting");
+  for (const std::string bits : {"", "1", "000", "1x"}) {
+    bool rejected = false;
+    try { result.observe(10, bits); } catch (const std::invalid_argument&) { rejected = true; }
+    check(rejected && result.score() == 9 && result.bits() == "10" && result.trials() == 5,
+          "reject malformed improvement without mutating result");
+  }
+  qristal::detail::DecoderResult no_improvement(20, 2);
+  no_improvement.observe(20, "01");
+  no_improvement.observe(19, "10");
+  check(!no_improvement.found() && no_improvement.score() == 20 && no_improvement.bits().empty(),
+        "high threshold without observed candidate");
+  bool negative_rejected = false;
+  try { result.observe(-1, "00"); } catch (const std::invalid_argument&) { negative_rejected = true; }
+  check(negative_rejected && result.trials() == 5, "negative result score");
   std::cout << "PASS: " << checks << " full Decoder register checks\n";
 }

@@ -73,3 +73,20 @@ Standalone reproduction, requiring only a C++17 compiler:
 c++ -std=c++17 -O1 -DNDEBUG -Wall -Wextra -Werror -fsanitize=address,undefined -Iinclude tests/RegisterValidationStandalone.cpp -o /tmp/decoder-register-validation
 /tmp/decoder-register-validation
 ```
+
+### Caller-visible search observation (review branch)
+
+After all trials complete, `execute` writes `initial-score`, `best-score`,
+`best-string`, `has-improving-candidate`, `trials-completed`, `method` and
+`result-kind=quantized-search-observation` to the supplied buffer. The score/string
+pair is retained only from a strict improvement over the current maximum.
+Equal or lower subsequent scores cannot replace the winning string. If no
+improvement occurs, the score remains the initial threshold, the string is empty
+and `has-improving-candidate` is false. These fields do not certify the globally
+best beam, and the integer score is not a normalized probability.
+
+The production result accumulator adds ten checks for maximum/pair preservation,
+no-improvement behavior, malformed observations and trial accounting: 53 total
+standalone sanitizer checks now pass. Full source and integration-test syntax
+checks also pass. Native XACC execution remains pending at this revision; the
+prior table-only native evidence does not validate this new result publication.
