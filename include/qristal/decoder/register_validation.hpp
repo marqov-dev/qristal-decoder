@@ -21,6 +21,13 @@ inline std::string decoder_score_bits(int score, size_t width) {
   return bits;
 }
 
+// CompareGT with is_LSB=true assigns weight 2^i to register entry i.
+inline std::string decoder_score_register_bits(int score, size_t width) {
+  auto bits = decoder_score_bits(score, width);
+  std::reverse(bits.begin(), bits.end());
+  return bits;
+}
+
 // Layout used by the full Decoder's existing allocation and precision formulas.
 // This checks addressing and dimensions, not the quantum algorithm's correctness.
 inline bool valid_decoder_registers(

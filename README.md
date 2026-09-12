@@ -90,3 +90,12 @@ no-improvement behavior, malformed observations and trial accounting: 53 total
 standalone sanitizer checks now pass. Full source and integration-test syntax
 checks also pass. Native XACC execution remains pending at this revision; the
 prior table-only native evidence does not validate this new result publication.
+
+### Comparator register order
+
+Full Decoder threshold preparation now uses least-significant-bit-first register
+order, matching `CompareGT` with `is_LSB=true`. In a six-bit register, preparing
+MSB-first `000001` previously represented 32 to that comparator rather than 1.
+The separate formatting helper still returns MSB-first strings. The standalone
+suite checks all six-bit thresholds and comparison boundaries; this does not
+replace native quantum-comparator or full Decoder qualification.
