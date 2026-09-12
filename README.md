@@ -24,3 +24,23 @@ CI tests are included for both decoders and for the quantum kernel. However, the
 
 ## License
 [Apache 2.0](LICENSE)
+
+## Community qualification status (2026-09-12)
+
+The simplified Decoder has native CPU qualification coverage. The full Decoder
+is still experimental: its historical test invokes the algorithm without an
+active assertion about the decoded answer. A resource-bounded run of that test
+reached its 60-second limit; this is inconclusive about algorithm correctness.
+The source also shadows the caller's result buffer with a local buffer, so an
+explicit result contract and independent answer oracle are still needed.
+
+Full Decoder initialization now rejects missing or incorrectly typed table/iteration
+inputs and empty, ragged, non-finite, negative, out-of-range or unnormalized
+probability tables before row indexing or timestep division. Each row must sum
+to one within an absolute tolerance of `1e-5`. This validation remains active in
+Release builds. It is not complete register validation or algorithm qualification;
+existing register assertions and backend ownership still need separate review.
+
+`FullDecoderInputValidation.*` tests exercise rejected tables and accepted
+normalized inputs without executing the full algorithm. The historical full
+algorithm fixture should be run only with explicit time and resource limits.
