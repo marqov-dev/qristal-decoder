@@ -81,5 +81,18 @@ int main() {
   bool negative_rejected = false;
   try { result.observe(-1, "00"); } catch (const std::invalid_argument&) { negative_rejected = true; }
   check(negative_rejected && result.trials() == 5, "negative result score");
+  // Reconstruct the number from the comparator's declared register weights.
+  for (int threshold = 0; threshold < 64; ++threshold) {
+    const auto bits = qristal::detail::decoder_score_register_bits(threshold, 6);
+    int prepared = 0;
+    for (size_t i = 0; i < bits.size(); ++i)
+      if (bits[i] == '1') prepared += 1 << i;
+    check(prepared == threshold, "LSB comparator threshold preparation");
+    for (int candidate = 0; candidate < 64; ++candidate)
+      check((candidate > prepared) == (candidate > threshold), "threshold comparison boundary");
+  }
+  check(qristal::detail::decoder_score_register_bits(1, 6) == "100000", "lowest bit first");
+  check(qristal::detail::decoder_score_register_bits(16, 6) == "000010", "non-palindromic threshold");
+  check(qristal::detail::decoder_score_register_bits(1 << 29, 30).back() == '1', "highest supported bit");
   std::cout << "PASS: " << checks << " full Decoder register checks\n";
 }

@@ -403,7 +403,7 @@ namespace qristal {
           auto oracle = gateRegistry->createComposite("oracle");
 
           // Encode BestScore as a bitstring
-          const std::string BestScore_binary_n = detail::decoder_score_bits(BestScore, n);
+          const std::string BestScore_binary_n = detail::decoder_score_register_bits(BestScore, n);
 
           // Prepare |BestScore>
           for (int i = 0; i < n; i++) {
