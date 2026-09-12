@@ -15,15 +15,34 @@ namespace qristal {
 
   bool QuantumDecoder::initialize(const xacc::HeterogeneousMap &parameters) {
 
-    // W prime unitary parameters
-    iteration = parameters.get<int>("iteration");
-
-    probability_table = {};
-    if (parameters.keyExists<std::vector<std::vector<float>>>(
-            "probability_table")) {
-      probability_table =
-          parameters.get<std::vector<std::vector<float>>>("probability_table");
+    // Validate before indexing rows or dividing by the number of timesteps.
+    // These checks must remain active in Release builds (unlike assert).
+    if (!parameters.keyExists<int>("iteration") ||
+        !parameters.keyExists<std::vector<std::vector<float>>>("probability_table")) {
+      return false;
     }
+    const auto table =
+        parameters.get<std::vector<std::vector<float>>>("probability_table");
+    if (table.empty() || table.front().empty()) {
+      return false;
+    }
+    for (const auto &row : table) {
+      if (row.size() != table.front().size()) {
+        return false;
+      }
+      double sum = 0.0;
+      for (float probability : row) {
+        if (!std::isfinite(probability) || probability < 0.0f || probability > 1.0f) {
+          return false;
+        }
+        sum += probability;
+      }
+      if (std::abs(sum - 1.0) > 1e-5) {
+        return false;
+      }
+    }
+    iteration = parameters.get<int>("iteration");
+    probability_table = table;
 
     int num_timesteps = probability_table.size();
     int alphabet_size = probability_table[0].size();
