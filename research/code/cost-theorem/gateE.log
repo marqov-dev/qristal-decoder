@@ -1,0 +1,21 @@
+  rho=0.7 T=8 D=4 exp_final=4 gen=32 J=log_R(T)=2 N(p*/T)=11 prefixcount(brute)=25 exp_back=12
+  rho=0.7 T=10 D=5 exp_final=5 gen=50 J=log_R(T)=2 N(p*/T)=16 prefixcount(brute)=41 exp_back=20
+  rho=0.7 T=12 D=6 exp_final=6 gen=72 J=log_R(T)=2 N(p*/T)=22 prefixcount(brute)=63 exp_back=30
+  rho=0.7 T=16 D=8 exp_final=8 gen=128 J=log_R(T)=3 N(p*/T)=93 prefixcount(brute)=None exp_back=56
+  rho=0.7 T=24 D=12 exp_final=12 gen=288 J=log_R(T)=3 N(p*/T)=299 prefixcount(brute)=None exp_back=132
+  rho=0.7 T=32 D=16 exp_final=16 gen=512 J=log_R(T)=4 N(p*/T)=2517 prefixcount(brute)=None exp_back=240
+  rho=0.7 T=48 D=24 exp_final=24 gen=1152 J=log_R(T)=4 N(p*/T)=12951 prefixcount(brute)=None exp_back=552
+  rho=0.7 T=64 D=32 exp_final=32 gen=2048 J=log_R(T)=4 N(p*/T)=41449 prefixcount(brute)=None exp_back=992
+  rho=0.7 T=96 D=48 exp_final=48 gen=4608 J=log_R(T)=5 N(p*/T)=1925357 prefixcount(brute)=None exp_back=2256
+  rho=0.7 T=128 D=64 exp_final=64 gen=8192 J=log_R(T)=5 N(p*/T)=8303633 prefixcount(brute)=None exp_back=4032
+  rho=0.8 T=8 D=4 exp_final=4 gen=32 J=log_R(T)=1 N(p*/T)=5 prefixcount(brute)=15 exp_back=12
+  rho=0.8 T=10 D=5 exp_final=5 gen=50 J=log_R(T)=1 N(p*/T)=6 prefixcount(brute)=21 exp_back=20
+  rho=0.8 T=12 D=6 exp_final=6 gen=72 J=log_R(T)=1 N(p*/T)=7 prefixcount(brute)=28 exp_back=30
+  rho=0.8 T=16 D=8 exp_final=8 gen=128 J=log_R(T)=2 N(p*/T)=37 prefixcount(brute)=None exp_back=56
+  rho=0.8 T=24 D=12 exp_final=12 gen=288 J=log_R(T)=2 N(p*/T)=79 prefixcount(brute)=None exp_back=132
+  rho=0.8 T=32 D=16 exp_final=16 gen=512 J=log_R(T)=2 N(p*/T)=137 prefixcount(brute)=None exp_back=240
+  rho=0.8 T=48 D=24 exp_final=24 gen=1152 J=log_R(T)=2 N(p*/T)=301 prefixcount(brute)=None exp_back=552
+  rho=0.8 T=64 D=32 exp_final=32 gen=2048 J=log_R(T)=3 N(p*/T)=5489 prefixcount(brute)=None exp_back=992
+  rho=0.8 T=96 D=48 exp_final=48 gen=4608 J=log_R(T)=3 N(p*/T)=18473 prefixcount(brute)=None exp_back=2256
+  rho=0.8 T=128 D=64 exp_final=64 gen=8192 J=log_R(T)=3 N(p*/T)=43745 prefixcount(brute)=None exp_back=4032
+GATE E brute-force N(p*/T) and p* agree with the closed form at T<=12: mismatches 0 -> PASS

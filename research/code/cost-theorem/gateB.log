@@ -1,0 +1,22 @@
+  W=3 T=8 k=0 |pos labellings|=1 W^k=1 exp_final=3 exp_total=6 bound_total=153
+  W=3 T=8 k=1 |pos labellings|=2 W^k=3 exp_final=3 exp_total=8 bound_total=459
+  W=3 T=8 k=2 |pos labellings|=6 W^k=9 exp_final=2 exp_total=5 bound_total=1377
+  W=3 T=8 k=4 |pos labellings|=18 W^k=81 exp_final=3 exp_total=12 bound_total=12393
+  W=3 T=10 k=0 |pos labellings|=1 W^k=1 exp_final=2 exp_total=4 bound_total=231
+  W=3 T=10 k=1 |pos labellings|=2 W^k=3 exp_final=5 exp_total=15 bound_total=693
+  W=3 T=10 k=3 |pos labellings|=8 W^k=27 exp_final=3 exp_total=19 bound_total=6237
+  W=3 T=10 k=4 |pos labellings|=16 W^k=81 exp_final=4 exp_total=22 bound_total=18711
+  W=3 T=12 k=0 |pos labellings|=1 W^k=1 exp_final=2 exp_total=4 bound_total=325
+  W=3 T=12 k=2 |pos labellings|=4 W^k=9 exp_final=3 exp_total=9 bound_total=2925
+  W=3 T=12 k=3 |pos labellings|=8 W^k=27 exp_final=4 exp_total=19 bound_total=8775
+  W=3 T=12 k=4 |pos labellings|=23 W^k=81 exp_final=3 exp_total=17 bound_total=26325
+  W=4 T=8 k=1 |pos labellings|=4 W^k=4 exp_final=5 exp_total=20 bound_total=900
+  W=4 T=8 k=2 |pos labellings|=12 W^k=16 exp_final=3 exp_total=10 bound_total=3600
+  W=4 T=8 k=3 |pos labellings|=19 W^k=64 exp_final=4 exp_total=27 bound_total=14400
+  W=4 T=10 k=0 |pos labellings|=1 W^k=1 exp_final=2 exp_total=3 bound_total=341
+  W=4 T=10 k=1 |pos labellings|=3 W^k=4 exp_final=3 exp_total=8 bound_total=1364
+  W=4 T=10 k=2 |pos labellings|=15 W^k=16 exp_final=4 exp_total=11 bound_total=5456
+  W=4 T=10 k=4 |pos labellings|=59 W^k=256 exp_final=3 exp_total=10 bound_total=87296
+GATE B1 #positive-probability labellings <= W^k: 75 instances, violations 0 -> PASS
+GATE B2 every search exp <= W^k (T+1): 75 instances, violations 0 -> PASS
+GATE B3 every expanded final-search node is a prefix of a positive-probability labelling: violations 0 -> PASS

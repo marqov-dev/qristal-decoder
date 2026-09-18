@@ -1,0 +1,4 @@
+flat {} T=8 W=4 D=4 p=0.00755 exp_final=22 exp_back=66 gen=264 max_sub_exp=7 sec=0.000536 capped=False g_exp=109 g_gen=327 g_capped=False g_sec=0.000549 agree=True p_fwd_ok=True brute_ok=True
+flat {} T=12 W=4 D=5 p=0.00116 exp_final=94 exp_back=342 gen=1308 max_sub_exp=31 sec=0.00335 capped=False g_exp=790 g_gen=2370 g_capped=False g_sec=0.00494 agree=True p_fwd_ok=True beam_ok=True beam_same=False
+flat {} T=16 W=4 D=7 p=0.00019 exp_final=382 exp_back=1482 gen=5592 max_sub_exp=127 sec=0.0199 capped=False g_exp=4201 g_gen=12603 g_capped=False g_sec=0.0395 agree=True p_fwd_ok=True beam_ok=True beam_same=False
+flat {} T=20 W=4 D=9 p=3.15e-05 exp_final=1534 exp_back=6078 gen=22836 max_sub_exp=511 sec=0.0877 capped=False g_exp=22132 g_gen=66396 g_capped=False g_sec=0.316 agree=True p_fwd_ok=True beam_ok=True beam_same=False

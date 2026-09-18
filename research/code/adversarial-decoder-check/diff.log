@@ -1,0 +1,21 @@
+peaky.8    T= 32 W=5 | T2b: expF=    14 expB=    866 gen=    3520 p=2.453972e-03   0.03s | T9: expF=    14 expB=    866 gen=    3520 p=2.453972e-03   0.02s | same exp=True gen=True ans=True
+peaky.8    T= 32 W=5 | T2b: expF=     7 expB=    467 gen=    1896 p=2.222937e-03   0.02s | T9: expF=     7 expB=    467 gen=    1896 p=2.222937e-03   0.01s | same exp=True gen=True ans=True
+peaky.8    T= 64 W=5 | T2b: expF=    21 expB=   2487 gen=   10032 p=7.334330e-06   0.13s | T9: expF=    21 expB=   2487 gen=   10032 p=7.334330e-06   0.09s | same exp=True gen=True ans=True
+peaky.8    T= 64 W=5 | T2b: expF=    20 expB=   2518 gen=   10152 p=7.089283e-06   0.20s | T9: expF=    20 expB=   2518 gen=   10152 p=7.089283e-06   0.10s | same exp=True gen=True ans=True
+peaky.5    T= 32 W=5 | T2b: expF=    73 expB=   1288 gen=    5444 p=1.682223e-07   0.03s | T9: expF=    73 expB=   1288 gen=    5444 p=1.682223e-07   0.02s | same exp=True gen=True ans=True
+peaky.5    T= 32 W=5 | T2b: expF=   535 expB=  18196 gen=   74924 p=1.395113e-07   0.41s | T9: expF=   535 expB=  18196 gen=   74924 p=1.395113e-07   0.42s | same exp=True gen=True ans=True
+random     T= 16 W=5 | T2b: expF=    21 expB=    583 gen=    2416 p=6.657092e-05   0.01s | T9: expF=    21 expB=    583 gen=    2416 p=6.657092e-05   0.01s | same exp=True gen=True ans=True
+random     T= 16 W=5 | T2b: expF=    25 expB=    484 gen=    2036 p=2.770764e-05   0.01s | T9: expF=    25 expB=    484 gen=    2036 p=2.770764e-05   0.01s | same exp=True gen=True ans=True
+random     T= 20 W=8 | T2b: expF=   123 expB=   6670 gen=   47551 p=2.297901e-09   0.34s | T9: expF=   123 expB=   6670 gen=   47551 p=2.297901e-09   0.24s | same exp=True gen=True ans=True
+random     T= 20 W=8 | T2b: expF=   290 expB=   6418 gen=   46956 p=2.258132e-09   0.24s | T9: expF=   290 expB=   6418 gen=   46956 p=2.258132e-09   0.23s | same exp=True gen=True ans=True
+flat       T= 12 W=5 | T2b: expF=   485 expB=   1432 gen=    7668 p=7.965901e-05   0.02s | T9: expF=   485 expB=   1432 gen=    7668 p=7.965901e-05   0.02s | same exp=True gen=True ans=True
+flat       T= 12 W=5 | T2b: expF=   485 expB=   1432 gen=    7668 p=7.965901e-05   0.02s | T9: expF=   485 expB=   1432 gen=    7668 p=7.965901e-05   0.02s | same exp=True gen=True ans=True
+flat       T= 16 W=4 | T2b: expF=   382 expB=   1482 gen=    5592 p=1.902669e-04   0.01s | T9: expF=   382 expB=   1482 gen=    5592 p=1.902669e-04   0.01s | same exp=True gen=True ans=True
+flat       T= 16 W=4 | T2b: expF=   382 expB=   1482 gen=    5592 p=1.902669e-04   0.02s | T9: expF=   382 expB=   1482 gen=    5592 p=1.902669e-04   0.01s | same exp=True gen=True ans=True
+neartie3   T= 48 W=3 | T2b: expF=   247 expB=   3044 gen=    6582 p=7.490300e-05   0.04s | T9: expF=   247 expB=   3044 gen=    6582 p=7.490300e-05   0.03s | same exp=True gen=True ans=True
+neartie3   T= 48 W=3 | T2b: expF=   247 expB=   3044 gen=    6582 p=7.490300e-05   0.04s | T9: expF=   247 expB=   3044 gen=    6582 p=7.490300e-05   0.03s | same exp=True gen=True ans=True
+spreadpair T= 48 W=5 | T2b: expF=    47 expB=   1156 gen=    4812 p=6.869876e-07   0.04s | T9: expF=    47 expB=   1156 gen=    4812 p=6.869876e-07   0.04s | same exp=True gen=True ans=True
+spreadpair T= 48 W=5 | T2b: expF=   139 expB=   5617 gen=   23024 p=1.430312e-07   0.19s | T9: expF=   139 expB=   5617 gen=   23024 p=1.430312e-07   0.14s | same exp=True gen=True ans=True
+degenerate T= 48 W=5 | T2b: expF=   229 expB=   4582 gen=   19244 p=6.071059e-06   0.15s | T9: expF=   229 expB=   4582 gen=   19244 p=6.071059e-06   0.14s | same exp=True gen=True ans=True
+degenerate T= 48 W=5 | T2b: expF=   238 expB=   6553 gen=   27164 p=2.594865e-06   0.21s | T9: expF=   238 expB=   6553 gen=   27164 p=2.594865e-06   0.19s | same exp=True gen=True ans=True
+GATE T2b vs T9 on 20 identical instances: same expansions 20/20, same generations 20/20, same (mode, p*) 20/20

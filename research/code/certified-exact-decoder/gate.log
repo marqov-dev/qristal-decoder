@@ -1,0 +1,6 @@
+GATE graves_F vs prefix_prob: 3184 prefixes, worst abs err 2.22e-16 -> PASS
+GATE admissibility Hhat >= brute-force H_c(t): 1155 (t,c) cells, violations {'tree': 0, 'policy': 0, 'exact': 0}, exact-backward worst |H - brute| 5.55e-16 -> PASS
+GATE argmax vs brute force: 400 instances (300 random T<=8 W<=3 + 100 peaky), wrong = {'graves': 0, 'childF': 0, 'bidir': 0, 'bidir.1': 0, 'policy': 0, 'exactbwd': 0, 'dfs_bb': 0, 'graves+beam': 0, 'policy+vit': 0}, exact ties 2 -> PASS
+GATE argmax vs brute force at W in {5,8}, T<=6: 120 instances (60 random + 60 peaky), wrong = {'graves': 0, 'bidir': 0, 'policy': 0, 'exactbwd': 0}, exact ties 0 -> PASS
+GATE C port vs stdlib exact-backward: 300 tables (T<=12, W<=8), p* mismatches 0, argmax mismatches 0, worst rel |H_C - H_py| 0.00e+00 -> PASS
+GATE C port vs brute force (mode AND certified runner-up): 200 tables (T<=6, W<=8), mode wrong 0, runner-up wrong 0, exact ties 39 -> PASS

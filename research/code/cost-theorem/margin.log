@@ -1,0 +1,22 @@
+  W=4 rho=0.5 T=10 delta=0.0 margin p*/p2=1 N(p*/2)=57 N(p*/T)=262 D=3 exp_final=10 gen=147
+  W=4 rho=0.5 T=10 delta=0.1 margin p*/p2=1 N(p*/2)=57 N(p*/T)=241 D=3 exp_final=10 gen=165
+  W=4 rho=0.5 T=10 delta=0.3 margin p*/p2=1 N(p*/2)=32 N(p*/T)=227 D=3 exp_final=5 gen=144
+  W=4 rho=0.5 T=10 delta=1.0 margin p*/p2=1 N(p*/2)=6 N(p*/T)=204 D=4 exp_final=7 gen=201
+  W=4 rho=0.5 T=10 delta=3.0 margin p*/p2=1 N(p*/2)=6 N(p*/T)=94 D=5 exp_final=9 gen=249
+  W=4 rho=0.5 T=10 delta=10.0 margin p*/p2=1 N(p*/2)=8 N(p*/T)=26 D=5 exp_final=11 gen=285
+  W=4 rho=0.5 T=10 delta=30.0 margin p*/p2=1 N(p*/2)=8 N(p*/T)=12 D=5 exp_final=11 gen=303
+  W=5 rho=0.5 T=8 delta=0.0 margin p*/p2=1 N(p*/2)=56 N(p*/T)=193 D=2 exp_final=5 gen=84
+  W=5 rho=0.5 T=8 delta=0.1 margin p*/p2=1 N(p*/2)=38 N(p*/T)=193 D=2 exp_final=3 gen=76
+  W=5 rho=0.5 T=8 delta=0.3 margin p*/p2=1 N(p*/2)=36 N(p*/T)=171 D=2 exp_final=3 gen=116
+  W=5 rho=0.5 T=8 delta=1.0 margin p*/p2=1 N(p*/2)=12 N(p*/T)=100 D=3 exp_final=5 gen=180
+  W=5 rho=0.5 T=8 delta=3.0 margin p*/p2=1 N(p*/2)=6 N(p*/T)=72 D=4 exp_final=7 gen=268
+  W=5 rho=0.5 T=8 delta=10.0 margin p*/p2=1 N(p*/2)=6 N(p*/T)=20 D=4 exp_final=7 gen=324
+  W=5 rho=0.5 T=8 delta=30.0 margin p*/p2=1 N(p*/2)=8 N(p*/T)=12 D=4 exp_final=9 gen=356
+  W=4 rho=0.4 T=10 delta=0.0 margin p*/p2=1 N(p*/2)=138 N(p*/T)=357 D=3 exp_final=22 gen=291
+  W=4 rho=0.4 T=10 delta=0.1 margin p*/p2=1 N(p*/2)=96 N(p*/T)=357 D=4 exp_final=20 gen=279
+  W=4 rho=0.4 T=10 delta=0.3 margin p*/p2=1 N(p*/2)=42 N(p*/T)=349 D=4 exp_final=7 gen=201
+  W=4 rho=0.4 T=10 delta=1.0 margin p*/p2=1 N(p*/2)=8 N(p*/T)=272 D=4 exp_final=9 gen=243
+  W=4 rho=0.4 T=10 delta=3.0 margin p*/p2=1 N(p*/2)=6 N(p*/T)=76 D=5 exp_final=9 gen=273
+  W=4 rho=0.4 T=10 delta=10.0 margin p*/p2=1 N(p*/2)=8 N(p*/T)=12 D=5 exp_final=11 gen=297
+  W=4 rho=0.4 T=10 delta=30.0 margin p*/p2=1 N(p*/2)=8 N(p*/T)=12 D=5 exp_final=11 gen=303
+GATE margin: p*, p2 from exact brute force (Fraction); decoder p* == brute p* asserted on every row -> PASS

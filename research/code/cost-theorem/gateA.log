@@ -1,0 +1,48 @@
+  fam=peaky0.5 T=8 W=3 exp_final=5 prefixcount=25 N_T=24 massbound=799 D=3
+  fam=peaky0.5 T=10 W=3 exp_final=7 prefixcount=49 N_T=46 massbound=1.9e+03 D=4
+  fam=peaky0.5 T=7 W=5 exp_final=2 prefixcount=85 N_T=70 massbound=2.25e+03 D=2
+  fam=peaky0.5 T=8 W=5 exp_final=5 prefixcount=134 N_T=106 massbound=4.46e+03 D=2
+  fam=peaky0.6 T=8 W=3 exp_final=4 prefixcount=24 N_T=22 massbound=685 D=3
+  fam=peaky0.6 T=10 W=3 exp_final=5 prefixcount=41 N_T=40 massbound=1.68e+03 D=3
+  fam=peaky0.6 T=7 W=5 exp_final=2 prefixcount=42 N_T=25 massbound=1.01e+03 D=2
+  fam=peaky0.6 T=8 W=5 exp_final=3 prefixcount=48 N_T=42 massbound=2.19e+03 D=3
+  fam=peaky0.7 T=8 W=3 exp_final=3 prefixcount=16 N_T=15 massbound=616 D=2
+  fam=peaky0.7 T=10 W=3 exp_final=3 prefixcount=27 N_T=25 massbound=1.12e+03 D=2
+  fam=peaky0.7 T=7 W=5 exp_final=3 prefixcount=10 N_T=3 massbound=378 D=3
+  fam=peaky0.7 T=8 W=5 exp_final=1 prefixcount=36 N_T=29 massbound=932 D=1
+  fam=peaky0.8 T=8 W=3 exp_final=3 prefixcount=11 N_T=5 massbound=188 D=3
+  fam=peaky0.8 T=10 W=3 exp_final=4 prefixcount=22 N_T=12 massbound=423 D=4
+  fam=peaky0.8 T=7 W=5 exp_final=3 prefixcount=16 N_T=4 massbound=217 D=3
+  fam=peaky0.8 T=8 W=5 exp_final=2 prefixcount=10 N_T=5 massbound=363 D=2
+  fam=peaky0.9 T=8 W=3 exp_final=1 prefixcount=4 N_T=3 massbound=147 D=1
+  fam=peaky0.9 T=10 W=3 exp_final=2 prefixcount=8 N_T=4 massbound=246 D=2
+  fam=peaky0.9 T=7 W=5 exp_final=2 prefixcount=3 N_T=1 massbound=102 D=2
+  fam=peaky0.9 T=8 W=5 exp_final=2 prefixcount=14 N_T=5 massbound=161 D=2
+  fam=peaky0.95 T=8 W=3 exp_final=3 prefixcount=4 N_T=1 massbound=100 D=3
+  fam=peaky0.95 T=10 W=3 exp_final=3 prefixcount=8 N_T=2 massbound=156 D=3
+  fam=peaky0.95 T=7 W=5 exp_final=4 prefixcount=5 N_T=1 massbound=75.2 D=4
+  fam=peaky0.95 T=8 W=5 exp_final=2 prefixcount=3 N_T=1 massbound=103 D=2
+  fam=flat T=8 W=3 exp_final=7 prefixcount=35 N_T=32 massbound=954 D=4
+  fam=flat T=10 W=3 exp_final=9 prefixcount=53 N_T=50 massbound=2.16e+03 D=4
+  fam=flat T=7 W=5 exp_final=17 prefixcount=621 N_T=616 massbound=2.08e+04 D=3
+  fam=flat T=8 W=5 exp_final=53 prefixcount=2029 N_T=2024 massbound=5.68e+04 D=4
+  fam=blankdom0.5 T=8 W=3 exp_final=5 prefixcount=25 N_T=24 massbound=949 D=3
+  fam=blankdom0.5 T=10 W=3 exp_final=7 prefixcount=41 N_T=40 massbound=2.25e+03 D=3
+  fam=blankdom0.5 T=7 W=5 exp_final=1 prefixcount=81 N_T=81 massbound=3.23e+03 D=1
+  fam=blankdom0.5 T=8 W=5 exp_final=5 prefixcount=193 N_T=193 massbound=7.01e+03 D=2
+  fam=blankdom0.8 T=8 W=3 exp_final=1 prefixcount=7 N_T=7 massbound=382 D=1
+  fam=blankdom0.8 T=10 W=3 exp_final=1 prefixcount=13 N_T=13 massbound=728 D=1
+  fam=blankdom0.8 T=7 W=5 exp_final=0 prefixcount=5 N_T=5 massbound=267 D=0
+  fam=blankdom0.8 T=8 W=5 exp_final=0 prefixcount=5 N_T=5 massbound=429 D=0
+  fam=alt0.7 T=8 W=3 exp_final=4 prefixcount=25 N_T=11 massbound=300 D=4
+  fam=alt0.7 T=10 W=3 exp_final=5 prefixcount=41 N_T=16 massbound=654 D=5
+  fam=alt0.7 T=7 W=5 exp_final=4 prefixcount=25 N_T=11 massbound=233 D=4
+  fam=alt0.7 T=8 W=5 exp_final=4 prefixcount=25 N_T=11 massbound=300 D=4
+  fam=random T=8 W=3 exp_final=7 prefixcount=30 N_T=27 massbound=800 D=4
+  fam=random T=10 W=3 exp_final=5 prefixcount=32 N_T=19 massbound=797 D=5
+  fam=random T=7 W=5 exp_final=11 prefixcount=417 N_T=403 massbound=1.23e+04 D=4
+  fam=random T=8 W=5 exp_final=4 prefixcount=459 N_T=415 massbound=1.61e+04 D=4
+GATE A1 exp_final <= |prefixes of labellings with p >= p*/T|: 132 instances (Fraction-exact), violations 0 -> PASS
+GATE A2 exp_final <= (T+1)T/p*: 132 instances, violations 0 -> PASS
+GATE A3 sub-search exp <= |prefixes of suffixes with g >= H_c(t)/(L-1)|: 2620 sub-searches, violations 0 -> PASS
+GATE A4 sub-search exp <= (L+1)(L-1) y_t[c]/H_c(t): 2620 sub-searches, violations 0 -> PASS

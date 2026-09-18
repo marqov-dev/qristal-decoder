@@ -1,0 +1,4 @@
+T4/clean/P14: T=112 W=32 D=21 p*=0.8963 (ctc_forward 0.8963) p2=0.02903 margin=30.87 exp_final=21 n_off=0 K=22 Kd(max symbol)=22 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 gen=945345 exp2=41 sec=75
+   Kd per symbol: [22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 20, 22, 21, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22]
+T4/10dB/P14: T=112 W=32 D=20 p*=0.007632 (ctc_forward 0.007632) p2=0.004479 margin=1.704 exp_final=20 n_off=0 K=21 Kd(max symbol)=21 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 gen=900302 exp2=32 sec=62
+   Kd per symbol: [21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 20, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21]

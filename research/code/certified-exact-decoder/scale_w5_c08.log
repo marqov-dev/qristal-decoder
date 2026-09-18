@@ -1,0 +1,9 @@
+# W=5 conf=0.8 N=2
+   T         p*    D log10(1/p*) | policy exp      gen     sec | exactbwd exp       gen     sec  bwd exp | bidir exp       gen     sec
+ 100   8.21e-09   28         8.1 |     1167.1     4668    0.25 |         27.8     21869    1.17     5439 |   15439.9    139141    9.22
+ 200 capped: policy=True exactbwd=False bidir=False
+ 200 capped: policy=True exactbwd=False bidir=False
+ 300 capped: policy=True exactbwd=False bidir=False
+ 300 capped: policy=True exactbwd=False bidir=False
+ 400 capped: policy=True exactbwd=False bidir=False
+ 400 capped: policy=True exactbwd=False bidir=False

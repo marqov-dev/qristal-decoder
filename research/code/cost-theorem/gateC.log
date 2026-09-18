@@ -1,0 +1,27 @@
+  W=3 rho=0.50 T=8 n*=3 ties=2 exp_final=5 LB(|u|<=n*-2)=3 LB(|u|<=n*-1)=5 strict_n*-1=True 1/p*=13.2 pressure=T q/rho=4.00
+  W=3 rho=0.50 T=10 n*=3 ties=2 exp_final=7 LB(|u|<=n*-2)=3 LB(|u|<=n*-1)=5 strict_n*-1=True 1/p*=20.4 pressure=T q/rho=5.00
+  W=3 rho=0.50 T=12 n*=4 ties=2 exp_final=7 LB(|u|<=n*-2)=5 LB(|u|<=n*-1)=7 strict_n*-1=True 1/p*=29.3 pressure=T q/rho=6.00
+  W=3 rho=0.60 T=8 n*=2 ties=2 exp_final=3 LB(|u|<=n*-2)=1 LB(|u|<=n*-1)=3 strict_n*-1=True 1/p*=10.9 pressure=T q/rho=2.67
+  W=3 rho=0.60 T=10 n*=3 ties=2 exp_final=5 LB(|u|<=n*-2)=3 LB(|u|<=n*-1)=5 strict_n*-1=True 1/p*=17.2 pressure=T q/rho=3.33
+  W=3 rho=0.60 T=12 n*=3 ties=2 exp_final=5 LB(|u|<=n*-2)=3 LB(|u|<=n*-1)=5 strict_n*-1=True 1/p*=24.3 pressure=T q/rho=4.00
+  W=3 rho=0.70 T=8 n*=1 ties=2 exp_final=1 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=1 strict_n*-1=True 1/p*=8.23 pressure=T q/rho=1.71
+  W=3 rho=0.70 T=10 n*=2 ties=2 exp_final=3 LB(|u|<=n*-2)=1 LB(|u|<=n*-1)=3 strict_n*-1=True 1/p*=11.8 pressure=T q/rho=2.14
+  W=3 rho=0.70 T=12 n*=2 ties=2 exp_final=3 LB(|u|<=n*-2)=1 LB(|u|<=n*-1)=3 strict_n*-1=True 1/p*=16.1 pressure=T q/rho=2.57
+  W=3 rho=0.80 T=8 n*=1 ties=2 exp_final=1 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=1 strict_n*-1=False 1/p*=5.31 pressure=T q/rho=1.00
+  W=3 rho=0.80 T=10 n*=1 ties=2 exp_final=1 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=1 strict_n*-1=True 1/p*=6.61 pressure=T q/rho=1.25
+  W=3 rho=0.80 T=12 n*=1 ties=2 exp_final=1 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=1 strict_n*-1=True 1/p*=8.59 pressure=T q/rho=1.50
+  W=4 rho=0.50 T=8 n*=2 ties=6 exp_final=4 LB(|u|<=n*-2)=1 LB(|u|<=n*-1)=4 strict_n*-1=True 1/p*=47.1 pressure=T q/rho=2.67
+  W=4 rho=0.50 T=10 n*=3 ties=12 exp_final=10 LB(|u|<=n*-2)=4 LB(|u|<=n*-1)=10 strict_n*-1=True 1/p*=107 pressure=T q/rho=3.33
+  W=4 rho=0.60 T=8 n*=1 ties=3 exp_final=1 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=1 strict_n*-1=True 1/p*=27 pressure=T q/rho=1.78
+  W=4 rho=0.60 T=10 n*=2 ties=6 exp_final=4 LB(|u|<=n*-2)=1 LB(|u|<=n*-1)=4 strict_n*-1=True 1/p*=50.5 pressure=T q/rho=2.22
+  W=4 rho=0.70 T=8 n*=1 ties=3 exp_final=1 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=1 strict_n*-1=True 1/p*=13.3 pressure=T q/rho=1.14
+  W=4 rho=0.70 T=10 n*=1 ties=3 exp_final=1 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=1 strict_n*-1=True 1/p*=21.6 pressure=T q/rho=1.43
+  W=4 rho=0.80 T=8 n*=0 ties=1 exp_final=0 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=0 strict_n*-1=True 1/p*=5.96 pressure=T q/rho=0.67
+  W=4 rho=0.80 T=10 n*=0 ties=1 exp_final=0 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=0 strict_n*-1=True 1/p*=9.31 pressure=T q/rho=0.83
+  W=5 rho=0.50 T=8 n*=2 ties=12 exp_final=5 LB(|u|<=n*-2)=1 LB(|u|<=n*-1)=5 strict_n*-1=True 1/p*=97.4 pressure=T q/rho=2.00
+  W=5 rho=0.60 T=8 n*=1 ties=4 exp_final=1 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=1 strict_n*-1=True 1/p*=38.2 pressure=T q/rho=1.33
+  W=5 rho=0.70 T=8 n*=0 ties=1 exp_final=0 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=0 strict_n*-1=True 1/p*=17.3 pressure=T q/rho=0.86
+  W=5 rho=0.80 T=8 n*=0 ties=1 exp_final=0 LB(|u|<=n*-2)=0 LB(|u|<=n*-1)=0 strict_n*-1=True 1/p*=5.96 pressure=T q/rho=0.50
+GATE C1 no-repeat strings of equal length tie exactly; repeat strings strictly below: 24 tables, violations 0 -> PASS
+GATE C2 mode set == all (W-1)(W-2)^(n*-1) no-repeat strings of length n*: violations 0 -> PASS
+GATE C3 B(u) > p* for every proper prefix of a mode with |u| <= n*-2 (strictness lemma): violations 0 -> PASS

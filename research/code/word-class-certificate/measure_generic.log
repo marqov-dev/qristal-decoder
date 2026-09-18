@@ -1,0 +1,35 @@
+GATE real table b-atcc_TWR-34720N_002001_002559_AT T=278: P(Sigma*)=0.999999999999998 -> PASS; P({mode})=1.369681e-26 ctc_forward=1.369681e-26 A4 p*=6.027583e-21 -> FAIL
+  [SID "one hotel departure"] |Q|=22/162/123 P(correct)=9.4392e-06 P(competing)=8.7153e-04 P(residual)=9.9912e-01 sum=1.000000000000 PASS cond=0.010715 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.12s
+[generic] uwb-atcc_TWR-34720N_002001_002559_AT T=278 p*=6.028e-21 beam50 mass=0.0000 (0.2s) beam800 mass=0.0000 (4.3s)
+GATE real table b-atcc_TWR-a1WcrN_000157_000469_AT T=155: P(Sigma*)=0.999999999999999 -> PASS; P({mode})=3.373585e-17 ctc_forward=3.373585e-17 A4 p*=3.343280e-09 -> FAIL
+  [callsign NOR-SHUTTLE 1515] |Q|=192/338/143 P(correct)=4.4230e-10 P(competing)=2.4320e-08 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=0.017862 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.09s
+  [runway 31] |Q|=123/163/35 P(correct)=2.9915e-24 P(competing)=2.1507e-14 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=0.0 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.07s
+  [phrase "line up"] |Q|=10/56/46 P(correct)=3.4481e-03 P(competing)=3.2757e-13 P(residual)=9.9655e-01 sum=1.000000000000 PASS cond=1.0 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.05s
+[generic] uwb-atcc_TWR-a1WcrN_000157_000469_AT T=155 p*=3.343e-09 beam50 mass=0.0000 (0.1s) beam800 mass=0.0000 (1.9s)
+GATE real table b-atcc_TWR-a3o8f0_000000_000352_AT T=175: P(Sigma*)=0.999999999999998 -> PASS; P({mode})=7.678669e-16 ctc_forward=7.678669e-16 A4 p*=1.508940e-12 -> FAIL
+  [callsign OPERA-JET 300] |Q|=184/329/141 P(correct)=3.9903e-23 P(competing)=9.7465e-12 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=0.0 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.10s
+  ["one hotel" after confirmation] |Q|=178/325/144 P(correct)=7.9952e-20 P(competing)=1.0771e-05 P(residual)=9.9999e-01 sum=1.000000000000 PASS cond=0.0 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.11s
+[generic] uwb-atcc_TWR-a3o8f0_000000_000352_AT T=175 p*=1.509e-12 beam50 mass=0.0000 (0.1s) beam800 mass=0.0000 (2.4s)
+GATE real table b-atcc_TWR-A5lZHJ_000000_000613_AT T=306: P(Sigma*)=0.999999999999998 -> PASS; P({mode})=1.079047e-20 ctc_forward=1.079047e-20 A4 p*=7.792237e-19 -> FAIL
+  [callsign CSA 37A] |Q|=176/315/135 P(correct)=3.9020e-12 P(competing)=2.4089e-06 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=2e-06 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.18s
+  [runway 31] |Q|=123/163/35 P(correct)=5.4193e-18 P(competing)=7.2253e-14 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=7.5e-05 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.14s
+  [phrase "cleared for takeoff"] |Q|=22/77/55 P(correct)=5.3576e-31 P(competing)=7.6159e-13 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=0.0 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.11s
+  [wind 160] |Q|=111/149/33 P(correct)=9.7897e-21 P(competing)=7.6385e-11 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=0.0 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.13s
+  [knots 5 (after degrees)] |Q|=153/194/36 P(correct)=9.3412e-06 P(competing)=1.9427e-11 P(residual)=9.9999e-01 sum=1.000000000000 PASS cond=0.999998 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.14s
+[generic] uwb-atcc_TWR-A5lZHJ_000000_000613_AT T=306 p*=7.792e-19 beam50 mass=0.0000 (0.2s) beam800 mass=0.0000 (4.7s)
+GATE real table atcc_TWR-A5lZHJ_002805_003388_PIAT T=291: P(Sigma*)=0.999999999999999 -> PASS; P({mode})=8.605051e-35 ctc_forward=8.605051e-35 A4 p*=5.470547e-18 -> FAIL
+  [callsign AUSTRIAN 706P] |Q|=190/332/140 P(correct)=4.2339e-20 P(competing)=1.3397e-14 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=3e-06 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.17s
+[generic] uwb-atcc_TWR-A5lZHJ_002805_003388_PIAT T=291 p*=5.471e-18 beam50 mass=0.0000 (0.2s) beam800 mass=0.0000 (4.6s)
+GATE real table b-atcc_TWR-a8R9jE_000144_000596_AT T=225: P(Sigma*)=0.999999999999996 -> PASS; P({mode})=3.964427e-20 ctc_forward=3.964427e-20 A4 p*=6.345385e-10 -> FAIL
+  [callsign CSA 731] |Q|=172/309/135 P(correct)=9.7429e-07 P(competing)=3.1464e-05 P(residual)=9.9997e-01 sum=1.000000000000 PASS cond=0.030035 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.13s
+  [frequency 121.9 (after ground)] |Q|=111/260/124 P(correct)=1.0868e-12 P(competing)=2.6466e-14 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=0.976226 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.11s
+[generic] uwb-atcc_TWR-a8R9jE_000144_000596_AT T=225 p*=6.345e-10 beam50 mass=0.0000 (0.2s) beam800 mass=0.0000 (3.2s)
+GATE real table atcc_TWR-a8R9jE_000700_001023_PIAT T=161: P(Sigma*)=1.000000000000004 -> PASS; P({mode})=2.224242e-13 ctc_forward=2.224242e-13 A4 p*=5.908136e-12 -> FAIL
+  [callsign CSA 71] |Q|=160/297/135 P(correct)=6.5310e-12 P(competing)=1.1003e-06 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=6e-06 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.09s
+  [leading number 19] |Q|=76/81/28 P(correct)=1.3787e-05 P(competing)=1.0269e-01 P(residual)=8.9729e-01 sum=1.000000000000 PASS cond=0.000134 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.06s
+[generic] uwb-atcc_TWR-a8R9jE_000700_001023_PIAT T=161 p*=5.908e-12 beam50 mass=0.0000 (0.1s) beam800 mass=0.0000 (2.0s)
+GATE real table b-atcc_TWR-A64ueL_000128_000777_PI T=324: P(Sigma*)=1.000000000000002 -> PASS; P({mode})=8.844205e-26 ctc_forward=8.844205e-26 A4 p*=6.572200e-19 -> FAIL
+  [callsign SKY-TRAVEL 1102] |Q|=188/333/142 P(correct)=8.7456e-38 P(competing)=1.7567e-15 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=0.0 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.19s
+  [stand 22A (after standing)] |Q|=178/321/140 P(correct)=1.5461e-29 P(competing)=1.7459e-15 P(residual)=1.0000e+00 sum=1.000000000000 PASS cond=0.0 | beam50 C=0.0000e+00 K=0.0000e+00 | beam800 C=0.0000e+00 K=0.0000e+00 | mode in Z ref in C | top competing: None | 0.18s
+[generic] uwb-atcc_TWR-A64ueL_000128_000777_PI T=324 p*=6.572e-19 beam50 mass=0.0000 (0.2s) beam800 mass=0.0000 (4.7s)
+REAL-TABLE GATES PASS

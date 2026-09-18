@@ -1,0 +1,29 @@
+ATCO2 candidates n=501: WADA percentiles 5/25/50/75/95 = [ 6.5 11.7 19.5 30.2 54.2]; min -20.0 max 100.0
+  VAD  percentiles 5/25/50/75/95 = [12.4 15.6 18.9 22.3 27.5]; corr(WADA,VAD) = 0.71
+  n WADA<15: 184  <10: 86  <5: 21
+  LSGS_SION                    n=109 WADA median  10.5 min   0.6
+  LSZH_ZURICH                  n= 95 WADA median  18.5 min -20.0
+  YSSY_SYDNEY                  n= 45 WADA median  18.9 min -20.0
+  LKTB_BRNO                    n= 21 WADA median  22.2 min   4.1
+  LKPR_RUZYNE                  n= 63 WADA median  22.7 min   3.8
+  LZIB_STEFANIK                n= 54 WADA median  24.3 min   6.6
+  LSZB_BERN                    n=114 WADA median  28.0 min   0.4
+A4 atc_uwb: WADA median 29.6 range 19.7..40.0; VAD median 27.9
+A4 atc_atco2: WADA median 36.9 range 18.4..100.0; VAD median 22.3
+SELECTED 16 (lowest WADA):
+  -20.0 dB (vad  12.8) 6.88s 18w peak 0.90 atco2_test-set-1h_LSZH_ZURICH_Tower_118_1MHz_20210414_080622-B__001096-001784 | [transcript not redistributed]
+  -20.0 dB (vad   6.3) 6.05s 19w peak 0.98 atco2_test-set-1h_YSSY_SYDNEY_Tower_120_5MHz_20210504_213748-A__000006-000611 | korean air one two one wind two four zero degrees five knots runway on
+    0.4 dB (vad  12.8) 3.77s 10w peak 0.90 atco2_test-set-1h_LSZB_BERN_Approach_127_3MHz_20210424_180809-D__000013-000390 | hotel oscar yankee request orbit to the right for spacing
+    0.6 dB (vad  12.0) 3.01s  7w peak 1.00 atco2_test-set-1h_LSGS_SION_Tower_118_3MHz_20210503_082715-D__000606-000907 | next final two five hotel charlie juliett
+    0.9 dB (vad   9.8) 3.65s 11w peak 0.71 atco2_test-set-1h_LSGS_SION_Tower_118_3MHz_20210423_093650-D__000016-000381 | sion tower at departure echo two for turn bravo papa zulu
+    1.4 dB (vad   7.3) 3.40s 11w peak 0.12 atco2_test-set-1h_YSSY_SYDNEY_Tower_120_5MHz_20210503_083640-A__000420-000760 | qlink forty two delta runway three four left cleared for takeoff
+    2.0 dB (vad   7.7) 5.85s 20w peak 0.13 atco2_test-set-1h_YSSY_SYDNEY_Tower_120_5MHz_20210502_235050-A__000324-000909 | viet nam seven seven three heavy sydney tower good morning continue ap
+    2.3 dB (vad  12.4) 3.03s  9w peak 0.90 atco2_test-set-1h_LSZH_ZURICH_Tower_118_1MHz_20210414_160105-B__000665-000968 | runway one zero cleared to land hotel yankee hotel
+    2.3 dB (vad   8.0) 4.29s 11w peak 0.22 atco2_test-set-1h_YSSY_SYDNEY_Tower_120_5MHz_20210502_062227-A__000356-000785 | qatari six tango papa heavy sydney tower good day continue approach
+    2.4 dB (vad   7.4) 3.97s  9w peak 0.29 atco2_test-set-1h_YSSY_SYDNEY_Tower_120_5MHz_20210430_044251-A__000314-000711 | rex sixty one seventy five sydney tower good afternoon
+    2.5 dB (vad   6.8) 3.55s 12w peak 0.56 atco2_test-set-1h_YSSY_SYDNEY_Tower_120_5MHz_20210501_014446-A__000444-000799 | emirates nine two forty two heavy sydney tower good afternoon continue
+    2.6 dB (vad  13.9) 3.24s 12w peak 0.16 atco2_test-set-1h_LSZH_ZURICH_Tower_118_1MHz_20210412_161248-B__000610-000934 | [transcript not redistributed]
+    2.9 dB (vad  14.4) 3.01s  8w peak 1.00 atco2_test-set-1h_LSZB_BERN_Tower_121_0MHz_20210413_141529-B__000407-000708 | [transcript not redistributed]
+    2.9 dB (vad   6.8) 5.25s  9w peak 0.79 atco2_test-set-1h_LSGS_SION_Ground_Control_121_7MHz_20210503_140302-B__000023-000548 | hotel bravo golf kilo echo one four thousand feet
+    3.8 dB (vad  14.6) 5.71s 17w peak 0.25 atco2_test-set-1h_LKPR_RUZYNE_Tower_134_560MHz_20201028_111034-B__000784-001355 | [transcript not redistributed]
+    4.1 dB (vad   8.7) 6.23s 15w peak 0.39 atco2_test-set-1h_LKTB_BRNO_Tower_119_605MHz_20201029_102129-B__000639-001262 | vacate via whiskey cross two six and vacate via the airclub oscar kilo

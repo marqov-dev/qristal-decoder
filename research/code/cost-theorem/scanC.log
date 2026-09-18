@@ -1,0 +1,71 @@
+  W=4 rho=0.5 T=8 n*=2 ties=6 exp_final=4 LB2=1 LB1=4 exp_back=21 gen=75 1/p*=47.1 pressure=2.67 sec=0.0
+  W=4 rho=0.5 T=16 n*=4 ties=24 exp_final=49 LB2=10 LB1=22 exp_back=261 gen=930 1/p*=947 pressure=5.33 sec=0.0
+  W=4 rho=0.5 T=24 n*=6 ties=96 exp_final=337 LB2=46 LB1=94 exp_back=2373 gen=8130 1/p*=1.68e+04 pressure=8.00 sec=0.0
+  W=4 rho=0.5 T=32 n*=9 ties=768 exp_final=2122 LB2=382 LB1=766 exp_back=18279 gen=61203 1/p*=2.72e+05 pressure=10.67 sec=0.4
+  W=4 rho=0.5 T=40 n*=11 ties=3072 exp_final=13846 LB2=1534 LB1=3070 exp_back=122883 gen=410187 1/p*=4.3e+06 pressure=13.33 sec=3.0
+  W=4 rho=0.6 T=8 n*=1 ties=3 exp_final=1 LB2=0 LB1=1 exp_back=9 gen=30 1/p*=27 pressure=1.78 sec=0.0
+  W=4 rho=0.6 T=16 n*=3 ties=12 exp_final=10 LB2=4 LB1=10 exp_back=120 gen=390 1/p*=319 pressure=3.56 sec=0.0
+  W=4 rho=0.6 T=24 n*=5 ties=48 exp_final=61 LB2=22 LB1=46 exp_back=768 gen=2487 1/p*=3.51e+03 pressure=5.33 sec=0.0
+  W=4 rho=0.6 T=32 n*=6 ties=96 exp_final=358 LB2=46 LB1=94 exp_back=4209 gen=13701 1/p*=3.51e+04 pressure=7.11 sec=0.1
+  W=4 rho=0.6 T=40 n*=8 ties=384 exp_final=2017 LB2=190 LB1=382 exp_back=19791 gen=65424 1/p*=3.45e+05 pressure=8.89 sec=0.5
+  W=4 rho=0.6 T=48 n*=9 ties=768 exp_final=9604 LB2=382 LB1=766 exp_back=87819 gen=292269 1/p*=3.38e+06 pressure=10.67 sec=2.4
+  W=4 rho=0.6 T=56 n*=11 ties=3072 exp_final=41884 LB2=1534 LB1=3070 exp_back=402819 gen=1334109 1/p*=3.18e+07 pressure=12.44 sec=13.0
+  W=4 rho=0.7 T=8 n*=1 ties=3 exp_final=1 LB2=0 LB1=1 exp_back=3 gen=12 1/p*=13.3 pressure=1.14 sec=0.0
+  W=4 rho=0.7 T=16 n*=2 ties=6 exp_final=4 LB2=1 LB1=4 exp_back=45 gen=147 1/p*=94.1 pressure=2.29 sec=0.0
+  W=4 rho=0.7 T=24 n*=3 ties=12 exp_final=13 LB2=4 LB1=10 exp_back=198 gen=633 1/p*=593 pressure=3.43 sec=0.0
+  W=4 rho=0.7 T=32 n*=4 ties=24 exp_final=61 LB2=10 LB1=22 exp_back=789 gen=2550 1/p*=3.55e+03 pressure=4.57 sec=0.0
+  W=4 rho=0.7 T=40 n*=5 ties=48 exp_final=166 LB2=22 LB1=46 exp_back=2859 gen=9075 1/p*=2.06e+04 pressure=5.71 sec=0.1
+  W=4 rho=0.7 T=48 n*=6 ties=96 exp_final=673 LB2=46 LB1=94 exp_back=10029 gen=32106 1/p*=1.17e+05 pressure=6.86 sec=0.3
+  W=4 rho=0.7 T=56 n*=7 ties=192 exp_final=2089 LB2=94 LB1=190 exp_back=32376 gen=103395 1/p*=6.6e+05 pressure=8.00 sec=0.9
+  W=4 rho=0.7 T=64 n*=8 ties=384 exp_final=7537 LB2=190 LB1=382 exp_back=101721 gen=327774 1/p*=3.68e+06 pressure=9.14 sec=3.7
+  W=4 rho=0.7 T=80: CAPPED at 1500001 gens (n*=11, predicted LB1=3070)
+  W=4 rho=0.8 T=8 n*=0 ties=1 exp_final=0 LB2=0 LB1=0 exp_back=0 gen=0 1/p*=5.96 pressure=0.67 sec=0.0
+  W=4 rho=0.8 T=16 n*=1 ties=3 exp_final=1 LB2=0 LB1=1 exp_back=12 gen=39 1/p*=24.6 pressure=1.33 sec=0.0
+  W=4 rho=0.8 T=24 n*=2 ties=6 exp_final=4 LB2=1 LB1=4 exp_back=42 gen=138 1/p*=94.3 pressure=2.00 sec=0.0
+  W=4 rho=0.8 T=32 n*=2 ties=6 exp_final=4 LB2=1 LB1=4 exp_back=135 gen=417 1/p*=311 pressure=2.67 sec=0.0
+  W=4 rho=0.8 T=40 n*=3 ties=12 exp_final=13 LB2=4 LB1=10 exp_back=378 gen=1173 1/p*=1.03e+03 pressure=3.33 sec=0.0
+  W=4 rho=0.8 T=48 n*=4 ties=24 exp_final=40 LB2=10 LB1=22 exp_back=882 gen=2766 1/p*=3.48e+03 pressure=4.00 sec=0.0
+  W=4 rho=0.8 T=56 n*=4 ties=24 exp_final=100 LB2=10 LB1=22 exp_back=2016 gen=6348 1/p*=1.09e+04 pressure=4.67 sec=0.0
+  W=4 rho=0.8 T=64 n*=5 ties=48 exp_final=169 LB2=22 LB1=46 exp_back=4680 gen=14547 1/p*=3.49e+04 pressure=5.33 sec=0.1
+  W=4 rho=0.8 T=80 n*=6 ties=96 exp_final=940 LB2=46 LB1=94 exp_back=22449 gen=70167 1/p*=3.48e+05 pressure=6.67 sec=0.8
+  W=4 rho=0.8 T=96 n*=7 ties=192 exp_final=4789 LB2=94 LB1=190 exp_back=105450 gen=330717 1/p*=3.44e+06 pressure=8.00 sec=4.6
+  W=4 rho=0.8 T=112: CAPPED at 1500001 gens (n*=9, predicted LB1=766)
+  W=5 rho=0.5 T=8 n*=2 ties=12 exp_final=5 LB2=1 LB1=5 exp_back=16 gen=84 1/p*=97.4 pressure=2.00 sec=0.0
+  W=5 rho=0.5 T=16 n*=3 ties=36 exp_final=57 LB2=5 LB1=17 exp_back=304 gen=1444 1/p*=3.81e+03 pressure=4.00 sec=0.0
+  W=5 rho=0.5 T=24 n*=5 ties=324 exp_final=621 LB2=53 LB1=161 exp_back=4940 gen=22244 1/p*=1.36e+05 pressure=6.00 sec=0.1
+  W=5 rho=0.5 T=32 n*=7 ties=2916 exp_final=6561 LB2=485 LB1=1457 exp_back=55000 gen=246244 1/p*=4.64e+06 pressure=8.00 sec=1.5
+  W=5 rho=0.5 T=40: CAPPED at 1500001 gens (n*=9, predicted LB1=13121)
+  W=5 rho=0.6 T=8 n*=1 ties=4 exp_final=1 LB2=0 LB1=1 exp_back=8 gen=36 1/p*=38.2 pressure=1.33 sec=0.0
+  W=5 rho=0.6 T=16 n*=2 ties=12 exp_final=5 LB2=1 LB1=5 exp_back=88 gen=372 1/p*=777 pressure=2.67 sec=0.0
+  W=5 rho=0.6 T=24 n*=3 ties=36 exp_final=57 LB2=5 LB1=17 exp_back=812 gen=3476 1/p*=1.41e+04 pressure=4.00 sec=0.0
+  W=5 rho=0.6 T=32 n*=5 ties=324 exp_final=625 LB2=53 LB1=161 exp_back=5224 gen=23396 1/p*=2.28e+05 pressure=5.33 sec=0.1
+  W=5 rho=0.6 T=40 n*=6 ties=972 exp_final=2065 LB2=161 LB1=485 exp_back=33940 gen=144020 1/p*=3.65e+06 pressure=6.67 sec=1.0
+  W=5 rho=0.6 T=48 n*=7 ties=2916 exp_final=22477 LB2=485 LB1=1457 exp_back=199228 gen=886820 1/p*=5.8e+07 pressure=8.00 sec=7.7
+  W=5 rho=0.7 T=8 n*=0 ties=1 exp_final=0 LB2=0 LB1=0 exp_back=0 gen=0 1/p*=17.3 pressure=0.86 sec=0.0
+  W=5 rho=0.7 T=16 n*=1 ties=4 exp_final=1 LB2=0 LB1=1 exp_back=28 gen=116 1/p*=158 pressure=1.71 sec=0.0
+  W=5 rho=0.7 T=24 n*=2 ties=12 exp_final=5 LB2=1 LB1=5 exp_back=144 gen=596 1/p*=1.34e+03 pressure=2.57 sec=0.0
+  W=5 rho=0.7 T=32 n*=3 ties=36 exp_final=21 LB2=5 LB1=17 exp_back=616 gen=2548 1/p*=1.09e+04 pressure=3.43 sec=0.0
+  W=5 rho=0.7 T=40 n*=4 ties=108 exp_final=85 LB2=17 LB1=53 exp_back=2472 gen=10228 1/p*=8.7e+04 pressure=4.29 sec=0.1
+  W=5 rho=0.7 T=48 n*=5 ties=324 exp_final=337 LB2=53 LB1=161 exp_back=8700 gen=36148 1/p*=6.81e+05 pressure=5.14 sec=0.3
+  W=5 rho=0.7 T=56 n*=5 ties=324 exp_final=2285 LB2=53 LB1=161 exp_back=30956 gen=132964 1/p*=5.25e+06 pressure=6.00 sec=1.3
+  W=5 rho=0.7 T=64 n*=6 ties=972 exp_final=5033 LB2=161 LB1=485 exp_back=112768 gen=471204 1/p*=3.92e+07 pressure=6.86 sec=5.2
+  W=5 rho=0.8 T=8 n*=0 ties=1 exp_final=0 LB2=0 LB1=0 exp_back=0 gen=0 1/p*=5.96 pressure=0.50 sec=0.0
+  W=5 rho=0.8 T=16 n*=1 ties=4 exp_final=1 LB2=0 LB1=1 exp_back=0 gen=4 1/p*=33.4 pressure=1.00 sec=0.0
+  W=5 rho=0.8 T=24 n*=1 ties=4 exp_final=1 LB2=0 LB1=1 exp_back=32 gen=132 1/p*=133 pressure=1.50 sec=0.0
+  W=5 rho=0.8 T=32 n*=2 ties=12 exp_final=5 LB2=1 LB1=5 exp_back=88 gen=372 1/p*=577 pressure=2.00 sec=0.0
+  W=5 rho=0.8 T=40 n*=2 ties=12 exp_final=5 LB2=1 LB1=5 exp_back=248 gen=1012 1/p*=2.18e+03 pressure=2.50 sec=0.0
+  W=5 rho=0.8 T=48 n*=3 ties=36 exp_final=21 LB2=5 LB1=17 exp_back=636 gen=2628 1/p*=8.86e+03 pressure=3.00 sec=0.0
+  W=5 rho=0.8 T=56 n*=3 ties=36 exp_final=57 LB2=5 LB1=17 exp_back=1308 gen=5460 1/p*=3.29e+04 pressure=3.50 sec=0.0
+  W=5 rho=0.8 T=64 n*=4 ties=108 exp_final=85 LB2=17 LB1=53 exp_back=3456 gen=14164 1/p*=1.29e+05 pressure=4.00 sec=0.1
+  W=5 rho=0.8 T=80 n*=5 ties=324 exp_final=341 LB2=53 LB1=161 exp_back=16388 gen=66916 1/p*=1.83e+06 pressure=5.00 sec=0.9
+  W=5 rho=0.8 T=96 n*=6 ties=972 exp_final=2333 LB2=161 LB1=485 exp_back=78480 gen=323252 1/p*=2.53e+07 pressure=6.00 sec=5.7
+  W=5 rho=0.8 T=112: CAPPED at 1500001 gens (n*=7, predicted LB1=1457)
+--- fits: gen = A (1/p*)^alpha ; exp_final = A' (1/p*)^alpha' ; also exp_final vs LB1 ---
+  W=4 rho=0.5: gen = 4.83 (1/p*)^0.75 ; exp_final = 0.321 (1/p*)^0.70 ; exp_final/LB1 in [1.00, 4.51] ; n* range 2..11 ; T range 8..40
+  W=4 rho=0.6: gen = 7.7 (1/p*)^0.70 ; exp_final = 0.163 (1/p*)^0.73 ; exp_final/LB1 in [1.00, 13.64] ; n* range 3..11 ; T range 16..56
+  W=4 rho=0.7: gen = 6.05 (1/p*)^0.73 ; exp_final = 0.152 (1/p*)^0.71 ; exp_final/LB1 in [1.00, 19.73] ; n* range 2..8 ; T range 16..64
+  W=4 rho=0.8: gen = 6.41 (1/p*)^0.73 ; exp_final = 0.109 (1/p*)^0.71 ; exp_final/LB1 in [1.00, 25.21] ; n* range 2..7 ; T range 24..96
+  W=5 rho=0.5: gen = 2.99 (1/p*)^0.74 ; exp_final = 0.235 (1/p*)^0.67 ; exp_final/LB1 in [1.00, 4.50] ; n* range 2..7 ; T range 8..32
+  W=5 rho=0.6: gen = 4.33 (1/p*)^0.69 ; exp_final = 0.0485 (1/p*)^0.73 ; exp_final/LB1 in [1.00, 15.43] ; n* range 2..7 ; T range 16..48
+  W=5 rho=0.7: gen = 6.11 (1/p*)^0.65 ; exp_final = 0.0332 (1/p*)^0.69 ; exp_final/LB1 in [1.00, 14.19] ; n* range 2..6 ; T range 24..64
+  W=5 rho=0.8: gen = 7.99 (1/p*)^0.63 ; exp_final = 0.0913 (1/p*)^0.59 ; exp_final/LB1 in [1.00, 4.81] ; n* range 2..6 ; T range 32..96

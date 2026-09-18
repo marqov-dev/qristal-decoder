@@ -1,0 +1,9 @@
+  uwb-atcc_TWR-34720N_002001_002559_AT     class_posterior({certified mode})=5.036102e-20 certctc p1=5.036102e-20 rel err 8.4e-16
+  uwb-atcc_TWR-a1WcrN_000157_000469_AT     class_posterior({certified mode})=4.818045e-09 certctc p1=4.818045e-09 rel err 5.2e-16
+  uwb-atcc_TWR-A5lZHJ_000000_000613_AT     class_posterior({certified mode})=4.381699e-18 certctc p1=4.381699e-18 rel err 5.3e-16
+  uwb-atcc_TWR-a3o8f0_000000_000352_AT     class_posterior({certified mode})=2.083281e-12 certctc p1=2.083281e-12 rel err 1.9e-16
+  uwb-atcc_TWR-A5lZHJ_002805_003388_PIAT   class_posterior({certified mode})=1.090436e-17 certctc p1=1.090436e-17 rel err 4.2e-16
+  uwb-atcc_TWR-a8R9jE_000144_000596_AT     class_posterior({certified mode})=7.317486e-10 certctc p1=7.317486e-10 rel err 0.0e+00
+  uwb-atcc_TWR-A64ueL_000128_000777_PI     class_posterior({certified mode})=1.112022e-18 certctc p1=1.112022e-18 rel err 2.4e-15
+  uwb-atcc_TWR-a8R9jE_000700_001023_PIAT   class_posterior({certified mode})=8.907129e-12 certctc p1=8.907129e-12 rel err 9.1e-16
+GATE generic tables: P({certified mode}) by class_posterior vs certctc certified p* (l1/p1 rows): 8 tables, worst rel err 2.42e-15 -> PASS

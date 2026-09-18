@@ -1,0 +1,4 @@
+neartie {'spread': 1} T=16 W=3 D=8 p=0.00397 exp_final=8 exp_back=56 gen=128 max_sub_exp=7 sec=0.000966 capped=False g_exp=255 g_gen=510 g_capped=False g_sec=0.00345 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+neartie {'spread': 1} T=32 W=3 D=16 p=1.58e-05 exp_final=16 exp_back=240 gen=512 max_sub_exp=15 sec=0.002 capped=False g_exp=65535 g_gen=131070 g_capped=False g_sec=2.43 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+neartie {'spread': 1} T=64 W=3 D=32 p=2.48e-10 exp_final=32 exp_back=992 gen=2048 max_sub_exp=31 sec=0.0501 capped=False g_exp=100001 g_gen=200001 g_capped=True g_sec=18.6 p_fwd_ok=True beam_ok=True beam_same=True
+neartie {'spread': 1} T=128 W=3 D=64 p=6.16e-20 exp_final=64 exp_back=4032 gen=8192 max_sub_exp=63 sec=1.2 capped=False g_exp=100001 g_gen=200001 g_capped=True g_sec=45.4 p_fwd_ok=True beam_ok=True beam_same=True

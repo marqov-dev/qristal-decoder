@@ -1,0 +1,13 @@
+rows 871 candidates 501 excluded A4 8
+0 samples/atco2_all/atco2_test-set-1h_LKTB_BRNO_Ground_125_430MHz_20201028_171509-G__000043-000822.wav 249324 0.2 MB
+50 samples/atco2_all/atco2_test-set-1h_LKTB_BRNO_Approach-Radar_127_350MHz_20201028_132938-A__000200-000798.wav 191404 8.2 MB
+100 samples/atco2_all/atco2_test-set-1h_LSGS_SION_Ground_Control_121_7MHz_20210503_084629-D__000019-000469.wav 144044 15.2 MB
+150 samples/atco2_all/atco2_test-set-1h_LSGS_SION_Ground_Control_121_7MHz_20210502_065812-A__000005-000523.wav 165804 22.8 MB
+200 samples/atco2_all/atco2_test-set-1h_LSZB_BERN_Approach_127_3MHz_20210415_120016-A__000012-000505.wav 157804 30.6 MB
+250 samples/atco2_all/atco2_test-set-1h_LSZB_BERN_Approach_127_3MHz_20210418_083338-B__000000-000484.wav 154924 38.6 MB
+300 samples/atco2_all/atco2_test-set-1h_LSZB_BERN_Tower_121_0MHz_20210424_084133-A__000000-000523.wav 167404 46.4 MB
+350 samples/atco2_all/atco2_test-set-1h_LSZH_ZURICH_Tower_118_1MHz_20210418_155559-B__000352-000842.wav 156844 54.4 MB
+400 samples/atco2_all/atco2_test-set-1h_LSZH_ZURICH_Tower_118_1MHz_20210414_101150-A__000000-000388.wav 124204 62.4 MB
+450 samples/atco2_all/atco2_test-set-1h_LZIB_STEFANIK_Tower_118_3MHz_20210425_122209-B__000000-000430.wav 137644 70.4 MB
+500 samples/atco2_all/atco2_test-set-1h_YSSY_SYDNEY_Tower_120_5MHz_20210503_005135-A__000000-000484.wav 154924 77.4 MB
+DONE 501 77.4 MB

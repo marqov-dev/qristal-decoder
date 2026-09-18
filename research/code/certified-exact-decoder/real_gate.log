@@ -1,0 +1,2 @@
+GATE stdlib vs C on real table T4/clean/P14 T=112 W=32: stdlib p*=8.963259e-01 exp=21 gen=945345 sec=160 | C p*=8.963259e-01 exp=41 gen=945965 sec=1.1 -> PASS
+GATE stdlib vs C on real table T4/10dB/P14 T=112 W=32: stdlib p*=7.631711e-03 exp=20 gen=900302 sec=194 | C p*=7.631711e-03 exp=32 gen=900674 sec=7.0 -> PASS

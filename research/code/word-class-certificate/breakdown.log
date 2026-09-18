@@ -1,0 +1,63 @@
+
+[ERROR CASE 'one on eight' (ref FL100)] certified P(readback level = v | y):
+   P(flight level = 100          ) = 3.4069e-09
+   P(flight level = 1            ) = 8.7126e-01
+   P(flight level = 118          ) = 5.9946e-03
+   P(flight level = 18           ) = 5.3590e-04
+   P(flight level = 108          ) = 3.3664e-09
+   P(flight level = 110          ) = 1.3006e-10
+   P(flight level = 101          ) = 5.5904e-15
+   P(flight level = 8            ) = 1.1191e-12
+   P(flight level = 10           ) = 4.3019e-08
+   P(flight level = 11           ) = 7.5942e-02
+   P(flight level <any number-like>)   = 9.5382e-01   (residual: no parseable level after 'flight level' = 4.6183e-02)
+   P(text contains 'flight level one hundred') = 3.4213e-09
+   P(text contains 'flight level one on eight') = 1.3406e-02
+   P(text contains 'flight level one oneight') = 1.1858e-02
+   P(text contains 'flight level one one eight') = 6.0200e-03
+   P(text contains 'flight level one hundred free') = 2.6030e-09
+
+[correct clip (ref FL100)] certified P(readback level = v | y):
+   P(flight level = 100          ) = 9.8088e-01
+   P(flight level = 1            ) = 8.8166e-03
+   P(flight level = 118          ) = 2.0380e-37
+   P(flight level = 18           ) = 4.1327e-28
+   P(flight level = 108          ) = 1.0980e-25
+   P(flight level = 110          ) = 2.6837e-31
+   P(flight level = 101          ) = 1.0213e-12
+   P(flight level = 8            ) = 1.7017e-25
+   P(flight level = 10           ) = 9.7853e-24
+   P(flight level = 11           ) = 7.0470e-18
+   P(flight level <any number-like>)   = 9.8970e-01   (residual: no parseable level after 'flight level' = 1.0302e-02)
+   P(text contains 'flight level one hundred') = 9.8088e-01
+   P(text contains 'flight level one on eight') = 1.5199e-36
+   P(text contains 'flight level one oneight') = 2.1688e-32
+   P(text contains 'flight level one one eight') = 1.5592e-37
+   P(text contains 'flight level one hundred free') = 9.9900e-20
+
+[wind slot, ref 160, mode 'one six zro']
+   P(wind = 160                  ) = 4.0469e-02
+   P(wind = 16                   ) = 9.0569e-01
+   P(wind = 1                    ) = 4.3468e-02
+   P(wind = 6                    ) = 2.0214e-12
+   P(wind = 60                   ) = 9.0325e-14
+   P(wind = 106                  ) = 6.9746e-29
+   P(text contains 'wind one six zero') = 4.0469e-02
+   P(text contains 'wind one six zro') = 8.9514e-01
+   P(text contains 'wind one six') = 9.4616e-01
+
+[callsign slot, ref OK-HHH, mode 'oscar kilo kio hotel']
+   P(oscar kilo + HHH            ) = 1.3869e-07
+   P(oscar kilo + KH             ) = 4.3602e-03
+   P(oscar kilo + HH             ) = 1.0149e-09
+   P(oscar kilo + H              ) = 2.9719e-05
+   P(oscar kilo + TH             ) = 2.5664e-08
+   P(oscar kilo + KIH            ) = 1.0470e-19
+   P(oscar kilo + KIO            ) = 1.7936e-41
+   P(text contains 'oscar kilo kio hotel') = 9.9433e-03
+   P(text contains 'oscar kilo tio hotel') = 9.6172e-03
+   P(text contains 'oscar kilo triple hotel') = 1.3869e-07
+   P(text contains 'oscar kilo') = 7.8910e-01
+   P(text contains 'kio hotel') = 1.1570e-02
+   P(text contains 'triple hotel') = 1.6138e-07
+   P(text contains 'hotel') = 7.9890e-01

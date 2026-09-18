@@ -1,0 +1,8 @@
+  W=4 k=8 T=16 padded exp_final=22 flat(T=k) exp_final=22 padded gen=264 flat gen=264 (W-2)^(k/2)=16 p_fwd_ok=True
+  W=4 k=10 T=20 padded exp_final=46 flat(T=k) exp_final=46 padded gen=606 flat gen=606 (W-2)^(k/2)=32 p_fwd_ok=True
+  W=4 k=12 T=24 padded exp_final=94 flat(T=k) exp_final=94 padded gen=1308 flat gen=1308 (W-2)^(k/2)=64 p_fwd_ok=True
+  W=4 k=14 T=28 padded exp_final=190 flat(T=k) exp_final=190 padded gen=2730 flat gen=2730 (W-2)^(k/2)=128 p_fwd_ok=True
+  W=5 k=8 T=16 padded exp_final=53 flat(T=k) exp_final=53 padded gen=788 flat gen=788 (W-2)^(k/2)=81 p_fwd_ok=True
+  W=5 k=10 T=20 padded exp_final=161 flat(T=k) exp_final=161 padded gen=2500 flat gen=2500 (W-2)^(k/2)=243 p_fwd_ok=True
+  W=5 k=12 T=24 padded exp_final=485 flat(T=k) exp_final=485 padded gen=7668 flat gen=7668 (W-2)^(k/2)=729 p_fwd_ok=True
+GATE D padded-flat exp_final == flat exp_final at T=k: 7 cells, mismatches 0 -> PASS

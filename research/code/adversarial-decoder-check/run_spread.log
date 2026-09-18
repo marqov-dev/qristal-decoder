@@ -1,0 +1,8 @@
+spread {'m': 4, 'q': 0.5} T=16 W=5 D=4 p=0.153 exp_final=4 exp_back=26 gen=120 max_sub_exp=4 sec=0.000564 capped=False g_exp=10 g_gen=40 g_capped=False g_sec=0.000117 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+spread {'m': 4, 'q': 0.5} T=16 W=5 D=4 p=0.192 exp_final=4 exp_back=26 gen=120 max_sub_exp=4 sec=0.0014 capped=False g_exp=7 g_gen=28 g_capped=False g_sec=8.11e-05 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+spread {'m': 4, 'q': 0.5} T=32 W=5 D=8 p=0.037 exp_final=8 exp_back=131 gen=556 max_sub_exp=13 sec=0.0067 capped=False g_exp=44 g_gen=176 g_capped=False g_sec=0.00192 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+spread {'m': 4, 'q': 0.5} T=32 W=5 D=8 p=0.0293 exp_final=8 exp_back=131 gen=556 max_sub_exp=13 sec=0.00298 capped=False g_exp=52 g_gen=208 g_capped=False g_sec=0.000884 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+spread {'m': 4, 'q': 0.5} T=64 W=5 D=16 p=0.00093 exp_final=16 exp_back=582 gen=2392 max_sub_exp=29 sec=0.103 capped=False g_exp=1723 g_gen=6892 g_capped=False g_sec=0.285 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+spread {'m': 4, 'q': 0.5} T=64 W=5 D=16 p=0.00148 exp_final=16 exp_back=579 gen=2380 max_sub_exp=29 sec=0.0532 capped=False g_exp=1126 g_gen=4504 g_capped=False g_sec=0.158 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+spread {'m': 4, 'q': 0.5} T=128 W=5 D=32 p=1.6e-06 exp_final=32 exp_back=2428 gen=9840 max_sub_exp=61 sec=0.559 capped=False g_exp=50001 g_gen=200001 g_capped=True g_sec=46 p_fwd_ok=True beam_ok=True beam_same=True
+spread {'m': 4, 'q': 0.5} T=128 W=5 D=32 p=3.09e-06 exp_final=32 exp_back=2414 gen=9784 max_sub_exp=61 sec=1.91 capped=False g_exp=50001 g_gen=200001 g_capped=True g_sec=55.7 p_fwd_ok=True beam_ok=True beam_same=True

@@ -54,3 +54,6 @@ build/
 
 #Dependencies
 deps/
+
+# research/ ships run logs and outputs
+!research/**/*.out

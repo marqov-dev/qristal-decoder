@@ -1,0 +1,34 @@
+T3 ref 10dB: b=25 Q=2.537e+10 C_old=4.185e+06 speedup=0.000165 qubits=7.290e+04
+T3 ref 5dB: b=57 Q=5.333e+15 C_old=1.004e+16 speedup=1.88 qubits=1.662e+05
+T3 ref 0dB: b=79 Q=8.920e+18 C_old=8.370e+21 speedup=938 qubits=2.304e+05
+
+rows with Q < C_new: 18
+| table | p* | greedy=mode | beam5=mode | C_fwd=3·T·S (one exact forward pass) | Q/C_fwd | majority cert (p*>1/2)? |
+| T4/clean/P0 | 9.745e-01 | True | True | 1.59e+05 | 2.05e+04 | True |
+| T4/clean/P1 | 8.227e-01 | True | True | 9.29e+04 | 2.23e+04 | True |
+| T4/clean/P10 | 3.775e-01 | False | True | 1.36e+05 | 4.28e+04 | False |
+| T4/clean/P12 | 9.818e-01 | True | True | 8.44e+04 | 1.85e+04 | True |
+| T4/clean/P14 | 8.963e-01 | True | True | 1.44e+04 | 1.57e+04 | True |
+| T4/clean/P6 | 3.926e-01 | True | True | 1.27e+05 | 3.86e+04 | False |
+| T4/clean/P8 | 9.283e-01 | True | True | 8.95e+04 | 2.10e+04 | True |
+| T4/10dB/P0 | 4.532e-03 | True | True | 1.50e+05 | 6.87e+05 | False |
+| T4/10dB/P1 | 1.296e-01 | True | True | 9.14e+04 | 7.91e+04 | False |
+| T4/10dB/P10 | 5.316e-02 | True | True | 1.36e+05 | 1.33e+05 | False |
+| T4/10dB/P12 | 7.283e-02 | True | True | 8.44e+04 | 1.06e+05 | False |
+| T4/10dB/P14 | 7.632e-03 | True | True | 1.38e+04 | 3.52e+05 | False |
+| T4/10dB/P8 | 2.552e-03 | False | False | 8.64e+04 | 1.22e+06 | False |
+| T7/base960h_dys__torgo_dys__torgo_dys_0 | 3.904e-02 | True | True | 2.74e+04 | 1.44e+05 | False |
+| T7/base960h__torgo_ctl__torgo_ctl_0 | 4.504e-01 | True | True | 1.28e+05 | 3.30e+04 | False |
+| T7/base960h__torgo_ctl__torgo_ctl_1 | 7.897e-02 | False | True | 7.15e+04 | 1.10e+05 | False |
+| T7/base960h__torgo_ctl__torgo_ctl_2 | 5.388e-01 | True | True | 1.06e+05 | 3.02e+04 | True |
+| T7/base960h__torgo_ctl__torgo_ctl_3 | 9.715e-01 | True | True | 1.40e+05 | 2.05e+04 | True |
+min p* among Q<C_new rows: 0.0025515769276206668  rows with p*>1/2: 7  greedy=mode: 15  beam5=mode: 17
+rows with p*>1/2 overall: 7
+1 GHz wall-clock winners: 15 min p* 0.03903834467655968 max p* 0.981824739043421 all in Q<C_new set: True
+new-baseline crossover at T=268,D=52,m=1.05 (gen=0.1T²W²=7.35e+06, C_new=1.89e+11): p*_x ≈ 6.04e-04, b=31
+new-baseline crossover at T=300,D=40,m=1.05 (gen=0.1T²W²=9.22e+06, C_new=2.65e+11): p*_x ≈ 2.56e-04, b=32
+p* in [5e-01,1e+00): n=7 median speedup_new=8.92e+01 min=4.48e+01 max=1.15e+02
+p* in [1e-03,5e-01): n=13 median speedup_new=1.45e+01 min=6.24e-01 max=7.25e+01
+p* in [1e-06,1e-03): n=8 median speedup_new=7.23e-02 min=1.19e-02 max=4.90e-01
+p* in [1e-12,1e-06): n=15 median speedup_new=5.38e-04 min=1.06e-05 max=1.09e-02
+p* in [0e+00,1e-12): n=13 median speedup_new=1.04e-08 min=1.86e-12 max=2.92e-06

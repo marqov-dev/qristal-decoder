@@ -1,0 +1,20 @@
+  W=3 T=8 k=0 eps=0.02 P_g=0.851 p*=0.893 exp_final=2 exp_total=18 bound_total=522
+  W=3 T=8 k=2 eps=0.02 P_g=0.31 p*=0.454 exp_final=2 exp_total=11 bound_total=1.35e+03
+  W=3 T=8 k=4 eps=0.02 P_g=0.0965 p*=0.191 exp_final=4 exp_total=34 bound_total=2.08e+03
+  W=3 T=16 k=0 eps=0.02 P_g=0.724 p*=0.778 exp_final=5 exp_total=72 bound_total=4.11e+03
+  W=3 T=16 k=2 eps=0.02 P_g=0.17 p*=0.306 exp_final=3 exp_total=55 bound_total=1.17e+04
+  W=3 T=16 k=4 eps=0.02 P_g=0.0812 p*=0.209 exp_final=4 exp_total=65 bound_total=2.96e+04
+  W=3 T=32 k=0 eps=0.02 P_g=0.524 p*=0.557 exp_final=4 exp_total=220 bound_total=3.89e+04
+  W=3 T=32 k=2 eps=0.02 P_g=0.228 p*=0.437 exp_final=12 exp_total=412 bound_total=6.39e+04
+  W=3 T=32 k=4 eps=0.02 P_g=0.0378 p*=0.104 exp_final=13 exp_total=400 bound_total=3.7e+05
+  W=5 T=8 k=0 eps=0.02 P_g=0.851 p*=0.872 exp_final=4 exp_total=56 bound_total=960
+  W=5 T=8 k=2 eps=0.02 P_g=0.0946 p*=0.15 exp_final=4 exp_total=45 bound_total=6.49e+03
+  W=5 T=8 k=4 eps=0.02 P_g=0.0159 p*=0.0795 exp_final=5 exp_total=72 bound_total=2.95e+04
+  W=5 T=16 k=0 eps=0.02 P_g=0.724 p*=0.745 exp_final=4 exp_total=116 bound_total=7.84e+03
+  W=5 T=16 k=2 eps=0.02 P_g=0.084 p*=0.0992 exp_final=6 exp_total=126 bound_total=6.05e+04
+  W=5 T=16 k=4 eps=0.02 P_g=0.0109 p*=0.0362 exp_final=6 exp_total=190 bound_total=2.78e+05
+  W=5 T=32 k=0 eps=0.02 P_g=0.524 p*=0.551 exp_final=7 exp_total=419 bound_total=7.58e+04
+  W=5 T=32 k=2 eps=0.02 P_g=0.107 p*=0.216 exp_final=10 exp_total=668 bound_total=3.18e+05
+  W=5 T=32 k=4 eps=0.02 P_g=0.00591 p*=0.0253 exp_final=10 exp_total=725 bound_total=4.8e+06
+GATE K1 p* >= P_g >= (1-eps)^(T-k) W^-k: 36 tables, violations 0 -> PASS
+GATE K2 total expansions <= (T+1)T/P_g + sum_(t,c) (L+1)(L-1)/P_g(t+1..T): 36 tables, violations 0 -> PASS

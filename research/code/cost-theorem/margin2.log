@@ -1,0 +1,47 @@
+  W=4 rho=0.5 delta=0.0 T=10 D=3 margin<=1 exp_final=4 gen=129 1/p*=66.9 sec=0.0 brute: p*ok=True true_margin=1 unique_mode=False
+  W=4 rho=0.5 delta=0.0 T=16 D=5 margin<=1 exp_final=21 gen=846 1/p*=630 sec=0.0
+  W=4 rho=0.5 delta=0.0 T=24 D=7 margin<=1 exp_final=162 gen=7605 1/p*=1.09e+04 sec=0.0
+  W=4 rho=0.5 delta=0.0 T=32 D=9 margin<=1 exp_final=1028 gen=57921 1/p*=1.8e+05 sec=0.2
+  W=4 rho=0.5 delta=0.0 T=40 D=11 margin<=1 exp_final=6664 gen=388641 1/p*=2.9e+06 sec=2.2
+  W=4 rho=0.5 delta=1.0 T=10 D=5 margin<=1.32 exp_final=5 gen=180 1/p*=28.6 sec=0.0 brute: p*ok=True true_margin=1.32 unique_mode=True
+  W=4 rho=0.5 delta=1.0 T=16 D=7 margin<=1.49 exp_final=7 gen=513 1/p*=155 sec=0.0
+  W=4 rho=0.5 delta=1.0 T=24 D=11 margin<=1.4 exp_final=15 gen=1347 1/p*=1.55e+03 sec=0.0
+  W=4 rho=0.5 delta=1.0 T=32 D=13 margin<=1.46 exp_final=24 gen=2823 1/p*=1.42e+04 sec=0.0
+  W=4 rho=0.5 delta=1.0 T=40 D=17 margin<=1.5 exp_final=31 gen=5037 1/p*=1.18e+05 sec=0.0
+  W=4 rho=0.5 delta=1.0 T=48 D=21 margin<=1.45 exp_final=42 gen=8025 1/p*=1.02e+06 sec=0.0
+  W=4 rho=0.5 delta=1.0 T=56 D=25 margin<=1.42 exp_final=76 gen=12111 1/p*=8.98e+06 sec=0.1
+  W=4 rho=0.5 delta=1.0 T=64 D=27 margin<=1.5 exp_final=103 gen=17589 1/p*=7.26e+07 sec=0.1
+  W=4 rho=0.5 delta=1.0 T=80 D=35 margin<=1.44 exp_final=169 gen=35538 1/p*=5.05e+09 sec=0.3
+  W=4 rho=0.5 delta=3.0 T=10 D=3 margin<=2.02 exp_final=4 gen=159 1/p*=9.14 sec=0.0 brute: p*ok=True true_margin=1.16 unique_mode=True
+  W=4 rho=0.5 delta=3.0 T=16 D=5 margin<=1.96 exp_final=7 gen=423 1/p*=24.8 sec=0.0
+  W=4 rho=0.5 delta=3.0 T=24 D=9 margin<=1.92 exp_final=9 gen=969 1/p*=79.5 sec=0.0
+  W=4 rho=0.5 delta=3.0 T=32 D=11 margin<=1.94 exp_final=13 gen=1749 1/p*=260 sec=0.0
+  W=4 rho=0.5 delta=3.0 T=40 D=15 margin<=1.91 exp_final=16 gen=2757 1/p*=825 sec=0.0
+  W=4 rho=0.5 delta=3.0 T=48 D=17 margin<=1.93 exp_final=19 gen=3999 1/p*=2.49e+03 sec=0.0
+  W=4 rho=0.5 delta=3.0 T=56 D=19 margin<=1.93 exp_final=27 gen=5571 1/p*=7.76e+03 sec=0.0
+  W=4 rho=0.5 delta=3.0 T=64 D=23 margin<=1.92 exp_final=31 gen=7584 1/p*=2.28e+04 sec=0.1
+  W=4 rho=0.5 delta=3.0 T=80 D=29 margin<=1.91 exp_final=45 gen=13368 1/p*=2.04e+05 sec=0.1
+  W=5 rho=0.6 delta=0.0 T=10 D=2 margin<=1 exp_final=2 gen=72 1/p*=66.1 sec=0.0 brute: p*ok=True true_margin=1 unique_mode=False
+  W=5 rho=0.6 delta=0.0 T=16 D=3 margin<=1 exp_final=5 gen=372 1/p*=614 sec=0.0
+  W=5 rho=0.6 delta=0.0 T=24 D=4 margin<=1 exp_final=21 gen=3332 1/p*=1.06e+04 sec=0.0
+  W=5 rho=0.6 delta=0.0 T=32 D=5 margin<=1 exp_final=157 gen=21524 1/p*=1.77e+05 sec=0.1
+  W=5 rho=0.6 delta=0.0 T=40 D=7 margin<=1 exp_final=1705 gen=142580 1/p*=2.9e+06 sec=1.0
+  W=5 rho=0.6 delta=0.0 T=48 D=8 margin<=1 exp_final=5629 gen=819428 1/p*=4.5e+07 sec=6.7
+  W=5 rho=0.6 delta=1.0 T=10 D=5 margin<=1.32 exp_final=5 gen=320 1/p*=44.9 sec=0.0 brute: p*ok=True true_margin=1.32 unique_mode=True
+  W=5 rho=0.6 delta=1.0 T=16 D=7 margin<=1.49 exp_final=7 gen=908 1/p*=326 sec=0.0
+  W=5 rho=0.6 delta=1.0 T=24 D=11 margin<=1.4 exp_final=15 gen=2380 1/p*=4.81e+03 sec=0.0
+  W=5 rho=0.6 delta=1.0 T=32 D=13 margin<=1.46 exp_final=24 gen=5000 1/p*=6.5e+04 sec=0.0
+  W=5 rho=0.6 delta=1.0 T=40 D=17 margin<=1.5 exp_final=31 gen=8956 1/p*=8.01e+05 sec=0.0
+  W=5 rho=0.6 delta=1.0 T=48 D=21 margin<=1.45 exp_final=42 gen=14232 1/p*=1.02e+07 sec=0.1
+  W=5 rho=0.6 delta=1.0 T=56 D=25 margin<=1.42 exp_final=76 gen=21396 1/p*=1.33e+08 sec=0.1
+  W=5 rho=0.6 delta=1.0 T=64 D=27 margin<=1.5 exp_final=103 gen=31068 1/p*=1.59e+09 sec=0.2
+  W=5 rho=0.6 delta=1.0 T=80 D=35 margin<=1.44 exp_final=169 gen=62768 1/p*=2.41e+11 sec=0.6
+  W=5 rho=0.6 delta=3.0 T=10 D=3 margin<=3.38 exp_final=4 gen=280 1/p*=7.45 sec=0.0 brute: p*ok=True true_margin=1.23 unique_mode=True
+  W=5 rho=0.6 delta=3.0 T=16 D=5 margin<=3.54 exp_final=6 gen=732 1/p*=17.3 sec=0.0
+  W=5 rho=0.6 delta=3.0 T=24 D=9 margin<=3.56 exp_final=9 gen=1688 1/p*=47.7 sec=0.0
+  W=5 rho=0.6 delta=3.0 T=32 D=11 margin<=3.59 exp_final=13 gen=3044 1/p*=123 sec=0.0
+  W=5 rho=0.6 delta=3.0 T=40 D=13 margin<=3.61 exp_final=15 gen=4792 1/p*=323 sec=0.0
+  W=5 rho=0.6 delta=3.0 T=48 D=17 margin<=3.57 exp_final=19 gen=6936 1/p*=800 sec=0.0
+  W=5 rho=0.6 delta=3.0 T=56 D=19 margin<=3.58 exp_final=21 gen=9480 1/p*=1.96e+03 sec=0.1
+  W=5 rho=0.6 delta=3.0 T=64 D=21 margin<=3.6 exp_final=25 gen=12404 1/p*=4.88e+03 sec=0.1
+  W=5 rho=0.6 delta=3.0 T=80 D=27 margin<=3.58 exp_final=31 gen=19412 1/p*=2.82e+04 sec=0.2

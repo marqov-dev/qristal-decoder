@@ -1,0 +1,79 @@
+70 real tables (status ok)
+name                            T   D     margin exp_final  exp/D exp-(D+1) gen/T2W2
+T7/base960h__atc_uwb__uwb-atcc_TWR-34720N_002001_002559_AT  278  64      1.001       132   2.06        67    0.122
+T7/base960h__atc_uwb__uwb-atcc_TWR-A5lZHJ_000000_000613_AT  306  88      1.002       150   1.70        61    0.155
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_MEE071_0192089_0192700  305 107      1.003       169   1.58        61    0.163
+T4/0dB/P0                     292  37      1.003        77   2.08        39    0.108
+T4/10dB/P8                    255  56      1.003        61   1.09         4    0.099
+T7/base960h_dys__torgo_dys__torgo_dys_6  299  38      1.006        61   1.61        22    0.063
+T4/5dB/P12                    268  51      1.006        72   1.41        20    0.100
+T7/base960h__atc_uwb__uwb-atcc_TWR-a1WcrN_000157_000469_AT  155  49      1.012        65   1.33        15    0.158
+T7/base960h__atc_uwb__uwb-atcc_TWR-A64ueL_000128_000777_PI  324  57      1.013        65   1.14         7    0.073
+T7/base960h_dys__torgo_dys__torgo_dys_1  314  48      1.015        90   1.88        41    0.075
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_MEE073_0182107_0182452  172  60      1.017        62   1.03         1    0.147
+T4/5dB/P1                     240  57      1.021       106   1.86        48    0.119
+T4/5dB/P6                     281  70      1.022        95   1.36        24    0.120
+T4/0dB/P6                     281  23      1.023      1324  57.57      1300    0.513
+T4/0dB/P14                    112  19      1.025        29   1.53         9    0.081
+T4/0dB/P12                    268  25      1.029       283  11.32       257    0.173
+T4/0dB/P1                     240  18       1.03        35   1.94        16    0.070
+T7/base960h_dys__torgo_dys__torgo_dys_5  224  33      1.034        59   1.79        25    0.074
+T7/base960h__atc_uwb__uwb-atcc_TWR-a8R9jE_000700_001023_PIAT  161  46      1.035        65   1.41        18    0.117
+T4/5dB/P10                    279  79      1.042       130   1.65        50    0.134
+T4/5dB/P0                     292  78      1.044       112   1.44        33    0.121
+T7/base960h_dys__torgo_dys__torgo_dys_7  247  38      1.057        75   1.97        36    0.084
+T7/base960h_dys__torgo_dys__torgo_dys_3  209  32      1.065        48   1.50        15    0.072
+T4/10dB/P6                    281  74      1.069       104   1.41        29    0.111
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_FEO070_0201252_0201545  146  38       1.07        79   2.08        40    0.160
+T4/0dB/P10                    279  32      1.073       145   4.53       112    0.111
+T7/base960h__atc_uwb__uwb-atcc_TWR-a3o8f0_000000_000352_AT  175  63      1.079       119   1.89        55    0.162
+T7/base960h_dys__torgo_dys__torgo_dys_4  322  32      1.081        63   1.97        30    0.056
+T4/0dB/P8                     255  35      1.081        69   1.97        33    0.065
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_FEO072_0027270_0027918  323  96      1.096       176   1.83        79    0.148
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_MEE073_0157652_0158052  199  51      1.097        58   1.14         6    0.113
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_FEO070_0169920_0170266  172  21      1.109        37   1.76        15    0.035
+T7/base960h__atc_uwb__uwb-atcc_TWR-A5lZHJ_002805_003388_PIAT  291  87      1.115       160   1.84        72    0.141
+T7/base960h_dys__torgo_dys__torgo_dys_2  412  50       1.12        86   1.72        35    0.062
+T4/5dB/P14                    112  22       1.12        26   1.18         3    0.080
+T7/base960h__atc_uwb__uwb-atcc_TWR-a8R9jE_000144_000596_AT  225  77      1.121       155   2.01        77    0.166
+T7/torgoft__torgo_dys__torgo_dys_2  412   1      1.149         3   3.00         1    0.002
+T4/10dB/P0                    292  85      1.168       120   1.41        34    0.133
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_MEE073_0208436_0208731  147  48      1.236        97   2.02        48    0.149
+T7/base960h__torgo_ctl__torgo_ctl_1  262  45      1.262        64   1.42        18    0.064
+T7/base960h_dys__torgo_dys__torgo_dys_0  194  23      1.398        43   1.87        19    0.059
+T4/5dB/P8                     255  52      1.406        54   1.04         1    0.088
+T7/torgoft__atc_uwb__uwb-atcc_TWR-A64ueL_000128_000777_PI  324   1      1.463         3   3.00         1    0.003
+T7/torgoft__torgo_dys__torgo_dys_4  322   1      1.472         3   3.00         1    0.003
+T7/torgoft__torgo_dys__torgo_dys_1  314   1       1.51         3   3.00         1    0.003
+T4/clean/P10                  279  81      1.543        87   1.07         5    0.136
+T7/torgoft__atc_uwb__uwb-atcc_TWR-A5lZHJ_000000_000613_AT  306   1       1.55         3   3.00         1    0.003
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_MEE073_0193279_0193562  141  56      1.595        64   1.14         7    0.164
+T7/torgoft__atc_uwb__uwb-atcc_TWR-A5lZHJ_002805_003388_PIAT  291   1       1.63         3   3.00         1    0.003
+T4/10dB/P14                   112  20      1.704        32   1.60        11    0.070
+T7/torgoft__atc_uwb__uwb-atcc_TWR-34720N_002001_002559_AT  278   1      1.707         3   3.00         1    0.003
+T4/10dB/P1                    240  63      1.722       112   1.78        48    0.125
+T7/torgoft__atc_uwb__uwb-atcc_TWR-a8R9jE_000144_000596_AT  225   1      2.113         3   3.00         1    0.004
+T7/torgoft__torgo_dys__torgo_dys_5  224   1      2.122         3   3.00         1    0.004
+T4/10dB/P12                   268  52      2.131        65   1.25        12    0.095
+T7/torgoft__torgo_dys__torgo_dys_3  209   1      2.276         3   3.00         1    0.004
+T4/10dB/P10                   279  81      2.321        93   1.15        11    0.136
+T7/base960h__torgo_ctl__torgo_ctl_2  337  52      2.389        61   1.17         8    0.056
+T7/torgoft__torgo_dys__torgo_dys_0  194   1      2.454         3   3.00         1    0.005
+T7/torgoft__atc_uwb__uwb-atcc_TWR-a3o8f0_000000_000352_AT  175   1      2.723         3   3.00         1    0.005
+T7/torgoft__atc_uwb__uwb-atcc_TWR-a8R9jE_000700_001023_PIAT  161   1      2.963         3   3.00         1    0.006
+T7/torgoft__atc_uwb__uwb-atcc_TWR-a1WcrN_000157_000469_AT  155   1      3.079         3   3.00         1    0.006
+T4/clean/P6                   281  75      3.741       110   1.47        34    0.114
+T7/base960h__torgo_ctl__torgo_ctl_0  359  59      6.318       105   1.78        45    0.067
+T4/clean/P1                   240  64      28.99       114   1.78        49    0.126
+T4/clean/P14                  112  21      30.87        41   1.95        19    0.074
+T4/clean/P8                   255  58      42.17       107   1.84        48    0.103
+T7/base960h__torgo_ctl__torgo_ctl_3  322  72      82.23       121   1.68        48    0.094
+T4/clean/P0                   292  90      333.4       152   1.69        61    0.141
+T4/clean/P12                  268  52      718.1        87   1.67        34    0.095
+
+margin <1.01 : n= 7  exp/D: min 1.09 median 1.61 max 2.08  #tables with off-path expansions (exp_final > D+1): 7
+margin <1.1  : n=24  exp/D: min 1.03 median 1.83 max 57.57  #tables with off-path expansions (exp_final > D+1): 24
+margin <1.3  : n= 9  exp/D: min 1.18 median 1.76 max 3.00  #tables with off-path expansions (exp_final > D+1): 9
+margin <2    : n=12  exp/D: min 1.04 median 3.00 max 3.00  #tables with off-path expansions (exp_final > D+1): 12
+margin <10   : n=12  exp/D: min 1.15 median 3.00 max 3.00  #tables with off-path expansions (exp_final > D+1): 12
+margin >=10  : n= 6  exp/D: min 1.67 median 1.78 max 1.95  #tables with off-path expansions (exp_final > D+1): 6

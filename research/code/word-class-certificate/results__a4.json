@@ -1,0 +1,1718 @@
+[
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-34720N_002001_002559_AT",
+  "T": 278,
+  "p_star": 0.02052256019313828,
+  "p2": 0.015256508612089947,
+  "margin": 1.3451675422563767,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "clearance to otel av via one hotel departure squawk alfa",
+  "runnerup_text": "clearance to tel av via one hotel departure squawk alfa",
+  "wer_mode": 0.3,
+  "p_ref": 1.1692574529972119e-11,
+  "beam_sec": {
+   "50": 0.17086929106153548,
+   "800": 4.014788125059567
+  },
+  "beam_mass": {
+   "50": 0.18103041045895038,
+   "800": 0.4479979184979425
+  },
+  "slots": [
+   {
+    "label": "SID \"one hotel departure\"",
+    "kind": "sid",
+    "args": [
+     "1H",
+     "departure"
+    ],
+    "Q": [
+     22,
+     162,
+     123
+    ],
+    "p_correct": 0.9715781108790807,
+    "p_competing": 0.012546585200838501,
+    "p_residual": 0.01587530392008343,
+    "sum": 1.0000000000000027,
+    "cond_correct": 0.9872510208809763,
+    "sec": 0.11013245803769678,
+    "beam": {
+     "50": {
+      "c": 0.18103041045895038,
+      "k": 0,
+      "z": 0,
+      "n_c": 50,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.4479979184979425,
+      "k": 0,
+      "z": 0,
+      "n_c": 800,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-a1WcrN_000157_000469_AT",
+  "T": 155,
+  "p_star": 0.8240880994446629,
+  "p2": 0.08706905912130128,
+  "margin": 9.464764036287274,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "nor shuttle one five one five line up runway three one",
+  "runnerup_text": "nor shuttele one five one five line up runway three one",
+  "wer_mode": 0.0,
+  "p_ref": 0.8240880994446632,
+  "beam_sec": {
+   "50": 0.08932062494568527,
+   "800": 1.9337775419699028
+  },
+  "beam_mass": {
+   "50": 0.9613128639416142,
+   "800": 0.9872083391673931
+  },
+  "slots": [
+   {
+    "label": "callsign NOR-SHUTTLE 1515",
+    "kind": "callsign",
+    "args": [
+     "nor shuttle",
+     "1515"
+    ],
+    "Q": [
+     192,
+     338,
+     143
+    ],
+    "p_correct": 0.848202517990529,
+    "p_competing": 0.0073609931799468046,
+    "p_residual": 0.14443648882952495,
+    "sum": 1.0000000000000007,
+    "cond_correct": 0.9913963217413557,
+    "sec": 0.08264945796690881,
+    "beam": {
+     "50": {
+      "c": 0.8374073253894634,
+      "k": 0.00039625589624508935,
+      "z": 0.1235092826559057,
+      "n_c": 25,
+      "n_k": 1
+     },
+     "800": {
+      "c": 0.8451207192026565,
+      "k": 0.004970528216409918,
+      "z": 0.13711709174832665,
+      "n_c": 387,
+      "n_k": 94
+     }
+    },
+    "top_competing_hyp": [
+     "nor shuttle one fiv one five line up runway three one",
+     0.00039625589624508935
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "runway 31",
+    "kind": "number",
+    "args": [
+     "runway",
+     31
+    ],
+    "Q": [
+     123,
+     163,
+     35
+    ],
+    "p_correct": 0.9853902654929823,
+    "p_competing": 0.001287877371389834,
+    "p_residual": 0.013321857135627438,
+    "sum": 0.9999999999999994,
+    "cond_correct": 0.9986947340622637,
+    "sec": 0.06270858296193182,
+    "beam": {
+     "50": {
+      "c": 0.9558187932387997,
+      "k": 0.0005739389869499937,
+      "z": 0.0049201317158644375,
+      "n_c": 24,
+      "n_k": 9
+     },
+     "800": {
+      "c": 0.9756125630141924,
+      "k": 0.0011655214382498109,
+      "z": 0.010430254714950928,
+      "n_c": 347,
+      "n_k": 177
+     }
+    },
+    "top_competing_hyp": [
+     "nor shuttle one five one five line up runway three ne",
+     0.00029361523222557444
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "phrase \"line up\"",
+    "kind": "phrase",
+    "args": [
+     "line up",
+     [
+      "hold short",
+      "hold position",
+      "cleared for takeoff",
+      "cross"
+     ]
+    ],
+    "Q": [
+     10,
+     56,
+     46
+    ],
+    "p_correct": 0.9932971630469902,
+    "p_competing": 7.523720124414924e-24,
+    "p_residual": 0.006702836953011207,
+    "sum": 1.0000000000000013,
+    "cond_correct": 1.0,
+    "sec": 0.06118216703180224,
+    "beam": {
+     "50": {
+      "c": 0.9589223233150844,
+      "k": 0,
+      "z": 0.0023905406265297374,
+      "n_c": 49,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.982652827357149,
+      "k": 0,
+      "z": 0.004555511810244166,
+      "n_c": 745,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-a3o8f0_000000_000352_AT",
+  "T": 175,
+  "p_star": 0.37801971956785907,
+  "p2": 0.3255097694475766,
+  "margin": 1.1613160496208677,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "opera jet three zero zero just for confirmation vo one hotel",
+  "runnerup_text": "opera jet three zero zero just for confirmation v one hotel",
+  "wer_mode": 0.1,
+  "p_ref": 0.00025586438688856016,
+  "beam_sec": {
+   "50": 0.10514237498864532,
+   "800": 2.2816807500785217
+  },
+  "beam_mass": {
+   "50": 0.873039890779297,
+   "800": 0.9533821791650015
+  },
+  "slots": [
+   {
+    "label": "callsign OPERA-JET 300",
+    "kind": "callsign",
+    "args": [
+     "opera jet",
+     "300"
+    ],
+    "Q": [
+     184,
+     329,
+     141
+    ],
+    "p_correct": 0.9607711014806884,
+    "p_competing": 0.005036324388053515,
+    "p_residual": 0.034192574131260256,
+    "sum": 1.0000000000000022,
+    "cond_correct": 0.9947853741303311,
+    "sec": 0.09346808306872845,
+    "beam": {
+     "50": {
+      "c": 0.8693047452636347,
+      "k": 0,
+      "z": 0.003735145515662297,
+      "n_c": 47,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.9320674197498686,
+      "k": 0.0016688507696486124,
+      "z": 0.019645908645484222,
+      "n_c": 648,
+      "n_k": 19
+     }
+    },
+    "top_competing_hyp": [
+     "opera jet three zero zerojust for confirmation vo one hotel",
+     0.0003930535408300517
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "\"one hotel\" after confirmation",
+    "kind": "callsign",
+    "args": [
+     "confirmation",
+     "1H"
+    ],
+    "Q": [
+     178,
+     325,
+     144
+    ],
+    "p_correct": 0.03127635535522732,
+    "p_competing": 0.0002511614543425037,
+    "p_residual": 0.9684724831904308,
+    "sum": 1.0000000000000007,
+    "cond_correct": 0.9920335795597367,
+    "sec": 0.09339479205664247,
+    "beam": {
+     "50": {
+      "c": 0.027826946181032854,
+      "k": 2.180911614403986e-05,
+      "z": 0.8451911354821201,
+      "n_c": 1,
+      "n_k": 1
+     },
+     "800": {
+      "c": 0.02946844116171136,
+      "k": 0.00015748639126856237,
+      "z": 0.9237562516120216,
+      "n_c": 17,
+      "n_k": 22
+     }
+    },
+    "top_competing_hyp": [
+     "opera jet three zero zero just for confirmation one htel",
+     4.173886576021331e-05
+    ],
+    "mode_in": "Z",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-A5lZHJ_000000_000613_AT",
+  "T": 306,
+  "p_star": 0.7750235990554963,
+  "p2": 0.03503894103540871,
+  "margin": 22.118921866739463,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "csa three seven alfa runway three one cleared for takeoff wind one six zro degrees five knots",
+  "runnerup_text": "csa three seven alfa runway three one cleared for takeoff wind one six zero degrees five knots",
+  "wer_mode": 0.058823529411764705,
+  "p_ref": 0.035038941035408694,
+  "beam_sec": {
+   "50": 0.20626424998044968,
+   "800": 4.810679083922878
+  },
+  "beam_mass": {
+   "50": 0.8945565753299449,
+   "800": 0.9558355666240268
+  },
+  "slots": [
+   {
+    "label": "callsign CSA 37A",
+    "kind": "callsign",
+    "args": [
+     "csa",
+     "37A"
+    ],
+    "Q": [
+     176,
+     315,
+     135
+    ],
+    "p_correct": 0.985843070194645,
+    "p_competing": 0.004166947970927093,
+    "p_residual": 0.009989981834427225,
+    "sum": 0.9999999999999993,
+    "cond_correct": 0.995791004237868,
+    "sec": 0.16512237500865012,
+    "beam": {
+     "50": {
+      "c": 0.8928622833921648,
+      "k": 0,
+      "z": 0.001694291937780236,
+      "n_c": 49,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.9499485365569875,
+      "k": 0.0006722478100974636,
+      "z": 0.005214782256941811,
+      "n_c": 750,
+      "n_k": 9
+     }
+    },
+    "top_competing_hyp": [
+     "csa three seve alfa runway three one cleared for takeoff wind one six zro degrees five knots",
+     0.00014952822210839438
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "runway 31",
+    "kind": "number",
+    "args": [
+     "runway",
+     31
+    ],
+    "Q": [
+     123,
+     163,
+     35
+    ],
+    "p_correct": 0.9867576550848023,
+    "p_competing": 0.0021236775864294393,
+    "p_residual": 0.011118667328766194,
+    "sum": 0.9999999999999979,
+    "cond_correct": 0.9978524444579283,
+    "sec": 0.12997570901643485,
+    "beam": {
+     "50": {
+      "c": 0.8931990897526066,
+      "k": 0,
+      "z": 0.0013574855773383287,
+      "n_c": 49,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.9485940139224387,
+      "k": 0.0010950343554448094,
+      "z": 0.006146518346143253,
+      "n_c": 754,
+      "n_k": 8
+     }
+    },
+    "top_competing_hyp": [
+     "csa three seven alfa runway three ne cleared for takeoff wind one six zro degrees five knots",
+     0.0003777938720066215
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "phrase \"cleared for takeoff\"",
+    "kind": "phrase",
+    "args": [
+     "cleared for takeoff",
+     [
+      "cleared for landing",
+      "cleared to land",
+      "line up",
+      "hold short",
+      "hold position"
+     ]
+    ],
+    "Q": [
+     22,
+     77,
+     55
+    ],
+    "p_correct": 0.9291786797649956,
+    "p_competing": 2.2032275293664556e-22,
+    "p_residual": 0.07082132023500487,
+    "sum": 1.0000000000000004,
+    "cond_correct": 1.0,
+    "sec": 0.10900979209691286,
+    "beam": {
+     "50": {
+      "c": 0.8594640108590298,
+      "k": 0,
+      "z": 0.03509256447091523,
+      "n_c": 38,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.9019704377741531,
+      "k": 0,
+      "z": 0.053865128849873614,
+      "n_c": 582,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "wind 160",
+    "kind": "number",
+    "args": [
+     "wind",
+     160
+    ],
+    "Q": [
+     111,
+     149,
+     33
+    ],
+    "p_correct": 0.04046944936754979,
+    "p_competing": 0.9491603924134717,
+    "p_residual": 0.010370158218980447,
+    "sum": 1.000000000000002,
+    "cond_correct": 0.04089352165726687,
+    "sec": 0.12174774997401983,
+    "beam": {
+     "50": {
+      "c": 0.03511931501341782,
+      "k": 0.8577851246161253,
+      "z": 0.0016521357004018618,
+      "n_c": 2,
+      "n_k": 47
+     },
+     "800": {
+      "c": 0.037568605132667215,
+      "k": 0.9122801416109136,
+      "z": 0.005986819880445874,
+      "n_c": 67,
+      "n_k": 700
+     }
+    },
+    "top_competing_hyp": [
+     "csa three seven alfa runway three one cleared for takeoff wind one six zro degrees five knots",
+     0.7750235990554962
+    ],
+    "mode_in": "K",
+    "ref_in": "C"
+   },
+   {
+    "label": "knots 5 (after degrees)",
+    "kind": "number",
+    "args": [
+     "degrees",
+     5
+    ],
+    "Q": [
+     153,
+     194,
+     36
+    ],
+    "p_correct": 0.9786946192472689,
+    "p_competing": 7.889545469382906e-09,
+    "p_residual": 0.021305372863187174,
+    "sum": 1.0000000000000016,
+    "cond_correct": 0.9999999919387057,
+    "sec": 0.13914733298588544,
+    "beam": {
+     "50": {
+      "c": 0.8878384448677793,
+      "k": 0,
+      "z": 0.006718130462165626,
+      "n_c": 47,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.9420915075589315,
+      "k": 0,
+      "z": 0.013744059065095335,
+      "n_c": 707,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-A5lZHJ_002805_003388_PIAT",
+  "T": 291,
+  "p_star": 0.07305872889790105,
+  "p2": 0.039292482155241906,
+  "margin": 1.8593564185955729,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "ruzyne austrian seven zero six papa on lima austrian seven zero six papa tower good morning",
+  "runnerup_text": "ruzyn austrian seven zero six papa on lima austrian seven zero six papa tower good morning",
+  "wer_mode": 0.21052631578947367,
+  "p_ref": 4.904297620152972e-44,
+  "beam_sec": {
+   "50": 0.19556174997705966,
+   "800": 4.510347625007853
+  },
+  "beam_mass": {
+   "50": 0.3302708072265588,
+   "800": 0.5661021722658085
+  },
+  "slots": [
+   {
+    "label": "callsign AUSTRIAN 706P",
+    "kind": "callsign",
+    "args": [
+     "austrian",
+     "706P"
+    ],
+    "Q": [
+     190,
+     332,
+     140
+    ],
+    "p_correct": 0.9848522679370987,
+    "p_competing": 0.010766773945878813,
+    "p_residual": 0.004380958117017832,
+    "sum": 0.9999999999999953,
+    "cond_correct": 0.98918584971465,
+    "sec": 0.1567721659084782,
+    "beam": {
+     "50": {
+      "c": 0.3302708072265588,
+      "k": 0,
+      "z": 0,
+      "n_c": 50,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.5645120021915484,
+      "k": 0.0015901700742601448,
+      "z": 0,
+      "n_c": 792,
+      "n_k": 8
+     }
+    },
+    "top_competing_hyp": [
+     "ruzyne austrian seven zero six papa one lima austrian seven zero six papa tower good morning",
+     0.0005769496460496708
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-a8R9jE_000144_000596_AT",
+  "T": 225,
+  "p_star": 0.9370080602156262,
+  "p2": 0.002304274699622589,
+  "margin": 406.639043673524,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "csa seven three one contact ruzyne ground one two one decimal nine",
+  "runnerup_text": "csa seven three one contact ruzyne ground one two one decial nine",
+  "wer_mode": 0.0,
+  "p_ref": 0.9370080602156263,
+  "beam_sec": {
+   "50": 0.14531841699499637,
+   "800": 3.231798459077254
+  },
+  "beam_mass": {
+   "50": 0.9667294379051148,
+   "800": 0.991315306107021
+  },
+  "slots": [
+   {
+    "label": "callsign CSA 731",
+    "kind": "callsign",
+    "args": [
+     "csa",
+     "731"
+    ],
+    "Q": [
+     172,
+     309,
+     135
+    ],
+    "p_correct": 0.9921902656007292,
+    "p_competing": 0.003371480445157172,
+    "p_residual": 0.004438253954112985,
+    "sum": 0.9999999999999994,
+    "cond_correct": 0.9966134893606068,
+    "sec": 0.11787416599690914,
+    "beam": {
+     "50": {
+      "c": 0.9660555028411554,
+      "k": 0.0003036768297731575,
+      "z": 0.0003702582341863242,
+      "n_c": 48,
+      "n_k": 1
+     },
+     "800": {
+      "c": 0.9862527006194042,
+      "k": 0.0021485982996649992,
+      "z": 0.0029140071879518547,
+      "n_c": 676,
+      "n_k": 43
+     }
+    },
+    "top_competing_hyp": [
+     "csa seven three onecontact ruzyne ground one two one decimal nine",
+     0.0003036768297731575
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "frequency 121.9 (after ground)",
+    "kind": "freq",
+    "args": [
+     "ground",
+     "121.9"
+    ],
+    "Q": [
+     111,
+     260,
+     124
+    ],
+    "p_correct": 0.9662859449457206,
+    "p_competing": 2.1877548024864335e-08,
+    "p_residual": 0.03371403317673082,
+    "sum": 0.9999999999999994,
+    "cond_correct": 0.9999999773591373,
+    "sec": 0.10501291591208428,
+    "beam": {
+     "50": {
+      "c": 0.9488229225958734,
+      "k": 0,
+      "z": 0.017906515309241415,
+      "n_c": 21,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.961729800117608,
+      "k": 0,
+      "z": 0.029585505989413105,
+      "n_c": 352,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-a8R9jE_000700_001023_PIAT",
+  "T": 161,
+  "p_star": 0.5296035610975798,
+  "p2": 0.06252049027040435,
+  "margin": 8.470879847663015,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "one nine csa seven one",
+  "runnerup_text": "one nine csa seven  one",
+  "wer_mode": 0.0,
+  "p_ref": 0.5296035610975798,
+  "beam_sec": {
+   "50": 0.07636187493335456,
+   "800": 1.749000292038545
+  },
+  "beam_mass": {
+   "50": 0.8651911229178968,
+   "800": 0.9578292077304552
+  },
+  "slots": [
+   {
+    "label": "callsign CSA 71",
+    "kind": "callsign",
+    "args": [
+     "csa",
+     "71"
+    ],
+    "Q": [
+     160,
+     297,
+     135
+    ],
+    "p_correct": 0.6495226947309132,
+    "p_competing": 0.10183682626798372,
+    "p_residual": 0.24864047900109879,
+    "sum": 0.9999999999999957,
+    "cond_correct": 0.864463251716573,
+    "sec": 0.08264362497720867,
+    "beam": {
+     "50": {
+      "c": 0.6275654409467105,
+      "k": 0.062413853388267757,
+      "z": 0.17521182858291848,
+      "n_c": 11,
+      "n_k": 16
+     },
+     "800": {
+      "c": 0.6463604524844166,
+      "k": 0.08988032141735543,
+      "z": 0.2215884338286831,
+      "n_c": 153,
+      "n_k": 212
+     }
+    },
+    "top_competing_hyp": [
+     "one nine csa seven onee",
+     0.017640933545621833
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "leading number 19",
+    "kind": "number_start",
+    "args": [
+     null,
+     19
+    ],
+    "Q": [
+     76,
+     81,
+     28
+    ],
+    "p_correct": 0.9226606119604341,
+    "p_competing": 0.016157938523011613,
+    "p_residual": 0.06118144951655186,
+    "sum": 0.9999999999999977,
+    "cond_correct": 0.9827890719514532,
+    "sec": 0.05643300001975149,
+    "beam": {
+     "50": {
+      "c": 0.8316534283725793,
+      "k": 0.0032444554230226744,
+      "z": 0.030293239122294813,
+      "n_c": 42,
+      "n_k": 3
+     },
+     "800": {
+      "c": 0.8971035690940464,
+      "k": 0.010788472975158853,
+      "z": 0.04993716566124997,
+      "n_c": 534,
+      "n_k": 82
+     }
+    },
+    "top_competing_hyp": [
+     "one ninet csa seven one",
+     0.0011400541971073124
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-A64ueL_000128_000777_PI",
+  "T": 324,
+  "p_star": 0.006401774031439212,
+  "p2": 0.005733014388824805,
+  "margin": 1.116650612968633,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "ruzyne tower sky travel one one zero two stand die due to alfa",
+  "runnerup_text": "ruzyne tower sky travel one one zero two tand die due to alfa",
+  "wer_mode": 0.3333333333333333,
+  "p_ref": 1.544468984984216e-20,
+  "beam_sec": {
+   "50": 0.19983237504493445,
+   "800": 4.7020872089779004
+  },
+  "beam_mass": {
+   "50": 0.11910454697807879,
+   "800": 0.3644204799729677
+  },
+  "slots": [
+   {
+    "label": "callsign SKY-TRAVEL 1102",
+    "kind": "callsign",
+    "args": [
+     "sky travel",
+     "1102"
+    ],
+    "Q": [
+     188,
+     333,
+     142
+    ],
+    "p_correct": 0.926922956601099,
+    "p_competing": 0.05610412646858138,
+    "p_residual": 0.01697291693031476,
+    "sum": 0.9999999999999952,
+    "cond_correct": 0.9429271813210007,
+    "sec": 0.17728649999480695,
+    "beam": {
+     "50": {
+      "c": 0.11910454697807879,
+      "k": 0,
+      "z": 0,
+      "n_c": 50,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.36375908751461444,
+      "k": 0.0006613924583532999,
+      "z": 0,
+      "n_c": 797,
+      "n_k": 3
+     }
+    },
+    "top_competing_hyp": [
+     "ruzyne tower sky travel one one zero twostand die due to alfa",
+     0.000246724090798968
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "stand 22A (after standing)",
+    "kind": "callsign",
+    "args": [
+     "standing",
+     "22A"
+    ],
+    "Q": [
+     178,
+     321,
+     140
+    ],
+    "p_correct": 1.6426439225828366e-20,
+    "p_competing": 6.844439618016564e-16,
+    "p_residual": 0.999999999999995,
+    "sum": 0.9999999999999957,
+    "cond_correct": 2.399910865265063e-05,
+    "sec": 0.171422875020653,
+    "beam": {
+     "50": {
+      "c": 0,
+      "k": 0,
+      "z": 0.11910454697807879,
+      "n_c": 0,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0,
+      "k": 0,
+      "z": 0.3644204799729677,
+      "n_c": 0,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "Z",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKTB_BRNO_Tower_119_605MHz_20201028_185619-A__000000-000536",
+  "T": 267,
+  "p_star": 0.23230725348876818,
+  "p2": 0.13939673630704277,
+  "margin": 1.6665185975163415,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "oscar kilo foxtrot alfa oscar taxi to holding point runway two seven via alfa charlie",
+  "runnerup_text": "oscar kilo foxtrot alf oscar taxi to holding point runway two seven via alfa charlie",
+  "wer_mode": 0.0,
+  "p_ref": 0.23230725348876818,
+  "beam_sec": {
+   "50": 0.17665312497410923,
+   "800": 3.6059026250150055
+  },
+  "beam_mass": {
+   "50": 0.6037105498295502,
+   "800": 0.7823615099129074
+  },
+  "slots": [
+   {
+    "label": "callsign OK-FAO",
+    "kind": "callsign",
+    "args": [
+     "oscar kilo",
+     "FAO"
+    ],
+    "Q": [
+     194,
+     344,
+     142
+    ],
+    "p_correct": 0.32643208125234197,
+    "p_competing": 0.5192602028021747,
+    "p_residual": 0.1543077159454822,
+    "sum": 0.9999999999999989,
+    "cond_correct": 0.3859939216748238,
+    "sec": 0.13744908303488046,
+    "beam": {
+     "50": {
+      "c": 0.27171175070283704,
+      "k": 0.2991546814687916,
+      "z": 0.03284411765792163,
+      "n_c": 20,
+      "n_k": 23
+     },
+     "800": {
+      "c": 0.29930122247876273,
+      "k": 0.4106092575695198,
+      "z": 0.07245102986462491,
+      "n_c": 188,
+      "n_k": 468
+     }
+    },
+    "top_competing_hyp": [
+     "oscar kilo foxtrot alf oscar taxi to holding point runway two seven via alfa charlie",
+     0.13939673630704275
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "runway 27",
+    "kind": "number",
+    "args": [
+     "runway",
+     27
+    ],
+    "Q": [
+     123,
+     162,
+     35
+    ],
+    "p_correct": 0.8716663953093721,
+    "p_competing": 0.0028409389527942934,
+    "p_residual": 0.12549266573783072,
+    "sum": 0.999999999999997,
+    "cond_correct": 0.9967513835030427,
+    "sec": 0.10546549991704524,
+    "beam": {
+     "50": {
+      "c": 0.5774499125673386,
+      "k": 0,
+      "z": 0.02626063726221171,
+      "n_c": 42,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.7241871095324786,
+      "k": 0,
+      "z": 0.05817440038042895,
+      "n_c": 644,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "phrase \"taxi to holding point\"",
+    "kind": "phrase",
+    "args": [
+     "taxi to holding point",
+     [
+      "line up",
+      "cross",
+      "hold short",
+      "hold position"
+     ]
+    ],
+    "Q": [
+     24,
+     73,
+     48
+    ],
+    "p_correct": 0.9384682729708385,
+    "p_competing": 2.739177260218208e-17,
+    "p_residual": 0.061531727029159995,
+    "sum": 0.9999999999999984,
+    "cond_correct": 1.0,
+    "sec": 0.088433500030078,
+    "beam": {
+     "50": {
+      "c": 0.6037105498295502,
+      "k": 0,
+      "z": 0,
+      "n_c": 50,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.7665095829424978,
+      "k": 0,
+      "z": 0.015851926970409613,
+      "n_c": 729,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "taxiway A C (after via)",
+    "kind": "callsign",
+    "args": [
+     "via",
+     "AC"
+    ],
+    "Q": [
+     168,
+     309,
+     135
+    ],
+    "p_correct": 0.923201815408899,
+    "p_competing": 0.010022881853887475,
+    "p_residual": 0.06677530273721413,
+    "sum": 1.0000000000000007,
+    "cond_correct": 0.9892599479168466,
+    "sec": 0.1345895000267774,
+    "beam": {
+     "50": {
+      "c": 0.5888779102891049,
+      "k": 0.0004863227563438642,
+      "z": 0.014346316784101499,
+      "n_c": 27,
+      "n_k": 18
+     },
+     "800": {
+      "c": 0.748375347660911,
+      "k": 0.0032945978024669156,
+      "z": 0.030691564449529606,
+      "n_c": 387,
+      "n_k": 332
+     }
+    },
+    "top_competing_hyp": [
+     "oscar kilo foxtrot alfa oscar taxi to holding point runway two seven via alfa carlie",
+     0.0003865305474670721
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKTB_BRNO_Approach-Radar_127_350MHz_20201026_111634-A__000000-000395",
+  "T": 197,
+  "p_star": 0.00019613027237918735,
+  "p2": 0.00018888896881203758,
+  "margin": 1.0383362967816059,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "kilo echo lima alfa com irm froceeding to tango bravo four zero two",
+  "runnerup_text": "kilo echo lima alfa com orm froceeding to tango bravo four zero two",
+  "wer_mode": 0.3076923076923077,
+  "p_ref": 1.0540640168560608e-08,
+  "beam_sec": {
+   "50": 0.11033699999097735,
+   "800": 2.2738474999787286
+  },
+  "beam_mass": {
+   "50": 0.003715916852008569,
+   "800": 0.018765632398063763
+  },
+  "slots": [
+   {
+    "label": "callsign OK-ELA",
+    "kind": "callsign",
+    "args": [
+     "oscar kilo",
+     "ELA"
+    ],
+    "Q": [
+     186,
+     334,
+     142
+    ],
+    "p_correct": 8.582307373902676e-05,
+    "p_competing": 5.177197335204691e-06,
+    "p_residual": 0.999908999728926,
+    "sum": 1.0000000000000002,
+    "cond_correct": 0.9431078910635167,
+    "sec": 0.10013908403925598,
+    "beam": {
+     "50": {
+      "c": 0,
+      "k": 0,
+      "z": 0.003715916852008569,
+      "n_c": 0,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0,
+      "k": 0,
+      "z": 0.018765632398063763,
+      "n_c": 0,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "Z",
+    "ref_in": "C"
+   },
+   {
+    "label": "waypoint TB402",
+    "kind": "callsign",
+    "args": [
+     "tango bravo",
+     "402"
+    ],
+    "Q": [
+     184,
+     332,
+     143
+    ],
+    "p_correct": 0.9477058906440189,
+    "p_competing": 0.006491593503805285,
+    "p_residual": 0.04580251585217687,
+    "sum": 1.0000000000000009,
+    "cond_correct": 0.9931968029557291,
+    "sec": 0.10132404207251966,
+    "beam": {
+     "50": {
+      "c": 0.003715716316619599,
+      "k": 2.0053538896957216e-07,
+      "z": 0,
+      "n_c": 39,
+      "n_k": 11
+     },
+     "800": {
+      "c": 0.018762060711538565,
+      "k": 3.5716865252003607e-06,
+      "z": 0,
+      "n_c": 520,
+      "n_k": 280
+     }
+    },
+    "top_competing_hyp": [
+     "kilo echo lima alfa com irm froceeding to tango bravo four zero twro",
+     4.6513937900519013e-08
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Radar_120_520MHz_20201028_151125-A__000000-000444",
+  "T": 221,
+  "p_star": 0.8772432179090215,
+  "p2": 0.05301524076284419,
+  "margin": 16.54700054713019,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "csa one delta zulu descend flight level one hundred no speed restrictions",
+  "runnerup_text": "csa one delta zulu descend flight level one hundred no speed restriction",
+  "wer_mode": 0.0,
+  "p_ref": 0.8772432179090215,
+  "beam_sec": {
+   "50": 0.1315748339984566,
+   "800": 2.877836124971509
+  },
+  "beam_mass": {
+   "50": 0.9616185679655381,
+   "800": 0.9867951069417029
+  },
+  "slots": [
+   {
+    "label": "callsign CSA 1DZ",
+    "kind": "callsign",
+    "args": [
+     "csa",
+     "1DZ"
+    ],
+    "Q": [
+     170,
+     308,
+     135
+    ],
+    "p_correct": 0.9897968276796832,
+    "p_competing": 0.006112848438278854,
+    "p_residual": 0.004090323882038062,
+    "sum": 1.0000000000000002,
+    "cond_correct": 0.9938620453391851,
+    "sec": 0.11099524993915111,
+    "beam": {
+     "50": {
+      "c": 0.9611644955899424,
+      "k": 0.0004540723755957237,
+      "z": 0,
+      "n_c": 48,
+      "n_k": 2
+     },
+     "800": {
+      "c": 0.9807378336919884,
+      "k": 0.0036958322119129508,
+      "z": 0.002361441037801637,
+      "n_c": 649,
+      "n_k": 86
+     }
+    },
+    "top_competing_hyp": [
+     "csa one delta zulo descend flight level one hundred no speed restrictions",
+     0.000227901487850174
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "flight level 100",
+    "kind": "number",
+    "args": [
+     "flight level",
+     100
+    ],
+    "Q": [
+     163,
+     209,
+     41
+    ],
+    "p_correct": 0.9808810958499227,
+    "p_competing": 0.008816649424446743,
+    "p_residual": 0.010302254725629645,
+    "sum": 0.999999999999999,
+    "cond_correct": 0.9910915736985917,
+    "sec": 0.09492362500168383,
+    "beam": {
+     "50": {
+      "c": 0.9562692186282933,
+      "k": 0.0035569403748831503,
+      "z": 0.0017924089623616586,
+      "n_c": 36,
+      "n_k": 7
+     },
+     "800": {
+      "c": 0.9724450661329341,
+      "k": 0.0071991662186382446,
+      "z": 0.007150874590130621,
+      "n_c": 544,
+      "n_k": 122
+     }
+    },
+    "top_competing_hyp": [
+     "csa one delta zulu descend flight level one hudred no speed restrictions",
+     0.002223392176187803
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   },
+   {
+    "label": "phrase \"descend\"",
+    "kind": "phrase",
+    "args": [
+     "descend",
+     [
+      "climb",
+      "maintain"
+     ]
+    ],
+    "Q": [
+     10,
+     30,
+     20
+    ],
+    "p_correct": 0.9823751837366688,
+    "p_competing": 1.849494769832597e-22,
+    "p_residual": 0.01762481626333391,
+    "sum": 1.0000000000000027,
+    "cond_correct": 1.0,
+    "sec": 0.06741512496955693,
+    "beam": {
+     "50": {
+      "c": 0.9488734243501658,
+      "k": 0,
+      "z": 0.012745143615372349,
+      "n_c": 44,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.9712520059538815,
+      "k": 0,
+      "z": 0.015543100987821435,
+      "n_c": 726,
+      "n_k": 0
+     }
+    },
+    "top_competing_hyp": null,
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Radar_120_520MHz_20201028_151125-G__000444-000934",
+  "T": 244,
+  "p_star": 0.008794058920566537,
+  "p2": 0.007984408210336283,
+  "margin": 1.1014039724549796,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "descending flight level one on eight free speed csa one delta zulu",
+  "runnerup_text": "descending flight level one oneight free speed csa one delta zulu",
+  "wer_mode": 0.18181818181818182,
+  "p_ref": 2.3060958560814795e-09,
+  "beam_sec": {
+   "50": 0.14147525001317263,
+   "800": 2.9307919160928577
+  },
+  "beam_mass": {
+   "50": 0.13010356577649707,
+   "800": 0.3598172456334041
+  },
+  "slots": [
+   {
+    "label": "flight level 100  [ERROR CASE: mode \"one on eight\"]",
+    "kind": "number",
+    "args": [
+     "flight level",
+     100
+    ],
+    "Q": [
+     163,
+     209,
+     41
+    ],
+    "p_correct": 3.406858975403133e-09,
+    "p_competing": 0.9538174355492487,
+    "p_residual": 0.046182561043886905,
+    "sum": 0.9999999999999947,
+    "cond_correct": 3.5718145173899554e-09,
+    "sec": 0.10475495806895196,
+    "beam": {
+     "50": {
+      "c": 0,
+      "k": 0.13010356577649707,
+      "z": 0,
+      "n_c": 0,
+      "n_k": 50
+     },
+     "800": {
+      "c": 0,
+      "k": 0.3598172456334041,
+      "z": 0,
+      "n_c": 0,
+      "n_k": 800
+     }
+    },
+    "top_competing_hyp": [
+     "descending flight level one on eight free speed csa one delta zulu",
+     0.008794058920566531
+    ],
+    "mode_in": "K",
+    "ref_in": "C"
+   },
+   {
+    "label": "callsign CSA 1DZ",
+    "kind": "callsign",
+    "args": [
+     "csa",
+     "1DZ"
+    ],
+    "Q": [
+     170,
+     308,
+     135
+    ],
+    "p_correct": 0.9440273085186405,
+    "p_competing": 0.04182348157967642,
+    "p_residual": 0.014149209901681004,
+    "sum": 0.9999999999999979,
+    "cond_correct": 0.957576255961102,
+    "sec": 0.12691920797806233,
+    "beam": {
+     "50": {
+      "c": 0.12946125832833252,
+      "k": 0.0006423074481645474,
+      "z": 0,
+      "n_c": 32,
+      "n_k": 18
+     },
+     "800": {
+      "c": 0.35632511484290724,
+      "k": 0.0034921307904969066,
+      "z": 0,
+      "n_c": 484,
+      "n_k": 316
+     }
+    },
+    "top_competing_hyp": [
+     "descending flight level one on eight free speed csa one delta zulou",
+     5.157829898922867e-05
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Radar_120_520MHz_20201026_145941-G__000000-000349",
+  "T": 174,
+  "p_star": 0.00013458857450236906,
+  "p2": 0.00013017339178843942,
+  "margin": 1.033917705095257,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "oscar kilo kio hotel please confirm one er holding",
+  "runnerup_text": "oscar kilo tio hotel please confirm one er holding",
+  "wer_mode": 0.2222222222222222,
+  "p_ref": 9.537546522273879e-13,
+  "beam_sec": {
+   "50": 0.10426470800302923,
+   "800": 2.1233939999947324
+  },
+  "beam_mass": {
+   "50": 0.0020050162799321518,
+   "800": 0.009063320373873595
+  },
+  "slots": [
+   {
+    "label": "callsign OK-HHH  [ERROR CASE: mode \"kio hotel\"]",
+    "kind": "callsign",
+    "args": [
+     "oscar kilo",
+     "HHH"
+    ],
+    "Q": [
+     220,
+     380,
+     142
+    ],
+    "p_correct": 1.3869235931768512e-07,
+    "p_competing": 0.0058386473735722155,
+    "p_residual": 0.994161213934072,
+    "sum": 1.0000000000000036,
+    "cond_correct": 2.3753629222165692e-05,
+    "sec": 0.09415670798625797,
+    "beam": {
+     "50": {
+      "c": 0,
+      "k": 0.00013834759102910834,
+      "z": 0.0018666686889030435,
+      "n_c": 0,
+      "n_k": 4
+     },
+     "800": {
+      "c": 0,
+      "k": 0.00047587950447016905,
+      "z": 0.008587440869403426,
+      "n_c": 0,
+      "n_k": 42
+     }
+    },
+    "top_competing_hyp": [
+     "oscar kilo kilo hotel please confirm one er holding",
+     5.90471635097677e-05
+    ],
+    "mode_in": "Z",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Tower_134_560MHz_20201025_144043-B__000000-000332",
+  "T": 165,
+  "p_star": 0.008093751082909675,
+  "p2": 0.007325869299396119,
+  "margin": 1.1048178382839637,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "ruzyne tower hello an euro ings one tango kilo",
+  "runnerup_text": "ruzyne tower hello a euro ings one tango kilo",
+  "wer_mode": 0.2222222222222222,
+  "p_ref": 5.0114968372891384e-05,
+  "beam_sec": {
+   "50": 0.08688204200007021,
+   "800": 1.9111630839761347
+  },
+  "beam_mass": {
+   "50": 0.12407889053757801,
+   "800": 0.3173823481013357
+  },
+  "slots": [
+   {
+    "label": "callsign EUROWINGS 1TK",
+    "kind": "callsign",
+    "args": [
+     [
+      "euro wings",
+      "eurowings"
+     ],
+     "1TK"
+    ],
+    "Q": [
+     184,
+     329,
+     142
+    ],
+    "p_correct": 0.020159539852443287,
+    "p_competing": 0.0021736187548455238,
+    "p_residual": 0.9776668413927092,
+    "sum": 0.999999999999998,
+    "cond_correct": 0.902673025653607,
+    "sec": 0.08604291698429734,
+    "beam": {
+     "50": {
+      "c": 0,
+      "k": 0,
+      "z": 0.12407889053757801,
+      "n_c": 0,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.011501842295493817,
+      "k": 0.0003505460026503412,
+      "z": 0.3055299598031916,
+      "n_c": 34,
+      "n_k": 12
+     }
+    },
+    "top_competing_hyp": [
+     "ruzyne tower hello an eurowings one tango klo",
+     3.78740341818899e-05
+    ],
+    "mode_in": "Z",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Tower_134_560MHz_20201025_144043-A__000334-000742",
+  "T": 203,
+  "p_star": 0.046922983808758346,
+  "p2": 0.027701274811627142,
+  "margin": 1.6938925781517902,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "erowings one tango kilo ruzyne tower good afternoon go ahead",
+  "runnerup_text": "ero wings one tango kilo ruzyne tower good afternoon go ahead",
+  "wer_mode": 0.18181818181818182,
+  "p_ref": 0.005446591895911043,
+  "beam_sec": {
+   "50": 0.10477716708555818,
+   "800": 2.232948250020854
+  },
+  "beam_mass": {
+   "50": 0.3021294874756769,
+   "800": 0.5534686240094884
+  },
+  "slots": [
+   {
+    "label": "callsign EUROWINGS 1TK",
+    "kind": "callsign",
+    "args": [
+     [
+      "euro wings",
+      "eurowings"
+     ],
+     "1TK"
+    ],
+    "Q": [
+     184,
+     329,
+     142
+    ],
+    "p_correct": 0.01556614557350666,
+    "p_competing": 0.0011868842422443312,
+    "p_residual": 0.9832469701842456,
+    "sum": 0.9999999999999966,
+    "cond_correct": 0.9291540542040678,
+    "sec": 0.10353399999439716,
+    "beam": {
+     "50": {
+      "c": 0.014672534285721954,
+      "k": 0,
+      "z": 0.287456953189955,
+      "n_c": 2,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.01473601604377665,
+      "k": 0.0004380451885313758,
+      "z": 0.5382945627771804,
+      "n_c": 19,
+      "n_k": 2
+     }
+    },
+    "top_competing_hyp": [
+     "eurowings one tango kil ruzyne tower good afternoon go ahead",
+     0.00022055557700217663
+    ],
+    "mode_in": "Z",
+    "ref_in": "C"
+   }
+  ]
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Tower_134_560MHz_20201025_144043-B__000744-001212",
+  "T": 233,
+  "p_star": 0.16809018472764464,
+  "p2": 0.10474674385770366,
+  "margin": 1.6047294506451844,
+  "ref": "[reference transcript not redistributed]",
+  "mode_text": "just requested do you think there is a chance for us to get runway two four for departure",
+  "runnerup_text": "just requested do you think thre is a chance for us to get runway two four for departure",
+  "wer_mode": 0.375,
+  "p_ref": 1.1540702424487727e-49,
+  "beam_sec": {
+   "50": 0.1528791249729693,
+   "800": 3.1931544169783592
+  },
+  "beam_mass": {
+   "50": 0.6204739802271496,
+   "800": 0.7916250273361558
+  },
+  "slots": [
+   {
+    "label": "runway 24",
+    "kind": "number",
+    "args": [
+     "runway",
+     24
+    ],
+    "Q": [
+     121,
+     160,
+     35
+    ],
+    "p_correct": 0.9567327723324226,
+    "p_competing": 0.0074017577246137355,
+    "p_residual": 0.035865469942963704,
+    "sum": 1.0,
+    "cond_correct": 0.9923228994565978,
+    "sec": 0.09018925006967038,
+    "beam": {
+     "50": {
+      "c": 0.6135459672355756,
+      "k": 0,
+      "z": 0.006928012991574031,
+      "n_c": 45,
+      "n_k": 0
+     },
+     "800": {
+      "c": 0.7768015365807622,
+      "k": 0.0017856438630447112,
+      "z": 0.013037846892348806,
+      "n_c": 719,
+      "n_k": 21
+     }
+    },
+    "top_competing_hyp": [
+     "just requested do you think there is a chance for us to get runway two for for departure",
+     0.00022909167123122865
+    ],
+    "mode_in": "C",
+    "ref_in": "C"
+   }
+  ]
+ }
+]

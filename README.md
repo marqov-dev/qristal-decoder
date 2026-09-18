@@ -99,3 +99,15 @@ MSB-first `000001` previously represented 32 to that comparator rather than 1.
 The separate formatting helper still returns MSB-first strings. The standalone
 suite checks all six-bit thresholds and comparison boundaries; this does not
 replace native quantum-comparator or full Decoder qualification.
+
+## Independent analysis and a certified-exact classical decoder (2026)
+
+Besides the validation work above, this fork now hosts an independent analysis of the Decoder
+and the research it led to, under [`research/`](research/README.md). It contains: a reading of
+what the full Decoder computes, with source citations; a minimal *correct* quantum CTC decoder
+built from Quantum Brilliance's own two components (the product-state amplitude encoding and the
+coherent collapsing map) plus an exact comparator and generalized minimum-finding, verified end
+to end; and `certctc`, a certified-exact classical decoder that solves the Decoder's target
+problem — the most probable labelling of a CTC posterior, with its runner-up and margin — on real
+audio in seconds, where prefix search would need 10¹⁸–10²⁶ expansions. The upstream code is
+unchanged; the research directory is self-contained and Apache-2.0.

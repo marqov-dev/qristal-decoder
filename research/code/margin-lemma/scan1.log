@@ -1,0 +1,133 @@
+## pinned W=4 rho=0.5 delta=1.0
+  T= 10 D= 5 margin=1.3217 exp_final=    5 exp/D=1.00 gen=    183 gen/T2=1.83 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1121 sec=0.0 exact:ok
+  T= 14 D= 7 margin=1.1042 exp_final=    8 exp/D=1.14 gen=    378 gen/T2=1.93 K=5 maxK_off=3 maxR_off=1.330 maxKeff_off=1.89 n_off=1 l2=12121 sec=0.0 exact:ok
+  T= 18 D= 7 margin=1.1012 exp_final=   11 exp/D=1.57 gen=    681 gen/T2=2.10 K=5 maxK_off=4 maxR_off=1.583 maxKeff_off=2.83 n_off=3 l2=121212121 sec=0.0 exact:ok
+  T= 24 D=11 margin=1.1892 exp_final=   15 exp/D=1.36 gen=   1350 gen/T2=2.34 K=7 maxK_off=5 maxR_off=1.602 maxKeff_off=2.95 n_off=4 l2=121212121 sec=0.0 exact:ok
+  T= 32 D=13 margin=1.0690 exp_final=   24 exp/D=1.85 gen=   2826 gen/T2=2.76 K=8 maxK_off=6 maxR_off=1.854 maxKeff_off=3.44 n_off=10 l2=121212121212121 sec=0.0
+  T= 40 D=17 margin=1.2328 exp_final=   31 exp/D=1.82 gen=   5040 gen/T2=3.15 K=10 maxK_off=8 maxR_off=1.926 maxKeff_off=3.69 n_off=13 l2=1212121212121212121 sec=0.0
+  T= 48 D=21 margin=1.1490 exp_final=   42 exp/D=2.00 gen=   8028 gen/T2=3.48 K=12 maxK_off=9 maxR_off=2.000 maxKeff_off=3.90 n_off=20 l2=1212121212121212121 sec=0.1
+  T= 56 D=25 margin=1.0057 exp_final=   76 exp/D=3.04 gen=  12114 gen/T2=3.86 K=14 maxK_off=11 maxR_off=2.120 maxKeff_off=4.21 n_off=50 l2=12121212121212121212121 sec=0.1
+  T= 64 D=27 margin=1.0979 exp_final=  103 exp/D=3.81 gen=  17592 gen/T2=4.29 K=15 maxK_off=12 maxR_off=2.252 maxKeff_off=4.57 n_off=75 l2=12121212121212121212121212121 sec=0.3
+  T= 80 D=35 margin=1.0359 exp_final=  169 exp/D=4.83 gen=  35541 gen/T2=5.55 K=19 maxK_off=14 maxR_off=2.377 maxKeff_off=4.91 n_off=133 l2=121212121212121212121212121212121 sec=0.7
+## pinned W=4 rho=0.5 delta=3.0
+  T= 10 D= 3 margin=1.1599 exp_final=    4 exp/D=1.33 gen=    159 gen/T2=1.59 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0 exact:ok
+  T= 14 D= 5 margin=1.4775 exp_final=    5 exp/D=1.00 gen=    321 gen/T2=1.64 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1212121 sec=0.0 exact:ok
+  T= 18 D= 7 margin=1.2453 exp_final=    7 exp/D=1.00 gen=    540 gen/T2=1.67 K=5 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0 exact:ok
+  T= 24 D= 9 margin=1.2143 exp_final=    9 exp/D=1.00 gen=    969 gen/T2=1.68 K=6 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1212121 sec=0.0 exact:ok
+  T= 32 D=11 margin=1.1121 exp_final=   13 exp/D=1.18 gen=   1749 gen/T2=1.71 K=7 maxK_off=4 maxR_off=1.250 maxKeff_off=1.87 n_off=1 l2=1212121212121 sec=0.0
+  T= 40 D=15 margin=1.0516 exp_final=   16 exp/D=1.07 gen=   2757 gen/T2=1.72 K=8 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1212121212121 sec=0.0
+  T= 48 D=17 margin=1.1346 exp_final=   19 exp/D=1.12 gen=   3999 gen/T2=1.74 K=10 maxK_off=6 maxR_off=1.352 maxKeff_off=2.17 n_off=1 l2=1212121212121212121 sec=0.0
+  T= 56 D=19 margin=1.0116 exp_final=   27 exp/D=1.42 gen=   5571 gen/T2=1.78 K=11 maxK_off=9 maxR_off=2.036 maxKeff_off=4.56 n_off=7 l2=121212121212121212121 sec=0.0
+  T= 64 D=23 margin=1.0777 exp_final=   31 exp/D=1.35 gen=   7584 gen/T2=1.85 K=13 maxK_off=10 maxR_off=2.051 maxKeff_off=4.87 n_off=7 l2=121212121212121212121 sec=0.1
+  T= 80 D=29 margin=1.0268 exp_final=   45 exp/D=1.55 gen=  13368 gen/T2=2.09 K=15 maxK_off=12 maxR_off=2.208 maxKeff_off=5.92 n_off=15 l2=121212121212121212121212121 sec=0.2
+## pinned W=4 rho=0.5 delta=10.0
+  T= 10 D= 1 margin=1.2160 exp_final=    1 exp/D=1.00 gen=     57 gen/T2=0.57 K=2 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=121 sec=0.0 exact:ok
+  T= 14 D= 3 margin=1.2430 exp_final=    3 exp/D=1.00 gen=    138 gen/T2=0.70 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1 sec=0.0 exact:ok
+  T= 18 D= 3 margin=1.4979 exp_final=    3 exp/D=1.00 gen=    234 gen/T2=0.72 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0 exact:ok
+  T= 24 D= 3 margin=1.0199 exp_final=    5 exp/D=1.67 gen=    399 gen/T2=0.69 K=3 maxK_off=2 maxR_off=1.063 maxKeff_off=1.55 n_off=1 l2=12121 sec=0.0 exact:ok
+  T= 32 D= 5 margin=1.2132 exp_final=    5 exp/D=1.00 gen=    735 gen/T2=0.72 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1212121 sec=0.0
+  T= 40 D= 7 margin=1.1024 exp_final=    7 exp/D=1.00 gen=   1191 gen/T2=0.74 K=5 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0
+  T= 48 D= 7 margin=1.0476 exp_final=    9 exp/D=1.29 gen=   1755 gen/T2=0.76 K=5 maxK_off=4 maxR_off=1.191 maxKeff_off=2.23 n_off=1 l2=121212121 sec=0.0
+  T= 56 D= 9 margin=1.1545 exp_final=   11 exp/D=1.22 gen=   2418 gen/T2=0.77 K=6 maxK_off=4 maxR_off=1.183 maxKeff_off=2.17 n_off=1 l2=12121212121 sec=0.0
+  T= 64 D=11 margin=1.0328 exp_final=   12 exp/D=1.09 gen=   3201 gen/T2=0.78 K=7 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=121212121 sec=0.0
+  T= 80 D=13 margin=1.0849 exp_final=   15 exp/D=1.15 gen=   5115 gen/T2=0.80 K=8 maxK_off=6 maxR_off=1.266 maxKeff_off=2.58 n_off=1 l2=12121212121 sec=0.0
+## pinned W=5 rho=0.6 delta=1.0
+  T= 10 D= 5 margin=1.3217 exp_final=    5 exp/D=1.00 gen=    320 gen/T2=3.20 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1211 sec=0.0 exact:ok
+  T= 14 D= 7 margin=1.1042 exp_final=    8 exp/D=1.14 gen=    660 gen/T2=3.37 K=5 maxK_off=3 maxR_off=1.330 maxKeff_off=1.89 n_off=1 l2=12121 sec=0.0 exact:ok
+  T= 18 D= 7 margin=1.1012 exp_final=   11 exp/D=1.57 gen=   1188 gen/T2=3.67 K=5 maxK_off=4 maxR_off=1.583 maxKeff_off=2.83 n_off=3 l2=121212121 sec=0.0 exact:ok
+  T= 24 D=11 margin=1.1892 exp_final=   15 exp/D=1.36 gen=   2380 gen/T2=4.13 K=7 maxK_off=5 maxR_off=1.602 maxKeff_off=2.95 n_off=4 l2=121212121 sec=0.0 exact:ok
+  T= 32 D=13 margin=1.0690 exp_final=   24 exp/D=1.85 gen=   5000 gen/T2=4.88 K=8 maxK_off=6 maxR_off=1.854 maxKeff_off=3.44 n_off=10 l2=121212121212121 sec=0.0
+  T= 40 D=17 margin=1.2328 exp_final=   31 exp/D=1.82 gen=   8956 gen/T2=5.60 K=10 maxK_off=8 maxR_off=1.926 maxKeff_off=3.69 n_off=13 l2=1212121212121212121 sec=0.1
+  T= 48 D=21 margin=1.1490 exp_final=   42 exp/D=2.00 gen=  14232 gen/T2=6.18 K=12 maxK_off=9 maxR_off=2.000 maxKeff_off=3.90 n_off=20 l2=1212121212121212121 sec=0.1
+  T= 56 D=25 margin=1.0057 exp_final=   76 exp/D=3.04 gen=  21396 gen/T2=6.82 K=14 maxK_off=11 maxR_off=2.120 maxKeff_off=4.21 n_off=50 l2=12121212121212121212121 sec=0.2
+  T= 64 D=27 margin=1.0979 exp_final=  103 exp/D=3.81 gen=  31068 gen/T2=7.58 K=15 maxK_off=12 maxR_off=2.252 maxKeff_off=4.57 n_off=75 l2=12121212121212121212121212121 sec=0.4
+  T= 80 D=35 margin=1.0359 exp_final=  169 exp/D=4.83 gen=  62768 gen/T2=9.81 K=19 maxK_off=14 maxR_off=2.377 maxKeff_off=4.91 n_off=133 l2=121212121212121212121212121212121 sec=1.0
+## pinned W=5 rho=0.6 delta=3.0
+  T= 10 D= 3 margin=1.2327 exp_final=    4 exp/D=1.33 gen=    280 gen/T2=2.80 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0 exact:ok
+  T= 14 D= 5 margin=1.5464 exp_final=    5 exp/D=1.00 gen=    568 gen/T2=2.90 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1212121 sec=0.0 exact:ok
+  T= 18 D= 7 margin=1.1290 exp_final=    7 exp/D=1.00 gen=    940 gen/T2=2.90 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0 exact:ok
+  T= 24 D= 9 margin=1.1012 exp_final=    9 exp/D=1.00 gen=   1688 gen/T2=2.93 K=6 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1212121 sec=0.0 exact:ok
+  T= 32 D=11 margin=1.2001 exp_final=   13 exp/D=1.18 gen=   3044 gen/T2=2.97 K=7 maxK_off=4 maxR_off=1.211 maxKeff_off=1.84 n_off=1 l2=1212121212121 sec=0.0
+  T= 40 D=13 margin=1.0394 exp_final=   15 exp/D=1.15 gen=   4792 gen/T2=3.00 K=8 maxK_off=5 maxR_off=1.345 maxKeff_off=2.24 n_off=1 l2=121212121212121 sec=0.0
+  T= 48 D=17 margin=1.0599 exp_final=   19 exp/D=1.12 gen=   6936 gen/T2=3.01 K=10 maxK_off=6 maxR_off=1.293 maxKeff_off=2.09 n_off=1 l2=121212121212121 sec=0.0
+  T= 56 D=19 margin=1.1016 exp_final=   21 exp/D=1.11 gen=   9480 gen/T2=3.02 K=11 maxK_off=7 maxR_off=1.407 maxKeff_off=2.45 n_off=1 l2=121212121212121212121 sec=0.1
+  T= 64 D=21 margin=1.0173 exp_final=   25 exp/D=1.19 gen=  12404 gen/T2=3.03 K=12 maxK_off=8 maxR_off=1.585 maxKeff_off=2.84 n_off=3 l2=12121212121212121212121 sec=0.1
+  T= 80 D=27 margin=1.0643 exp_final=   31 exp/D=1.15 gen=  19412 gen/T2=3.03 K=15 maxK_off=10 maxR_off=1.632 maxKeff_off=2.95 n_off=3 l2=12121212121212121212121212121 sec=0.2
+## pinned W=5 rho=0.6 delta=10.0
+  T= 10 D= 1 margin=1.2567 exp_final=    1 exp/D=1.00 gen=    112 gen/T2=1.12 K=2 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=121 sec=0.0 exact:ok
+  T= 14 D= 3 margin=1.1994 exp_final=    3 exp/D=1.00 gen=    224 gen/T2=1.14 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1 sec=0.0 exact:ok
+  T= 18 D= 3 margin=1.5448 exp_final=    3 exp/D=1.00 gen=    400 gen/T2=1.23 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0 exact:ok
+  T= 24 D= 3 margin=1.0551 exp_final=    4 exp/D=1.33 gen=    688 gen/T2=1.19 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0 exact:ok
+  T= 32 D= 5 margin=1.2533 exp_final=    5 exp/D=1.00 gen=   1288 gen/T2=1.26 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1212121 sec=0.0
+  T= 40 D= 7 margin=1.0650 exp_final=    7 exp/D=1.00 gen=   2072 gen/T2=1.29 K=5 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=12121 sec=0.0
+  T= 48 D= 7 margin=1.0833 exp_final=    9 exp/D=1.29 gen=   3032 gen/T2=1.32 K=5 maxK_off=4 maxR_off=1.172 maxKeff_off=2.17 n_off=1 l2=121212121 sec=0.0
+  T= 56 D= 9 margin=1.1235 exp_final=   10 exp/D=1.11 gen=   4176 gen/T2=1.33 K=6 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1212121 sec=0.0
+  T= 64 D= 9 margin=1.0018 exp_final=   11 exp/D=1.22 gen=   5544 gen/T2=1.35 K=6 maxK_off=5 maxR_off=1.278 maxKeff_off=2.63 n_off=1 l2=12121212121 sec=0.0
+  T= 80 D=13 margin=1.0483 exp_final=   15 exp/D=1.15 gen=   8856 gen/T2=1.38 K=8 maxK_off=6 maxR_off=1.240 maxKeff_off=2.49 n_off=1 l2=12121212121 sec=0.1
+## pinned W=3 rho=0.5 delta=1.0
+  T= 10 D= 5 margin=1.0305 exp_final=    7 exp/D=1.40 gen=     82 gen/T2=0.82 K=4 maxK_off=3 maxR_off=1.222 maxKeff_off=1.83 n_off=2 l2=1211 sec=0.0 exact:ok
+  T= 14 D= 5 margin=1.2031 exp_final=   10 exp/D=2.00 gen=    194 gen/T2=0.99 K=5 maxK_off=4 maxR_off=1.511 maxKeff_off=2.98 n_off=4 l2=1212121 sec=0.0 exact:ok
+  T= 18 D= 7 margin=1.3374 exp_final=   10 exp/D=1.43 gen=    366 gen/T2=1.13 K=6 maxK_off=5 maxR_off=1.622 maxKeff_off=3.35 n_off=2 l2=121211 sec=0.0 exact:ok
+  T= 24 D= 9 margin=1.1208 exp_final=   28 exp/D=3.11 gen=    886 gen/T2=1.54 K=7 maxK_off=6 maxR_off=1.712 maxKeff_off=3.61 n_off=18 l2=12121212121 sec=0.0 exact:ok
+  T= 32 D=13 margin=1.2483 exp_final=   38 exp/D=2.92 gen=   2068 gen/T2=2.02 K=9 maxK_off=7 maxR_off=1.857 maxKeff_off=3.89 n_off=24 l2=121212121211 sec=0.0
+  T= 40 D=17 margin=1.0415 exp_final=   84 exp/D=4.94 gen=   4232 gen/T2=2.65 K=10 maxK_off=9 maxR_off=1.886 maxKeff_off=4.03 n_off=67 l2=121212121212121 sec=0.0
+  T= 48 D=19 margin=1.1643 exp_final=  119 exp/D=6.26 gen=   8092 gen/T2=3.51 K=12 maxK_off=10 maxR_off=2.060 maxKeff_off=4.47 n_off=99 l2=121212121212121212121 sec=0.1
+  T= 56 D=23 margin=1.1155 exp_final=  246 exp/D=10.70 gen=  14682 gen/T2=4.68 K=13 maxK_off=12 maxR_off=2.170 maxKeff_off=4.73 n_off=222 l2=121212121212121212121 sec=0.3
+  T= 64 D=25 margin=1.0466 exp_final=  446 exp/D=17.84 gen=  25440 gen/T2=6.21 K=15 maxK_off=13 maxR_off=2.226 maxKeff_off=4.89 n_off=420 l2=121212121212121212121212121 sec=0.7
+  T= 80 D=33 margin=1.0195 exp_final= 1037 exp/D=31.42 gen=  65370 gen/T2=10.21 K=18 maxK_off=16 maxR_off=2.333 maxKeff_off=5.20 n_off=1003 l2=1212121212121212121212121212121 sec=3.1
+## pinned W=3 rho=0.5 delta=3.0
+  T= 10 D= 3 margin=1.1971 exp_final=    4 exp/D=1.33 gen=     58 gen/T2=0.58 K=3 maxK_off=2 maxR_off=1.370 maxKeff_off=1.89 n_off=1 l2=1211 sec=0.0 exact:ok
+  T= 14 D= 4 margin=1.1572 exp_final=    8 exp/D=2.00 gen=    152 gen/T2=0.78 K=4 maxK_off=3 maxR_off=1.501 maxKeff_off=2.37 n_off=4 l2=111 sec=0.0 exact:ok
+  T= 18 D= 5 margin=1.0351 exp_final=   16 exp/D=3.20 gen=    346 gen/T2=1.07 K=5 maxK_off=4 maxR_off=1.496 maxKeff_off=2.83 n_off=11 l2=1111 sec=0.0 exact:ok
+  T= 24 D= 6 margin=1.1309 exp_final=   36 exp/D=6.00 gen=   1000 gen/T2=1.74 K=7 maxK_off=5 maxR_off=1.643 maxKeff_off=3.29 n_off=30 l2=1111211 sec=0.0 exact:ok
+  T= 32 D= 8 margin=1.0704 exp_final=   70 exp/D=8.75 gen=   2928 gen/T2=2.86 K=8 maxK_off=7 maxR_off=1.795 maxKeff_off=3.87 n_off=62 l2=1111111 sec=0.0
+  T= 40 D= 9 margin=1.0197 exp_final=  235 exp/D=26.11 gen=   7734 gen/T2=4.83 K=10 maxK_off=9 maxR_off=1.869 maxKeff_off=4.23 n_off=225 l2=1111111111 sec=0.1
+  T= 48 D=11 margin=1.0814 exp_final=  503 exp/D=45.73 gen=  19964 gen/T2=8.66 K=12 maxK_off=10 maxR_off=1.993 maxKeff_off=4.75 n_off=491 l2=111111111111 sec=0.3
+  T= 56 D=13 margin=1.1142 exp_final=  881 exp/D=67.77 gen=  47476 gen/T2=15.14 K=14 maxK_off=12 maxR_off=2.091 maxKeff_off=5.17 n_off=867 l2=11111111211111 sec=0.8
+  T= 64 D=15 margin=1.0599 exp_final= 2381 exp/D=158.73 gen= 105704 gen/T2=25.81 K=15 maxK_off=13 maxR_off=2.156 maxKeff_off=5.52 n_off=2365 l2=11111111111111 sec=2.8
+  T= 80 D=18 margin=1.0284 exp_final=11087 exp/D=615.94 gen= 495172 gen/T2=77.37 K=19 maxK_off=17 maxR_off=2.285 maxKeff_off=6.15 n_off=11068 l2=1111111111111111111 sec=23.8
+## pinned W=3 rho=0.5 delta=10.0
+  T= 10 D= 2 margin=1.5541 exp_final=    2 exp/D=1.00 gen=     34 gen/T2=0.34 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=121 sec=0.0 exact:ok
+  T= 14 D= 2 margin=1.0722 exp_final=    2 exp/D=1.00 gen=     58 gen/T2=0.30 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111 sec=0.0 exact:ok
+  T= 18 D= 3 margin=1.3683 exp_final=    3 exp/D=1.00 gen=     98 gen/T2=0.30 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11 sec=0.0 exact:ok
+  T= 24 D= 4 margin=1.1228 exp_final=    4 exp/D=1.00 gen=    172 gen/T2=0.30 K=5 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111 sec=0.0 exact:ok
+  T= 32 D= 5 margin=1.1092 exp_final=    5 exp/D=1.00 gen=    304 gen/T2=0.30 K=6 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1111 sec=0.0
+  T= 40 D= 6 margin=1.1011 exp_final=    6 exp/D=1.00 gen=    472 gen/T2=0.29 K=7 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111 sec=0.0
+  T= 48 D= 7 margin=1.0956 exp_final=   11 exp/D=1.57 gen=    742 gen/T2=0.32 K=8 maxK_off=6 maxR_off=1.609 maxKeff_off=4.24 n_off=3 l2=111111 sec=0.0
+  T= 56 D= 8 margin=1.0917 exp_final=   12 exp/D=1.50 gen=   1126 gen/T2=0.36 K=9 maxK_off=7 maxR_off=1.668 maxKeff_off=4.58 n_off=3 l2=1111111 sec=0.0
+  T= 64 D= 9 margin=1.0887 exp_final=   16 exp/D=1.78 gen=   1582 gen/T2=0.39 K=10 maxK_off=8 maxR_off=1.733 maxKeff_off=5.20 n_off=6 l2=11111111 sec=0.0
+  T= 80 D=11 margin=1.0783 exp_final=   27 exp/D=2.45 gen=   2938 gen/T2=0.46 K=12 maxK_off=9 maxR_off=1.850 maxKeff_off=5.85 n_off=15 l2=111111111111 sec=0.0
+## tworate W=3 rho=0.5 a=0.25 b=0.0625 c=b/8
+  T= 10 D= 3 margin=1.2642 exp_final=    3 exp/D=1.00 gen=     44 gen/T2=0.44 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11 sec=0.0 exact:ok
+  T= 14 D= 4 margin=1.0744 exp_final=    4 exp/D=1.00 gen=     88 gen/T2=0.45 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111 sec=0.0 exact:ok
+  T= 18 D= 4 margin=1.0227 exp_final=    5 exp/D=1.25 gen=    146 gen/T2=0.45 K=5 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111 sec=0.0 exact:ok
+  T= 24 D= 6 margin=1.1746 exp_final=    6 exp/D=1.00 gen=    262 gen/T2=0.45 K=6 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111 sec=0.0 exact:ok
+  T= 32 D= 8 margin=1.0321 exp_final=    8 exp/D=1.00 gen=    474 gen/T2=0.46 K=8 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1111111 sec=0.0
+  T= 40 D= 9 margin=1.0488 exp_final=   10 exp/D=1.11 gen=    750 gen/T2=0.47 K=10 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1111111111 sec=0.0
+  T= 48 D=11 margin=1.1065 exp_final=   12 exp/D=1.09 gen=   1090 gen/T2=0.47 K=12 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111111111111 sec=0.0
+  T= 56 D=13 margin=1.1013 exp_final=   14 exp/D=1.08 gen=   1490 gen/T2=0.48 K=13 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111111111111 sec=0.0
+  T= 64 D=15 margin=1.0395 exp_final=   16 exp/D=1.07 gen=   1954 gen/T2=0.48 K=15 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111111111111 sec=0.0
+  T= 80 D=18 margin=1.0438 exp_final=   20 exp/D=1.11 gen=   3068 gen/T2=0.48 K=19 maxK_off=10 maxR_off=1.484 maxKeff_off=2.38 n_off=1 l2=1111111111111111111 sec=0.0
+## tworate W=4 rho=0.5 a=0.25 b=0.0625 c=b/8
+  T= 10 D= 3 margin=1.2642 exp_final=    3 exp/D=1.00 gen=     99 gen/T2=0.99 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11 sec=0.0 exact:ok
+  T= 14 D= 4 margin=1.0744 exp_final=    4 exp/D=1.00 gen=    198 gen/T2=1.01 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111 sec=0.0 exact:ok
+  T= 18 D= 4 margin=1.0227 exp_final=    5 exp/D=1.25 gen=    330 gen/T2=1.02 K=5 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111 sec=0.0 exact:ok
+  T= 24 D= 6 margin=1.1746 exp_final=    6 exp/D=1.00 gen=    594 gen/T2=1.03 K=6 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111 sec=0.0 exact:ok
+  T= 32 D= 8 margin=1.0321 exp_final=    8 exp/D=1.00 gen=   1074 gen/T2=1.05 K=8 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1111111 sec=0.0
+  T= 40 D= 9 margin=1.0488 exp_final=   10 exp/D=1.11 gen=   1698 gen/T2=1.06 K=10 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1111111111 sec=0.0
+  T= 48 D=11 margin=1.1065 exp_final=   12 exp/D=1.09 gen=   2466 gen/T2=1.07 K=12 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111111111111 sec=0.0
+  T= 56 D=13 margin=1.1013 exp_final=   14 exp/D=1.08 gen=   3369 gen/T2=1.07 K=13 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111111111111 sec=0.0
+  T= 64 D=15 margin=1.0395 exp_final=   16 exp/D=1.07 gen=   4413 gen/T2=1.08 K=15 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111111111111 sec=0.0
+  T= 80 D=18 margin=1.0438 exp_final=   20 exp/D=1.11 gen=   6924 gen/T2=1.08 K=19 maxK_off=10 maxR_off=1.484 maxKeff_off=2.38 n_off=1 l2=1111111111111111111 sec=0.1
+## tworate W=4 rho=0.6 a=0.3 b=0.075 c=b/8
+  T= 10 D= 3 margin=1.2642 exp_final=    3 exp/D=1.00 gen=     99 gen/T2=0.99 K=3 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11 sec=0.0 exact:ok
+  T= 14 D= 4 margin=1.0744 exp_final=    4 exp/D=1.00 gen=    198 gen/T2=1.01 K=4 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111 sec=0.0 exact:ok
+  T= 18 D= 4 margin=1.0227 exp_final=    5 exp/D=1.25 gen=    330 gen/T2=1.02 K=5 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111 sec=0.0 exact:ok
+  T= 24 D= 6 margin=1.1746 exp_final=    6 exp/D=1.00 gen=    594 gen/T2=1.03 K=6 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111 sec=0.0 exact:ok
+  T= 32 D= 8 margin=1.0321 exp_final=    8 exp/D=1.00 gen=   1074 gen/T2=1.05 K=8 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1111111 sec=0.0
+  T= 40 D= 9 margin=1.0488 exp_final=   10 exp/D=1.11 gen=   1698 gen/T2=1.06 K=10 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=1111111111 sec=0.0
+  T= 48 D=11 margin=1.1065 exp_final=   12 exp/D=1.09 gen=   2466 gen/T2=1.07 K=12 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111111111111 sec=0.0
+  T= 56 D=13 margin=1.1013 exp_final=   14 exp/D=1.08 gen=   3369 gen/T2=1.07 K=13 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=111111111111 sec=0.0
+  T= 64 D=15 margin=1.0395 exp_final=   16 exp/D=1.07 gen=   4413 gen/T2=1.08 K=15 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 n_off=0 l2=11111111111111 sec=0.0
+  T= 80 D=18 margin=1.0438 exp_final=   20 exp/D=1.11 gen=   6924 gen/T2=1.08 K=19 maxK_off=10 maxR_off=1.484 maxKeff_off=2.38 n_off=1 l2=1111111111111111111 sec=0.1
+GATE S1 float pipeline == Fraction pipeline (mode, exp_final, n_off, margin to 1e-9) at T<=24: 48 cells, violations 0 -> PASS

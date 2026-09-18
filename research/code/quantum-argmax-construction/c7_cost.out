@@ -1,0 +1,28 @@
+Assumptions: c=1.8, W=32, K_det=12, kappa=2.0, G = (9 + K*kappa/2)/sqrt(p*) = 21/sqrt(p*), uncompute x2, per-cell Toffoli = 3b^2-2+2b+W*b
+
+ point    T   D   b  C_cell per-oracle         G   Q total C (w/ children)  speedup C (node-only)  speedup2 qubits(pebble)
+ 10 dB  100  20  22    2198   1.80e+07  1.92e+02  3.46e+09        1.40e+06     0.00      4.50e+04    0.0000       1.80e+04
+ 10 dB  300  40  25    2723   1.32e+08  1.92e+02  2.54e+10        4.18e+06     0.00      1.35e+05    0.0000       7.29e+04
+ 10 dB  500  60  26    2910   3.52e+08  1.92e+02  6.75e+10        6.98e+06     0.00      2.25e+05    0.0000       1.45e+05
+  5 dB  100  20  54   10582   8.68e+07  9.39e+06  8.15e+14        3.35e+15     4.11      1.08e+14    0.1325       4.43e+04
+  5 dB  300  40  57   11683   5.68e+08  9.39e+06  5.33e+15        1.00e+16     1.88      3.24e+14    0.0608       1.66e+05
+  5 dB  500  60  58   12062   1.46e+09  9.39e+06  1.37e+16        1.67e+16     1.22      5.40e+14    0.0394       3.23e+05
+  0 dB  100  20  76   19910   1.63e+08  8.57e+09  1.40e+18        2.79e+21  1993.25      9.00e+19   64.2984       6.23e+04
+  0 dB  300  40  79   21407   1.04e+09  8.57e+09  8.92e+18        8.37e+21   938.39      2.70e+20   30.2706       2.30e+05
+  0 dB  500  60  80   21918   2.65e+09  8.57e+09  2.27e+19        1.40e+22   613.54      4.50e+20   19.7915       4.45e+05
+
+Crossover p*_x (quantum total == classical with children), T cancels; b solved self-consistently at T=300:
+  margin 1.02  D=20  -> p*_x = 8.44e-11  (b=54)  speedup at p* = sqrt(p*_x/p*)
+  margin 1.02  D=40  -> p*_x = 1.77e-11  (b=57)  speedup at p* = sqrt(p*_x/p*)
+  margin 1.02  D=60  -> p*_x = 7.00e-12  (b=59)  speedup at p* = sqrt(p*_x/p*)
+  margin 1.12  D=20  -> p*_x = 1.04e-10  (b=51)  speedup at p* = sqrt(p*_x/p*)
+  margin 1.12  D=40  -> p*_x = 2.02e-11  (b=55)  speedup at p* = sqrt(p*_x/p*)
+  margin 1.12  D=60  -> p*_x = 7.95e-12  (b=57)  speedup at p* = sqrt(p*_x/p*)
+  margin 1.25  D=20  -> p*_x = 1.12e-10  (b=50)  speedup at p* = sqrt(p*_x/p*)
+  margin 1.25  D=40  -> p*_x = 2.16e-11  (b=54)  speedup at p* = sqrt(p*_x/p*)
+  margin 1.25  D=60  -> p*_x = 8.48e-12  (b=56)  speedup at p* = sqrt(p*_x/p*)
+
+Sensitivity: G constant 21 -> 9 (no certification) and uncompute x2 -> x1 (oracle without uncompute is not unitary-clean; lower bound only):
+   10 dB: most-optimistic speedup 0.00x, Q total 5.44e+09
+    5 dB: most-optimistic speedup 8.79x, Q total 1.14e+15
+    0 dB: most-optimistic speedup 4379.09x, Q total 1.91e+18
