@@ -1,0 +1,285 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+GATE ctc_forward vs brute force: 1361 labellings, worst rel err 4.17e-16 -> PASS
+GATE prefix beam vs brute force: 300 instances, 0 wrong argmax, worst score err 3.33e-16 -> PASS
+
+Loading weights:   0%|          | 0/424 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 424/424 [00:00<00:00, 96625.10it/s]
+model=Jzuluaga/wav2vec2-large-960h-lv60-self-en-atc-uwb-atcc-and-atcosim W=31 blank=28 ('[PAD]') delim='|'=0
+[atc_uwb] snr=29.4 T=278 D=56 conf=0.969 lt0.9=0.10 status=ok dec=15.0s gen=7527360 verify=True p*=2.052e-02 p2=1.526e-02 margin=1.35 1/D=1.79e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.30 greedy=0.30 b50=0.30 1char=True p(ref)/p*=5.7e-10 b800sec=4.9
+    ref : [reference transcript not redistributed]
+    mode: clearance to otel av via one hotel departure squawk alfa
+    2nd : clearance to tel av via one hotel departure squawk alfa
+[atc_uwb] snr=21.0 T=155 D=54 conf=0.977 lt0.9=0.07 status=ok dec=3.6s gen=3855570 verify=True p*=8.241e-01 p2=8.707e-02 margin=9.46 1/D=1.85e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.00 greedy=0.00 b50=0.00 1char=True p(ref)/p*=1.0e+00 b800sec=2.7
+    ref : [reference transcript not redistributed]
+    mode: nor shuttle one five one five line up runway three one
+    2nd : nor shuttele one five one five line up runway three one
+[atc_uwb] snr=25.5 T=175 D=60 conf=0.977 lt0.9=0.06 status=ok dec=4.9s gen=4320780 verify=True p*=3.780e-01 p2=3.255e-01 margin=1.16 1/D=1.67e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.10 greedy=0.10 b50=0.10 1char=True p(ref)/p*=6.8e-04 b800sec=3.3
+    ref : [reference transcript not redistributed]
+    mode: opera jet three zero zero just for confirmation vo one hotel
+    2nd : opera jet three zero zero just for confirmation v one hotel
+[atc_uwb] snr=31.6 T=306 D=93 conf=0.989 lt0.9=0.03 status=ok dec=32.3s gen=13956510 verify=True p*=7.750e-01 p2=3.504e-02 margin=22.12 1/D=1.08e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.06 greedy=0.06 b50=0.06 1char=True p(ref)/p*=4.5e-02 b800sec=6.2
+    ref : [reference transcript not redistributed]
+    mode: csa three seven alfa runway three one cleared for takeoff wind one six zro degrees five knots
+    2nd : csa three seven alfa runway three one cleared for takeoff wind one six zero degrees five knots
+[atc_uwb] snr=34.9 T=291 D=91 conf=0.964 lt0.9=0.11 status=ok dec=27.9s gen=13135620 verify=True p*=7.306e-02 p2=3.929e-02 margin=1.86 1/D=1.10e-02 greedy/p*=0.538 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.21 greedy=0.26 b50=0.21 1char=True p(ref)/p*=6.7e-43 b800sec=5.9
+    ref : [reference transcript not redistributed]
+    mode: ruzyne austrian seven zero six papa on lima austrian seven zero six papa tower good morning
+    2nd : ruzyn austrian seven zero six papa on lima austrian seven zero six papa tower good morning
+    grdy: ruzyn austrian seven zero six papa on lima austrian seven zero six papa tower good morning
+[atc_uwb] snr=24.7 T=225 D=66 conf=0.985 lt0.9=0.04 status=ok dec=10.7s gen=5957790 verify=True p*=9.370e-01 p2=2.304e-03 margin=406.64 1/D=1.52e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.00 greedy=0.00 b50=0.00 1char=True p(ref)/p*=1.0e+00 b800sec=4.4
+    ref : [reference transcript not redistributed]
+    mode: csa seven three one contact ruzyne ground one two one decimal nine
+    2nd : csa seven three one contact ruzyne ground one two one decial nine
+[atc_uwb] snr=32.0 T=161 D=22 conf=0.980 lt0.9=0.04 status=ok dec=1.0s gen=723600 verify=True p*=5.296e-01 p2=6.252e-02 margin=8.47 1/D=4.55e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.00 greedy=0.00 b50=0.00 1char=True p(ref)/p*=1.0e+00 b800sec=2.7
+    ref : [reference transcript not redistributed]
+    mode: one nine csa seven one
+    2nd : one nine csa seven  one
+[atc_uwb] snr=28.2 T=324 D=62 conf=0.971 lt0.9=0.09 status=ok dec=22.0s gen=7454730 verify=True p*=6.402e-03 p2=5.733e-03 margin=1.12 1/D=1.61e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.33 greedy=0.33 b50=0.33 1char=True p(ref)/p*=2.4e-18 b800sec=6.4
+    ref : [reference transcript not redistributed]
+    mode: ruzyne tower sky travel one one zero two stand die due to alfa
+    2nd : ruzyne tower sky travel one one zero two tand die due to alfa
+[atc_atco2] snr=22.3 T=267 D=85 conf=0.969 lt0.9=0.09 status=ok dec=21.2s gen=10460970 verify=True p*=2.323e-01 p2=1.394e-01 margin=1.67 1/D=1.18e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.00 greedy=0.00 b50=0.00 1char=True p(ref)/p*=1.0e+00 b800sec=5.4
+    ref : [reference transcript not redistributed]
+    mode: oscar kilo foxtrot alfa oscar taxi to holding point runway two seven via alfa charlie
+    2nd : oscar kilo foxtrot alf oscar taxi to holding point runway two seven via alfa charlie
+[atc_atco2] snr=40.1 T=197 D=67 conf=0.938 lt0.9=0.18 status=ok dec=8.5s gen=6498840 verify=True p*=1.961e-04 p2=1.889e-04 margin=1.04 1/D=1.49e-02 greedy/p*=0.369 b5=0.648 b50=1.000 b800=1.000 greedy≠mode WER mode=0.31 greedy=0.23 b50=0.31 1char=True p(ref)/p*=5.4e-05 b800sec=3.7
+    ref : [reference transcript not redistributed]
+    mode: kilo echo lima alfa com irm froceeding to tango bravo four zero two
+    2nd : kilo echo lima alfa com orm froceeding to tango bravo four zero two
+    grdy: kilo echo lima alfa comim froceeding to tango bravo four zero two
+[atc_atco2] snr=30.3 T=221 D=73 conf=0.978 lt0.9=0.06 status=ok dec=12.0s gen=7505340 verify=True p*=8.772e-01 p2=5.302e-02 margin=16.55 1/D=1.37e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.00 greedy=0.00 b50=0.00 1char=True p(ref)/p*=1.0e+00 b800sec=5.2
+    ref : [reference transcript not redistributed]
+    mode: csa one delta zulu descend flight level one hundred no speed restrictions
+    2nd : csa one delta zulu descend flight level one hundred no speed restriction
+[atc_atco2] snr=20.4 T=244 D=66 conf=0.966 lt0.9=0.11 status=ok dec=15.4s gen=7027860 verify=True p*=8.794e-03 p2=7.984e-03 margin=1.10 1/D=1.52e-02 greedy/p*=0.908 b5=0.908 b50=1.000 b800=1.000 greedy≠mode WER mode=0.18 greedy=0.09 b50=0.18 1char=True p(ref)/p*=2.6e-07 b800sec=5.8
+    ref : [reference transcript not redistributed]
+    mode: descending flight level one on eight free speed csa one delta zulu
+    2nd : descending flight level one oneight free speed csa one delta zulu
+    grdy: descending flight level one oneight free speed csa one delta zulu
+[atc_atco2] snr=47.3 T=174 D=50 conf=0.938 lt0.9=0.18 status=ok dec=4.5s gen=3032190 verify=True p*=1.346e-04 p2=1.302e-04 margin=1.03 1/D=2.00e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.22 greedy=0.22 b50=0.22 1char=True p(ref)/p*=7.1e-09 b800sec=3.9
+    ref : [reference transcript not redistributed]
+    mode: oscar kilo kio hotel please confirm one er holding
+    2nd : oscar kilo tio hotel please confirm one er holding
+[atc_atco2] snr=27.2 T=165 D=46 conf=0.940 lt0.9=0.18 status=ok dec=4.2s gen=3100080 verify=True p*=8.094e-03 p2=7.326e-03 margin=1.10 1/D=2.17e-02 greedy/p*=0.696 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.22 greedy=0.22 b50=0.22 1char=True p(ref)/p*=6.2e-03 b800sec=3.4
+    ref : [reference transcript not redistributed]
+    mode: ruzyne tower hello an euro ings one tango kilo
+    2nd : ruzyne tower hello a euro ings one tango kilo
+    grdy: ruzyne tower hello  euro ings one tango kilo
+[atc_atco2] snr=33.4 T=203 D=60 conf=0.966 lt0.9=0.11 status=ok dec=10.1s gen=6367080 verify=True p*=4.692e-02 p2=2.770e-02 margin=1.69 1/D=1.67e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.18 greedy=0.18 b50=0.18 1char=True p(ref)/p*=1.2e-01 b800sec=5.0
+    ref : [reference transcript not redistributed]
+    mode: erowings one tango kilo ruzyne tower good afternoon go ahead
+    2nd : ero wings one tango kilo ruzyne tower good afternoon go ahead
+[atc_atco2] snr=26.2 T=233 D=89 conf=0.963 lt0.9=0.11 status=ok dec=16.6s gen=8940870 verify=True p*=1.681e-01 p2=1.047e-01 margin=1.60 1/D=1.12e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.38 greedy=0.38 b50=0.38 1char=True p(ref)/p*=6.9e-49 b800sec=5.5
+    ref : [reference transcript not redistributed]
+    mode: just requested do you think there is a chance for us to get runway two four for departure
+    2nd : just requested do you think thre is a chance for us to get runway two four for departure
+[atc_atco2_mid] snr=10.2 T=209 D=50 conf=0.919 lt0.9=0.23 status=ok dec=8.0s gen=4930800 verify=True p*=1.335e-06 p2=1.190e-06 margin=1.12 1/D=2.00e-02 greedy/p*=0.766 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.53 greedy=0.53 b50=0.53 1char=True p(ref)/p*=5.3e-43 b800sec=4.2
+    ref : [reference transcript not redistributed]
+    mode: ker five one one  even one zero one seven reportgo
+    2nd : ker five one one n even one zero one seven reportgo
+    grdy: ker five one one   even one zero one seven reportgo
+[atc_atco2_mid] snr=10.4 T=215 D=86 conf=0.884 lt0.9=0.36 status=ok dec=13.0s gen=8453100 verify=True p*=3.398e-09 p2=3.047e-09 margin=1.12 1/D=1.16e-02 greedy/p*=0.469 b5=0.733 b50=0.897 b800=1.000 greedy≠mode WER mode=0.47 greedy=0.41 b50=0.41 1char=True p(ref)/p*=8.9e-26 b800sec=4.4
+    ref : [reference transcript not redistributed]
+    mode: charlie zulu wind two five you tel that one four o s two two five andyg own discretion
+    2nd : charlie zulu wind two five you tel that one four os two two five andyg own discretion
+    grdy: charlie zulu wind two five you te that one four o two two five andyg own discretion
+    b50 : charlie zulu wind two five you tel that one four os two two five andyg own discretion
+[atc_atco2_mid] snr=10.5 T=185 D=58 conf=0.971 lt0.9=0.09 status=ok dec=6.3s gen=5128650 verify=True p*=3.729e-02 p2=3.582e-02 margin=1.04 1/D=1.72e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.00 greedy=0.00 b50=0.00 1char=True p(ref)/p*=1.0e+00 b800sec=3.5
+    ref : [reference transcript not redistributed]
+    mode: taxi delta bravo holding point two four csa nine one eight
+    2nd : taxi delta bravo holding pont two four csa nine one eight
+[atc_atco2_mid] snr=11.4 T=195 D=65 conf=0.835 lt0.9=0.55 status=ok dec=7.4s gen=5362620 verify=True p*=5.444e-15 p2=5.361e-15 margin=1.02 1/D=1.54e-02 greedy/p*=0.403 b5=0.597 b50=0.606 b800=0.851 greedy≠mode WER mode=0.56 greedy=0.56 b50=0.56 1char=True p(ref)/p*=1.6e-21 b800sec=3.9
+    ref : [reference transcript not redistributed]
+    mode: clear to land runway one four an vack ig on discretion  one to to
+    2nd : clear to land runway one four an vack eig on discretion  one to to
+    grdy: clear to land runway one four n vack eig o discretion  one tot o
+    b50 : clear to land runway one four an vack ig on discretion  one tot o
+[atc_atco2_mid] snr=11.6 T=321 D=116 conf=0.931 lt0.9=0.21 status=ok dec=44.6s gen=18200160 verify=True p*=1.499e-07 p2=1.428e-07 margin=1.05 1/D=8.62e-03 greedy/p*=0.821 b5=1.000 b50=1.000 b800=0.952 greedy≠mode WER mode=0.23 greedy=0.23 b50=0.23 1char=True p(ref)/p*=2.0e-27 b800sec=7.2
+    ref : [reference transcript not redistributed]
+    mode: november alfa sierra wind two fi nine kots runway two five cleared for takeoff lpof one three thousand feet climbing
+    2nd : november alfa sierra wind two fi nine kots runway two five cleared for takeoff pof one three thousand feet climbing
+    grdy: november alfa sierra wind two f nine kots runway two five cleared for takeoff lpof one three thousand feet climbing
+[atc_atco2_mid] snr=12.7 T=285 D=106 conf=0.932 lt0.9=0.20 status=ok dec=29.4s gen=13229700 verify=True p*=1.903e-07 p2=1.815e-07 margin=1.05 1/D=9.43e-03 greedy/p*=0.919 b5=0.919 b50=0.919 b800=1.000 greedy≠mode WER mode=0.45 greedy=0.45 b50=0.45 1char=True p(ref)/p*=6.5e-71 b800sec=6.5
+    ref : [reference transcript not redistributed]
+    mode: eli charlie zulu wind two seven seven degrees nine knots crossing ravoasnd for the two five lina crrection
+    2nd : eli charlie zulu wind two seven seven degrees nine knots crossing ravoaisnd for the two five lina crrection
+    grdy: eli charlie zulu wind two seven seven degrees nine knots crossing ravoasnd forthe two five lina crrection
+    b50 : eli charlie zulu wind two seven seven degrees nine knots crossing ravoasnd forthe two five lina crrection
+[atc_atco2_mid] snr=13.0 T=291 D=122 conf=0.890 lt0.9=0.32 status=ok dec=37.4s gen=16869570 verify=True p*=1.822e-11 p2=1.715e-11 margin=1.06 1/D=8.20e-03 greedy/p*=0.522 b5=0.791 b50=0.941 b800=1.000 greedy≠mode WER mode=0.41 greedy=0.41 b50=0.41 1char=True p(ref)/p*=6.6e-17 b800sec=6.9
+    ref : [reference transcript not redistributed]
+    mode: uniform golf wind two four zero degrees one four nine run i two five cleared c takeoff figh o clmb approved report leaving
+    2nd : uniform golf wind two four zero degrees one four nine run i two five cleared c takeoff fih o clmb approved report leaving
+    grdy: uniform golf wind two four zero degrees one four nine run i two five cleared c takeoff fi  clmb approved report leaving
+    b50 : uniform golf wind two four zero degrees one four nine run i two five cleared c takeoff fih o clmb approved report leaving
+[atc_atco2_mid] snr=14.0 T=175 D=63 conf=0.894 lt0.9=0.29 status=ok dec=6.0s gen=5192940 verify=True p*=3.045e-08 p2=2.974e-08 margin=1.02 1/D=1.59e-02 greedy/p*=0.669 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.25 greedy=0.25 b50=0.25 1char=True p(ref)/p*=1.2e-12 b800sec=3.6
+    ref : [reference transcript not redistributed]
+    mode: alitalia five seven one in hello push back and patefit approved
+    2nd : alitalia five seven one in hello push back and patafit approved
+    grdy: alitalia five seven one ain hello push back and patefit approved
+[atc_atco2_hard] snr=4.4 T=169 D=45 conf=0.827 lt0.9=0.47 status=ok dec=4.2s gen=3499140 verify=True p*=1.712e-13 p2=1.652e-13 margin=1.04 1/D=2.22e-02 greedy/p*=0.269 b5=0.269 b50=0.824 b800=0.871 greedy≠mode WER mode=0.64 greedy=0.73 b50=0.73 1char=True p(ref)/p*=6.0e-37 b800sec=3.1
+    ref : [reference transcript not redistributed]
+    mode: cimreg egh two de runway three four let e ago
+    2nd : cimreg eigh two de runway three four let e ago
+    grdy: cimreg u egh two dee runway three four lee ago
+    b50 : cimreg u egh two de runway three four le e ago
+[atc_atco2_hard] snr=4.7 T=177 D=29 conf=0.807 lt0.9=0.58 status=ok dec=3.7s gen=2597340 verify=True p*=1.621e-16 p2=1.603e-16 margin=1.01 1/D=3.45e-02 greedy/p*=0.209 b5=0.419 b50=0.799 b800=0.861 greedy≠mode WER mode=0.92 greedy=1.00 b50=1.00 1char=True p(ref)/p*=4.3e-91 b800sec=3.1
+    ref : [reference transcript not redistributed]
+    mode: nine three fortedeedig tow gr
+    2nd : nine three fortedeedig tow ga
+    grdy: ninthree fortyedeedi towg
+    b50 : ninethree fortedeedig towga
+[atc_atco2_hard] snr=4.9 T=292 D=102 conf=0.889 lt0.9=0.34 status=ok dec=30.9s gen=13723470 verify=True p*=1.346e-11 p2=1.216e-11 margin=1.11 1/D=9.80e-03 greedy/p*=0.388 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.40 greedy=0.40 b50=0.40 1char=True p(ref)/p*=1.1e-36 b800sec=6.9
+    ref : [reference transcript not redistributed]
+    mode: nm seven seven three heav eay good morning continue approach shorting two seven zero degrees seven non
+    2nd : nm seven seven three heav eay good morning continue approach shortwing two seven zero degrees seven non
+    grdy: nm seven seven three heaveay good morning continue approach shorting two seven zero degrees seven non
+[atc_atco2_hard] snr=4.9 T=262 D=20 conf=0.887 lt0.9=0.31 status=ok dec=38.4s gen=15191340 verify=True p*=7.330e-15 p2=6.987e-15 margin=1.05 1/D=5.00e-02 greedy/p*=0.232 b5=0.599 b50=0.599 b800=0.929 greedy≠mode WER mode=1.00 greedy=1.00 b50=1.00 1char=True p(ref)/p*=4.2e-47 b800sec=4.1
+    ref : [reference transcript not redistributed]
+    mode: haero keo oe oa zero
+    2nd : haerokeo oe oa zero
+    grdy: arokioeooioa zero
+    b50 : haerokioeoo ieoa zero
+[atc_atco2_hard] snr=4.9 T=198 D=35 conf=0.895 lt0.9=0.31 status=ok dec=4.6s gen=3362730 verify=True p*=2.852e-08 p2=2.682e-08 margin=1.06 1/D=2.86e-02 greedy/p*=0.453 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.67 greedy=0.67 b50=0.67 1char=True p(ref)/p*=3.5e-49 b800sec=3.3
+    ref : [reference transcript not redistributed]
+    mode: rthree one seventy fivee o good day
+    2nd : rthree one seventy fivee oo good day
+    grdy: three one seventy fiveeoo good day
+[atc_atco2_hard] snr=5.1 T=214 D=48 conf=0.905 lt0.9=0.33 status=ok dec=7.3s gen=4342860 verify=True p*=8.921e-09 p2=8.569e-09 margin=1.04 1/D=2.08e-02 greedy/p*=0.358 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.45 greedy=0.36 b50=0.45 1char=True p(ref)/p*=6.4e-37 b800sec=3.7
+    ref : [reference transcript not redistributed]
+    mode: direct six tango e papa heavy  good day continue
+    2nd : tirect six tango e papa heavy  good day continue
+    grdy: direct six tango papa heavy good day continue
+[atc_atco2_hard] snr=5.4 T=182 D=59 conf=0.861 lt0.9=0.45 status=ok dec=6.2s gen=5399190 verify=True p*=1.208e-09 p2=1.131e-09 margin=1.07 1/D=1.69e-02 greedy/p*=0.410 b5=0.616 b50=1.000 b800=1.000 greedy≠mode WER mode=0.64 greedy=0.73 b50=0.64 1char=True p(ref)/p*=3.7e-44 b800sec=3.1
+    ref : [reference transcript not redistributed]
+    mode: n tower and passing echo three hotel bravo nevova papa zulu
+    2nd : n tower and passing echo three hotel bravo nevava papa zulu
+    grdy: n tower adpassing ech three hotel bravo nevova papa zulu
+[atc_atco2_hard] snr=6.0 T=149 D=18 conf=0.921 lt0.9=0.24 status=ok dec=0.3s gen=309810 verify=True p*=2.654e-05 p2=2.585e-05 margin=1.03 1/D=5.56e-02 greedy/p*=0.588 b5=0.953 b50=1.000 b800=1.000 greedy≠mode WER mode=0.50 greedy=0.50 b50=0.50 1char=True p(ref)/p*=8.7e-29 b800sec=2.3
+    ref : [reference transcript not redistributed]
+    mode: we are not ready o
+    2nd : we arenot ready o
+    grdy: we are not ready
+[atc_atco2_hard] snr=6.2 T=224 D=36 conf=0.938 lt0.9=0.17 status=ok dec=5.9s gen=3562530 verify=True p*=2.574e-06 p2=2.465e-06 margin=1.04 1/D=2.78e-02 greedy/p*=0.409 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.60 greedy=0.60 b50=0.60 1char=True p(ref)/p*=3.3e-42 b800sec=3.7
+    ref : [reference transcript not redistributed]
+    mode: see three zero one evigood afternoon
+    2nd : see three zero one eavigood afternoon
+    grdy: see three zero one vgood afternoon
+[atc_atco2_hard] snr=6.3 T=302 D=15 conf=0.885 lt0.9=0.33 status=ok dec=17.6s gen=7877220 verify=True p*=5.573e-16 p2=5.343e-16 margin=1.04 1/D=6.67e-02 greedy/p*=0.059 b5=0.174 b50=0.493 b800=0.872 greedy≠mode WER mode=1.00 greedy=1.00 b50=1.00 1char=False p(ref)/p*=5.4e-149 b800sec=4.8
+    ref : [reference transcript not redistributed]
+    mode: reeoeeobyeee ye
+    2nd : reoeeeobyeee ye
+    grdy: oieoeobyeeye
+    b50 : reeoeeobyeeee
+[atc_atco2_hard] snr=6.3 T=150 D=25 conf=0.873 lt0.9=0.40 status=ok dec=1.7s gen=1989390 verify=True p*=6.222e-10 p2=5.647e-10 margin=1.10 1/D=4.00e-02 greedy/p*=0.826 b5=0.826 b50=0.826 b800=1.000 greedy≠mode WER mode=0.57 greedy=0.57 b50=0.57 1char=True p(ref)/p*=1.7e-11 b800sec=2.5
+    ref : [reference transcript not redistributed]
+    mode: neg final two five oto te
+    2nd : neg final two five oto e
+    grdy: neg final two five oto oe
+    b50 : neg final two five oto oe
+[atc_atco2_hard] snr=6.4 T=311 D=11 conf=0.903 lt0.9=0.28 status=ok dec=20.7s gen=9338160 verify=True p*=1.230e-14 p2=1.222e-14 margin=1.01 1/D=9.09e-02 greedy/p*=0.183 b5=0.463 b50=0.852 b800=0.935 greedy≠mode WER mode=1.00 greedy=1.00 b50=1.00 1char=True p(ref)/p*=1.2e-102 b800sec=4.7
+    ref : [reference transcript not redistributed]
+    mode: eoo klopa a
+    2nd : keoo klopa a
+    grdy: oklopaoa
+    b50 : eooklopaa
+[atc_atco2_hard] snr=6.6 T=188 D=19 conf=0.940 lt0.9=0.17 status=ok dec=1.0s gen=588930 verify=True p*=2.579e-05 p2=2.326e-05 margin=1.11 1/D=5.26e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.90 greedy=0.90 b50=0.90 1char=True p(ref)/p*=8.3e-75 b800sec=3.1
+    ref : [reference transcript not redistributed]
+    mode: hotel osto yankeee
+    2nd : hopel osto yankeee
+[atc_atco2_hard] snr=7.4 T=151 D=48 conf=0.924 lt0.9=0.21 status=ok dec=2.8s gen=2819010 verify=True p*=6.694e-05 p2=6.558e-05 margin=1.02 1/D=2.08e-02 greedy/p*=0.795 b5=0.980 b50=1.000 b800=1.000 greedy≠mode WER mode=0.22 greedy=0.22 b50=0.22 1char=True p(ref)/p*=8.6e-02 b800sec=2.7
+    ref : [reference transcript not redistributed]
+    mode: untwe one zero cleared to land hotel yankee hote
+    2nd : untwa one zero cleared to land hotel yankee hote
+    grdy: utwa one zero cleared to land hotel yankee hote
+[atc_atco2_hard] snr=8.2 T=267 D=58 conf=0.873 lt0.9=0.39 status=ok dec=16.9s gen=8414460 verify=True p*=3.048e-13 p2=2.956e-13 margin=1.03 1/D=1.72e-02 greedy/p*=0.575 b5=0.970 b50=1.000 b800=1.000 greedy≠mode WER mode=0.61 greedy=0.72 b50=0.61 1char=True p(ref)/p*=5.8e-51 b800sec=4.7
+    ref : [reference transcript not redistributed]
+    mode: charlie  two continue for dic pproach  onot final two five
+    2nd : charliee two continue for dic pproach  onot final two five
+    grdy: charliee two continue fo dic pproach  ono final two five
+[atc_atco2_hard] snr=8.2 T=226 D=10 conf=0.923 lt0.9=0.22 status=ok dec=1.4s gen=1100970 verify=True p*=2.065e-08 p2=1.939e-08 margin=1.07 1/D=1.00e-01 greedy/p*=0.272 b5=0.272 b50=1.000 b800=1.000 greedy≠mode WER mode=1.00 greedy=1.00 b50=1.00 1char=True p(ref)/p*=1.4e-80 b800sec=3.5
+    ref : [reference transcript not redistributed]
+    mode: r foxrotre
+    2nd : gr foxrotre
+    grdy: foxrooe
+[atc_atco2_synth10] snr=10.2 T=267 D=70 conf=0.889 lt0.9=0.34 status=ok dec=17.1s gen=8579160 verify=True p*=1.938e-11 p2=1.916e-11 margin=1.01 1/D=1.43e-02 greedy/p*=0.433 b5=1.000 b50=1.000 b800=0.989 greedy≠mode WER mode=0.40 greedy=0.53 b50=0.40 1char=True p(ref)/p*=1.6e-20 b800sec=4.9
+    ref : [reference transcript not redistributed]
+    mode: oscar kilo foxtrot ot oscar  holding oing ey two seven vy alfa charlie
+    2nd : oscar kilo foxtrot ot oscar  holding oing y two seven vy alfa charlie
+    grdy: oscar kilo foxrot ot ocar holding oig y two seven vy alfa charlie
+[atc_atco2_synth5] snr=5.1 T=267 D=24 conf=0.909 lt0.9=0.25 status=ok dec=12.4s gen=6336960 verify=True p*=1.309e-11 p2=1.301e-11 margin=1.01 1/D=4.17e-02 greedy/p*=0.215 b5=0.994 b50=0.979 b800=1.000 greedy≠mode WER mode=0.93 greedy=0.93 b50=0.93 1char=False p(ref)/p*=3.5e-96 b800sec=3.9
+    ref : [reference transcript not redistributed]
+    mode: o i sevenomie alfa chaie
+    2nd : o sevenomie alfa chaie
+    grdy: seve omi alfa chaie
+    b50 : o sevenmie alfa chaie
+[atc_atco2_synth10] snr=9.4 T=197 D=57 conf=0.898 lt0.9=0.29 status=ok dec=7.8s gen=5958810 verify=True p*=4.263e-08 p2=4.244e-08 margin=1.00 1/D=1.75e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.38 greedy=0.38 b50=0.38 1char=True p(ref)/p*=2.7e-18 b800sec=3.6
+    ref : [reference transcript not redistributed]
+    mode: k echo lima alfa proprceedig to tango bravi four zero two
+    2nd : k echo lima alfa prorceedig to tango bravi four zero two
+[atc_atco2_synth5] snr=3.3 T=197 D=19 conf=0.917 lt0.9=0.24 status=ok dec=1.7s gen=1218780 verify=True p*=6.657e-08 p2=6.488e-08 margin=1.03 1/D=5.26e-02 greedy/p*=0.540 b5=0.975 b50=0.975 b800=1.000 greedy≠mode WER mode=0.77 greedy=0.77 b50=0.77 1char=False p(ref)/p*=8.2e-85 b800sec=3.1
+    ref : [reference transcript not redistributed]
+    mode: echo lima alfa fa i
+    2nd : echo lima alfa fa
+    grdy: echo lima alfa fa
+    b50 : echo lima alfa fa
+[atc_atco2_synth10] snr=10.7 T=221 D=66 conf=0.961 lt0.9=0.12 status=ok dec=10.3s gen=6352620 verify=True p*=7.145e-03 p2=4.909e-03 margin=1.46 1/D=1.52e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.08 greedy=0.08 b50=0.08 1char=False p(ref)/p*=2.5e-17 b800sec=4.2
+    ref : [reference transcript not redistributed]
+    mode: csa one delta zulu descend flight level one hundred no speed bird
+    2nd : csa one delta zulu descend flight level one hundred no speed bird e
+[atc_atco2_synth5] snr=5.5 T=221 D=53 conf=0.965 lt0.9=0.09 status=ok dec=7.9s gen=4343400 verify=True p*=2.867e-02 p2=2.213e-02 margin=1.30 1/D=1.89e-02 greedy/p*=0.659 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.50 greedy=0.42 b50=0.50 1char=True p(ref)/p*=4.7e-73 b800sec=4.0
+    ref : [reference transcript not redistributed]
+    mode: csa one delta zulue descend f light level one hundred
+    2nd : csa one del ta zulue descend f light level one hundred
+    grdy: csa one delta zulu descend f light level one hundred
+[atc_atco2_synth10] snr=10.1 T=244 D=50 conf=0.939 lt0.9=0.19 status=ok dec=10.1s gen=5298480 verify=True p*=1.036e-04 p2=1.004e-04 margin=1.03 1/D=2.00e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.27 greedy=0.27 b50=0.27 1char=True p(ref)/p*=5.2e-16 b800sec=4.3
+    ref : [reference transcript not redistributed]
+    mode: descending flight level one  re csa one delta zulu
+    2nd : descending flight level one re csa one delta zulu
+[atc_atco2_synth5] snr=5.2 T=244 D=38 conf=0.893 lt0.9=0.29 status=ok dec=7.7s gen=4197690 verify=True p*=3.939e-12 p2=3.874e-12 margin=1.02 1/D=2.63e-02 greedy/p*=0.292 b5=0.573 b50=0.705 b800=0.854 greedy≠mode WER mode=0.82 greedy=0.91 b50=0.82 1char=True p(ref)/p*=5.9e-42 b800sec=4.0
+    ref : [reference transcript not redistributed]
+    mode: eng flightlevel one praha csa onetogul
+    2nd : eng flightlevel one praha csa oneltogul
+    grdy: g flightleve one prahacacsa oneetogul
+    b50 : eg flightleve one praha csa onetogul
+[atc_atco2_synth10] snr=11.2 T=174 D=36 conf=0.922 lt0.9=0.24 status=ok dec=2.8s gen=2144850 verify=True p*=9.635e-06 p2=9.208e-06 margin=1.05 1/D=2.78e-02 greedy/p*=0.956 b5=0.956 b50=1.000 b800=1.000 greedy≠mode WER mode=0.56 greedy=0.67 b50=0.56 1char=True p(ref)/p*=1.1e-24 b800sec=2.9
+    ref : [reference transcript not redistributed]
+    mode: osca kilo sia hotel please o holding
+    2nd : osca kilo sia hotel pleaseo holding
+    grdy: osca kilo sia hotel pleaseo holding
+[atc_atco2_synth5] snr=6.0 T=174 D=15 conf=0.951 lt0.9=0.12 status=ok dec=0.5s gen=476970 verify=True p*=2.733e-04 p2=2.616e-04 margin=1.04 1/D=6.67e-02 greedy/p*=0.500 b5=0.958 b50=1.000 b800=1.000 greedy≠mode WER mode=0.78 greedy=0.78 b50=0.78 1char=True p(ref)/p*=5.5e-74 b800sec=2.6
+    ref : [reference transcript not redistributed]
+    mode: oscar kilo kioo
+    2nd : oscar kilo kio o
+    grdy: oscar kilo ki o
+[atc_atco2_synth10] snr=10.5 T=165 D=39 conf=0.923 lt0.9=0.23 status=ok dec=3.0s gen=2704110 verify=True p*=1.231e-04 p2=1.049e-04 margin=1.17 1/D=2.56e-02 greedy/p*=0.322 b5=0.671 b50=1.000 b800=1.000 greedy≠mode WER mode=0.44 greedy=0.44 b50=0.44 1char=True p(ref)/p*=1.2e-17 b800sec=2.8
+    ref : [reference transcript not redistributed]
+    mode: ruzyne tower helo erings one tango kilo
+    2nd : ruzyne tower hel erings one tango kilo
+    grdy: ruzyne tower elo eoings one tango kilo
+[atc_atco2_synth5] snr=4.8 T=165 D=30 conf=0.906 lt0.9=0.30 status=ok dec=2.2s gen=2173050 verify=True p*=3.623e-06 p2=3.020e-06 margin=1.20 1/D=3.33e-02 greedy/p*=0.833 b5=1.000 b50=1.000 b800=1.000 greedy≠mode WER mode=0.44 greedy=0.56 b50=0.44 1char=False p(ref)/p*=9.0e-25 b800sec=2.6
+    ref : [reference transcript not redistributed]
+    mode: ruzyne tower ri one tango kilo
+    2nd : ruzyne toweri one tango kilo
+    grdy: ruzyne toweri one tango kilo
+[atc_atco2_synth10] snr=10.5 T=203 D=47 conf=0.963 lt0.9=0.11 status=ok dec=7.4s gen=5383140 verify=True p*=2.894e-03 p2=2.781e-03 margin=1.04 1/D=2.13e-02 greedy/p*=0.961 b5=1.000 b50=0.961 b800=1.000 greedy≠mode WER mode=0.27 greedy=0.27 b50=0.27 1char=True p(ref)/p*=1.6e-16 b800sec=3.3
+    ref : [reference transcript not redistributed]
+    mode: ri one tango kilo tower good afternoon go ahead
+    2nd : i one tango kilo tower good afternoon go ahead
+    grdy: i one tango kilo tower good afternoon go ahead
+    b50 : i one tango kilo tower good afternoon go ahead
+[atc_atco2_synth5] snr=5.1 T=203 D=18 conf=0.948 lt0.9=0.15 status=ok dec=2.0s gen=1145760 verify=True p*=3.697e-05 p2=3.269e-05 margin=1.13 1/D=5.56e-02 greedy/p*=1.000 b5=1.000 b50=1.000 b800=1.000 greedy=mode WER mode=0.91 greedy=0.91 b50=0.91 1char=True p(ref)/p*=5.5e-136 b800sec=3.2
+    ref : [reference transcript not redistributed]
+    mode: eving one sio zero
+    2nd : eving one sixo zero
+[atc_atco2_synth10] snr=10.4 T=233 D=51 conf=0.906 lt0.9=0.31 status=ok dec=11.6s gen=6511590 verify=True p*=7.846e-10 p2=7.611e-10 margin=1.03 1/D=1.96e-02 greedy/p*=0.469 b5=0.970 b50=0.970 b800=1.000 greedy≠mode WER mode=0.62 greedy=0.62 b50=0.62 1char=True p(ref)/p*=1.7e-38 b800sec=3.9
+    ref : [reference transcript not redistributed]
+    mode: just requeste c toget runway two four for departure
+    2nd : just request c toget runway two four for departure
+    grdy: just requestc toget runway two four for departure
+    b50 : just request c toget runway two four for departure
+[atc_atco2_synth5] snr=5.2 T=233 D=19 conf=0.892 lt0.9=0.31 status=ok dec=4.1s gen=2908230 verify=True p*=5.796e-12 p2=4.603e-12 margin=1.26 1/D=5.26e-02 greedy/p*=0.708 b5=0.716 b50=1.000 b800=1.000 greedy≠mode WER mode=0.94 greedy=0.94 b50=0.94 1char=True p(ref)/p*=6.2e-102 b800sec=3.6
+    ref : [reference transcript not redistributed]
+    mode: ef wo four fre fone
+    2nd : ef wo four fre fine
+    grdy: f wo four fre fone
+saved /path/to/decoder-push/R3/results__r3.json

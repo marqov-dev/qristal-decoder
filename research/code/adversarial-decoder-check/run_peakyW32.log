@@ -1,0 +1,3 @@
+peaky {'conf': 0.8} T=16 W=32 D=2 p=0.0287 exp_final=2 exp_back=835 gen=25947 max_sub_exp=2 sec=1.23 capped=False g_exp=33 g_gen=1023 g_capped=False g_sec=0.00725 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+peaky {'conf': 0.8} T=32 W=32 D=5 p=0.000842 exp_final=5 exp_back=2848 gen=88443 max_sub_exp=4 sec=9.66 capped=False g_exp=126 g_gen=3906 g_capped=False g_sec=0.102 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+peaky {'conf': 0.8} T=64 W=32 D=- p=- exp_final=0 exp_back=12904 gen=400001 max_sub_exp=14 sec=110 capped=True g_exp=1613 g_gen=50001 g_capped=True g_sec=1.33

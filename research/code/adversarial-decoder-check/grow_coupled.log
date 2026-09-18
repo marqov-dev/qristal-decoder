@@ -1,0 +1,8 @@
+coupled {} T=16 W=3 D=7 p=0.0232 exp_final=15 exp_back=106 gen=242 max_sub_exp=7 sec=0.000609 capped=False g_exp=57 g_gen=114 g_capped=False g_sec=0.000303 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+coupled {} T=16 W=3 D=7 p=0.0249 exp_final=8 exp_back=122 gen=260 max_sub_exp=13 sec=0.000575 capped=False g_exp=54 g_gen=108 g_capped=False g_sec=0.000259 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+coupled {} T=32 W=3 D=15 p=0.00251 exp_final=22 exp_back=684 gen=1412 max_sub_exp=27 sec=0.00432 capped=False g_exp=626 g_gen=1252 g_capped=False g_sec=0.00521 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+coupled {} T=32 W=3 D=14 p=0.00362 exp_final=30 exp_back=444 gen=948 max_sub_exp=15 sec=0.00358 capped=False g_exp=454 g_gen=908 g_capped=False g_sec=0.00452 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+coupled {} T=64 W=3 D=29 p=1.05e-05 exp_final=57 exp_back=2836 gen=5786 max_sub_exp=56 sec=0.0291 capped=False g_exp=100001 g_gen=200001 g_capped=True g_sec=2.33 p_fwd_ok=True beam_ok=True beam_same=False
+coupled {} T=64 W=3 D=29 p=1.52e-05 exp_final=43 exp_back=2817 gen=5720 max_sub_exp=76 sec=0.0296 capped=False g_exp=100001 g_gen=200001 g_capped=True g_sec=2.29 p_fwd_ok=True beam_ok=True beam_same=True
+coupled {} T=96 W=3 D=44 p=1.97e-07 exp_final=59 exp_back=4856 gen=9830 max_sub_exp=61 sec=0.0737 capped=False g_exp=100001 g_gen=200001 g_capped=True g_sec=3.57 p_fwd_ok=True beam_ok=True beam_same=True
+coupled {} T=96 W=3 D=44 p=2.83e-07 exp_final=71 exp_back=6273 gen=12688 max_sub_exp=73 sec=0.0913 capped=False g_exp=100001 g_gen=200001 g_capped=True g_sec=4.64 p_fwd_ok=True beam_ok=True beam_same=True

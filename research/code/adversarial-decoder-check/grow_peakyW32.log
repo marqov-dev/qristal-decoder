@@ -1,0 +1,1 @@
+peaky {'conf': 0.8} T=64 W=32 D=11 p=7.2e-07 exp_final=11 exp_back=13009 gen=403620 max_sub_exp=11 sec=29.2 capped=False p_fwd_ok=True beam_ok=True beam_same=True

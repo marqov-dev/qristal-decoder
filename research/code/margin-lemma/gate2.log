@@ -1,0 +1,44 @@
+  rand T=6 W=3           sub-searches=12 off-path expansions total=0
+  peaky0.8 T=6 W=3       sub-searches=12 off-path expansions total=0
+  peaky0.6 T=6 W=3       sub-searches=12 off-path expansions total=0
+  pinned d=1 T=6 W=3     sub-searches=12 off-path expansions total=0
+  tworate T=6 W=3        sub-searches=12 off-path expansions total=0
+  rand T=6 W=4           sub-searches=18 off-path expansions total=2
+  peaky0.8 T=6 W=4       sub-searches=18 off-path expansions total=0
+  peaky0.6 T=6 W=4       sub-searches=18 off-path expansions total=0
+  pinned d=1 T=6 W=4     sub-searches=18 off-path expansions total=0
+  tworate T=6 W=4        sub-searches=18 off-path expansions total=0
+  rand T=8 W=3           sub-searches=16 off-path expansions total=2
+  peaky0.8 T=8 W=3       sub-searches=16 off-path expansions total=0
+  peaky0.6 T=8 W=3       sub-searches=16 off-path expansions total=0
+  pinned d=1 T=8 W=3     sub-searches=16 off-path expansions total=0
+  tworate T=8 W=3        sub-searches=16 off-path expansions total=0
+  rand T=8 W=4           sub-searches=24 off-path expansions total=4
+  peaky0.8 T=8 W=4       sub-searches=24 off-path expansions total=0
+  peaky0.6 T=8 W=4       sub-searches=24 off-path expansions total=1
+  pinned d=1 T=8 W=4     sub-searches=24 off-path expansions total=0
+  tworate T=8 W=4        sub-searches=24 off-path expansions total=0
+  rand T=10 W=3          sub-searches=20 off-path expansions total=1
+  peaky0.8 T=10 W=3      sub-searches=20 off-path expansions total=0
+  peaky0.6 T=10 W=3      sub-searches=20 off-path expansions total=4
+  pinned d=1 T=10 W=3    sub-searches=20 off-path expansions total=3
+  tworate T=10 W=3       sub-searches=20 off-path expansions total=0
+  rand T=10 W=4          sub-searches=30 off-path expansions total=12
+  peaky0.8 T=10 W=4      sub-searches=30 off-path expansions total=0
+  peaky0.6 T=10 W=4      sub-searches=30 off-path expansions total=0
+  pinned d=1 T=10 W=4    sub-searches=30 off-path expansions total=1
+  tworate T=10 W=4       sub-searches=30 off-path expansions total=0
+  rand T=12 W=3          sub-searches=24 off-path expansions total=3
+  peaky0.8 T=12 W=3      sub-searches=24 off-path expansions total=0
+  peaky0.6 T=12 W=3      sub-searches=24 off-path expansions total=1
+  pinned d=1 T=12 W=3    sub-searches=24 off-path expansions total=10
+  tworate T=12 W=3       sub-searches=24 off-path expansions total=1
+  rand T=12 W=4          sub-searches=36 off-path expansions total=70
+  peaky0.8 T=12 W=4      sub-searches=36 off-path expansions total=0
+  peaky0.6 T=12 W=4      sub-searches=36 off-path expansions total=3
+  pinned d=1 T=12 W=4    sub-searches=36 off-path expansions total=3
+  tworate T=12 W=4       sub-searches=36 off-path expansions total=1
+(2s)
+GATE G2a sub-search runner-up H'_c(t) == brute-force second-largest g_v(t) (T<=8): 350 cells, violations 0 -> PASS
+GATE G2b sub-search Theorem A per node (K_u >= mu, sum_{V_u} g(u.v) >= H_c(t)): 122 off-path nodes, violations 0 -> PASS
+GATE G2c sub-search Theorem A a priori (mu > K_(>t) => exp <= |v|+1): 900 sub-searches (461 with mu > K), violations 0 -> PASS

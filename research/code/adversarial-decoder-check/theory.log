@@ -1,0 +1,86 @@
+--- (1) flat tables, exact Fraction arithmetic vs float ---
+flat W=3 T=6: Fraction exp_final=5 gen=34 | float exp_final=5 gen=34 | D=3 exact-tied labellings=2 1/p*=8.68
+flat W=3 T=8: Fraction exp_final=7 gen=62 | float exp_final=7 gen=62 | D=4 exact-tied labellings=2 1/p*=13.3
+flat W=3 T=10: Fraction exp_final=9 gen=98 | float exp_final=9 gen=98 | D=4 exact-tied labellings=4 1/p*=19.7
+flat W=3 T=12: Fraction exp_final=11 gen=142 | float exp_final=11 gen=142 | D=5 exact-tied labellings=2 1/p*=27.3
+flat W=4 T=6: Fraction exp_final=10 gen=102 | float exp_final=10 gen=102 | D=3 exact-tied labellings=12 1/p*=48.8
+flat W=4 T=8: Fraction exp_final=22 gen=264 | float exp_final=22 gen=264 | D=4 exact-tied labellings=24 1/p*=132
+flat W=4 T=10: Fraction exp_final=46 gen=606 | float exp_final=46 gen=606 | D=4 exact-tied labellings=72 1/p*=349
+flat W=4 T=12: Fraction exp_final=94 gen=1308 | float exp_final=94 gen=1308 | D=5 exact-tied labellings=48 1/p*=863
+flat W=5 T=6: Fraction exp_final=17 gen=228 | float exp_final=17 gen=228 | D=3 exact-tied labellings=36 1/p*=186
+flat W=5 T=8: Fraction exp_final=53 gen=788 | float exp_final=53 gen=788 | D=4 exact-tied labellings=108 1/p*=789
+flat W=5 T=10: Fraction exp_final=161 gen=2500 | float exp_final=161 gen=2500 | D=4 exact-tied labellings=432 1/p*=3.25e+03
+--- (2) expansions vs prefix-count bound ---
+  fam=random T=8 W=3 exp_final=6 prefixbound=27 K_T=15 K_2=2 D=4
+  fam=random T=8 W=3 exp_final=4 prefixbound=25 K_T=21 K_2=5 D=4
+  fam=random T=8 W=3 exp_final=4 prefixbound=17 K_T=8 K_2=1 D=4
+  fam=random T=9 W=3 exp_final=6 prefixbound=38 K_T=31 K_2=5 D=5
+  fam=random T=9 W=3 exp_final=5 prefixbound=28 K_T=22 K_2=4 D=5
+  fam=random T=9 W=3 exp_final=6 prefixbound=34 K_T=29 K_2=5 D=4
+  fam=random T=10 W=3 exp_final=5 prefixbound=60 K_T=52 K_2=6 D=5
+  fam=random T=10 W=3 exp_final=4 prefixbound=41 K_T=30 K_2=5 D=4
+  fam=random T=10 W=3 exp_final=5 prefixbound=51 K_T=44 K_2=6 D=5
+  fam=random T=8 W=4 exp_final=4 prefixbound=83 K_T=78 K_2=10 D=4
+  fam=random T=8 W=4 exp_final=6 prefixbound=133 K_T=123 K_2=15 D=4
+  fam=random T=8 W=4 exp_final=6 prefixbound=83 K_T=66 K_2=8 D=4
+  fam=flat T=8 W=3 exp_final=7 prefixbound=35 K_T=32 K_2=6 D=4
+  fam=flat T=8 W=3 exp_final=7 prefixbound=35 K_T=32 K_2=6 D=4
+  fam=flat T=8 W=3 exp_final=7 prefixbound=35 K_T=32 K_2=6 D=4
+  fam=flat T=9 W=3 exp_final=7 prefixbound=41 K_T=38 K_2=6 D=4
+  fam=flat T=9 W=3 exp_final=7 prefixbound=41 K_T=38 K_2=6 D=4
+  fam=flat T=9 W=3 exp_final=7 prefixbound=41 K_T=38 K_2=6 D=4
+  fam=flat T=10 W=3 exp_final=9 prefixbound=53 K_T=50 K_2=8 D=4
+  fam=flat T=10 W=3 exp_final=9 prefixbound=53 K_T=50 K_2=8 D=4
+  fam=flat T=10 W=3 exp_final=9 prefixbound=53 K_T=50 K_2=8 D=4
+  fam=flat T=8 W=4 exp_final=22 prefixbound=340 K_T=336 K_2=84 D=4
+  fam=flat T=8 W=4 exp_final=22 prefixbound=340 K_T=336 K_2=84 D=4
+  fam=flat T=8 W=4 exp_final=22 prefixbound=340 K_T=336 K_2=84 D=4
+  fam=peaky.8 T=8 W=3 exp_final=4 prefixbound=14 K_T=6 K_2=1 D=4
+  fam=peaky.8 T=8 W=3 exp_final=2 prefixbound=6 K_T=5 K_2=2 D=2
+  fam=peaky.8 T=8 W=3 exp_final=1 prefixbound=10 K_T=8 K_2=3 D=1
+  fam=peaky.8 T=9 W=3 exp_final=1 prefixbound=13 K_T=12 K_2=3 D=1
+  fam=peaky.8 T=9 W=3 exp_final=3 prefixbound=13 K_T=8 K_2=1 D=3
+  fam=peaky.8 T=9 W=3 exp_final=3 prefixbound=19 K_T=11 K_2=2 D=3
+  fam=peaky.8 T=10 W=3 exp_final=5 prefixbound=27 K_T=12 K_2=1 D=5
+  fam=peaky.8 T=10 W=3 exp_final=2 prefixbound=15 K_T=12 K_2=4 D=2
+  fam=peaky.8 T=10 W=3 exp_final=2 prefixbound=19 K_T=14 K_2=3 D=2
+  fam=peaky.8 T=8 W=4 exp_final=2 prefixbound=13 K_T=9 K_2=1 D=2
+  fam=peaky.8 T=8 W=4 exp_final=2 prefixbound=16 K_T=8 K_2=1 D=2
+  fam=peaky.8 T=8 W=4 exp_final=2 prefixbound=8 K_T=4 K_2=1 D=2
+  fam=peaky.5 T=8 W=3 exp_final=5 prefixbound=27 K_T=26 K_2=9 D=3
+  fam=peaky.5 T=8 W=3 exp_final=3 prefixbound=24 K_T=22 K_2=5 D=3
+  fam=peaky.5 T=8 W=3 exp_final=3 prefixbound=23 K_T=21 K_2=7 D=3
+  fam=peaky.5 T=9 W=3 exp_final=4 prefixbound=32 K_T=28 K_2=3 D=4
+  fam=peaky.5 T=9 W=3 exp_final=5 prefixbound=40 K_T=39 K_2=10 D=3
+  fam=peaky.5 T=9 W=3 exp_final=4 prefixbound=37 K_T=35 K_2=9 D=4
+  fam=peaky.5 T=10 W=3 exp_final=4 prefixbound=45 K_T=39 K_2=4 D=4
+  fam=peaky.5 T=10 W=3 exp_final=6 prefixbound=49 K_T=46 K_2=6 D=4
+  fam=peaky.5 T=10 W=3 exp_final=5 prefixbound=49 K_T=43 K_2=6 D=5
+  fam=peaky.5 T=8 W=4 exp_final=4 prefixbound=100 K_T=100 K_2=24 D=2
+  fam=peaky.5 T=8 W=4 exp_final=4 prefixbound=94 K_T=92 K_2=12 D=3
+  fam=peaky.5 T=8 W=4 exp_final=4 prefixbound=82 K_T=81 K_2=17 D=2
+  fam=neartie3 T=8 W=3 exp_final=3 prefixbound=19 K_T=19 K_2=8 D=2
+  fam=neartie3 T=8 W=3 exp_final=3 prefixbound=19 K_T=19 K_2=8 D=2
+  fam=neartie3 T=8 W=3 exp_final=3 prefixbound=19 K_T=19 K_2=8 D=2
+  fam=neartie3 T=9 W=3 exp_final=3 prefixbound=29 K_T=29 K_2=12 D=2
+  fam=neartie3 T=9 W=3 exp_final=3 prefixbound=29 K_T=29 K_2=12 D=2
+  fam=neartie3 T=9 W=3 exp_final=3 prefixbound=29 K_T=29 K_2=12 D=2
+  fam=neartie3 T=10 W=3 exp_final=5 prefixbound=39 K_T=38 K_2=14 D=3
+  fam=neartie3 T=10 W=3 exp_final=5 prefixbound=39 K_T=38 K_2=14 D=3
+  fam=neartie3 T=10 W=3 exp_final=5 prefixbound=39 K_T=38 K_2=14 D=3
+  fam=neartie3 T=8 W=4 exp_final=3 prefixbound=19 K_T=19 K_2=8 D=2
+  fam=neartie3 T=8 W=4 exp_final=3 prefixbound=19 K_T=19 K_2=8 D=2
+  fam=neartie3 T=8 W=4 exp_final=3 prefixbound=19 K_T=19 K_2=8 D=2
+  fam=spreadpair T=8 W=3 exp_final=5 prefixbound=25 K_T=24 K_2=12 D=3
+  fam=spreadpair T=8 W=3 exp_final=5 prefixbound=25 K_T=24 K_2=12 D=3
+  fam=spreadpair T=8 W=3 exp_final=5 prefixbound=25 K_T=24 K_2=12 D=3
+  fam=spreadpair T=9 W=3 exp_final=5 prefixbound=39 K_T=38 K_2=12 D=3
+  fam=spreadpair T=9 W=3 exp_final=5 prefixbound=39 K_T=38 K_2=12 D=3
+  fam=spreadpair T=9 W=3 exp_final=5 prefixbound=39 K_T=38 K_2=12 D=3
+  fam=spreadpair T=10 W=3 exp_final=7 prefixbound=41 K_T=40 K_2=18 D=3
+  fam=spreadpair T=10 W=3 exp_final=7 prefixbound=41 K_T=40 K_2=18 D=3
+  fam=spreadpair T=10 W=3 exp_final=7 prefixbound=41 K_T=40 K_2=18 D=3
+  fam=spreadpair T=8 W=4 exp_final=3 prefixbound=47 K_T=45 K_2=13 D=2
+  fam=spreadpair T=8 W=4 exp_final=4 prefixbound=35 K_T=33 K_2=10 D=3
+  fam=spreadpair T=8 W=4 exp_final=5 prefixbound=25 K_T=24 K_2=12 D=3
+GATE exp_final <= |prefixes of labellings with p >= p*/T|: 72 instances, violations 0 -> PASS

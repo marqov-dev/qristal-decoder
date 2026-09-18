@@ -1,0 +1,8 @@
+flat W=3 T=8: D=4 1/p*=13.3 exact-tied labellings=2 (>= (W-1)(W-2)^(D-1) = 2) | prefixes of tied: 9, with B(u) > p* strictly: 7, B(u) == p*: 2 | exp_final=7  lower bound holds: True
+flat W=3 T=10: D=4 1/p*=19.7 exact-tied labellings=4 (>= (W-1)(W-2)^(D-1) = 2) | prefixes of tied: 11, with B(u) > p* strictly: 9, B(u) == p*: 2 | exp_final=9  lower bound holds: True
+flat W=3 T=12: D=5 1/p*=27.3 exact-tied labellings=2 (>= (W-1)(W-2)^(D-1) = 2) | prefixes of tied: 11, with B(u) > p* strictly: 11, B(u) == p*: 0 | exp_final=11  lower bound holds: True
+flat W=4 T=8: D=4 1/p*=132 exact-tied labellings=24 (>= (W-1)(W-2)^(D-1) = 24) | prefixes of tied: 46, with B(u) > p* strictly: 22, B(u) == p*: 24 | exp_final=22  lower bound holds: True
+flat W=4 T=10: D=4 1/p*=349 exact-tied labellings=72 (>= (W-1)(W-2)^(D-1) = 24) | prefixes of tied: 94, with B(u) > p* strictly: 46, B(u) == p*: 48 | exp_final=46  lower bound holds: True
+flat W=4 T=12: D=5 1/p*=863 exact-tied labellings=48 (>= (W-1)(W-2)^(D-1) = 48) | prefixes of tied: 94, with B(u) > p* strictly: 94, B(u) == p*: 0 | exp_final=94  lower bound holds: True
+flat W=5 T=8: D=4 1/p*=789 exact-tied labellings=108 (>= (W-1)(W-2)^(D-1) = 108) | prefixes of tied: 161, with B(u) > p* strictly: 53, B(u) == p*: 108 | exp_final=53  lower bound holds: True
+flat W=5 T=10: D=4 1/p*=3.25e+03 exact-tied labellings=432 (>= (W-1)(W-2)^(D-1) = 108) | prefixes of tied: 485, with B(u) > p* strictly: 161, B(u) == p*: 324 | exp_final=161  lower bound holds: True

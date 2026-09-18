@@ -1,0 +1,130 @@
+[
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-34720N_002001_002559_AT",
+  "wada": 30.544826683613216,
+  "vad": 28.16865707428544,
+  "snr": 29.35674187894933,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-a1WcrN_000157_000469_AT",
+  "wada": 19.698055256821657,
+  "vad": 22.341227174292207,
+  "snr": 21.01964121555693,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-a3o8f0_000000_000352_AT",
+  "wada": 26.024586401158487,
+  "vad": 25.021066985145957,
+  "snr": 25.522826693152222,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-A5lZHJ_000000_000613_AT",
+  "wada": 33.6829779063067,
+  "vad": 29.60572873037411,
+  "snr": 31.644353318340404,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-A5lZHJ_002805_003388_PIAT",
+  "wada": 39.97345271772866,
+  "vad": 29.87381774979539,
+  "snr": 34.92363523376203,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-a8R9jE_000144_000596_AT",
+  "wada": 26.389997525083594,
+  "vad": 23.012515676979376,
+  "snr": 24.701256601031485,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-a8R9jE_000700_001023_PIAT",
+  "wada": 35.14107509701206,
+  "vad": 28.931089970503535,
+  "snr": 32.0360825337578,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_uwb",
+  "id": "uwb-atcc_TWR-A64ueL_000128_000777_PI",
+  "wada": 28.755005842262282,
+  "vad": 27.7308467790982,
+  "snr": 28.24292631068024,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKTB_BRNO_Tower_119_605MHz_20201028_185619-A__000000-000536",
+  "wada": 25.067881577070974,
+  "vad": 19.57195835298347,
+  "snr": 22.31991996502722,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKTB_BRNO_Approach-Radar_127_350MHz_20201026_111634-A__000000-000395",
+  "wada": 60.106253999330846,
+  "vad": 20.002991710704343,
+  "snr": 40.0546228550176,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Radar_120_520MHz_20201028_151125-A__000000-000444",
+  "wada": 38.49176931463292,
+  "vad": 22.110706584532682,
+  "snr": 30.3012379495828,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Radar_120_520MHz_20201028_151125-G__000444-000934",
+  "wada": 18.374974845143313,
+  "vad": 22.413644142940143,
+  "snr": 20.394309494041728,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Radar_120_520MHz_20201026_145941-G__000000-000349",
+  "wada": 72.56617947421668,
+  "vad": 22.098374396360594,
+  "snr": 47.33227693528864,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Tower_134_560MHz_20201025_144043-B__000000-000332",
+  "wada": 100.0,
+  "vad": 27.178514785221495,
+  "snr": 27.178514785221495,
+  "wada_saturated": true
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Tower_134_560MHz_20201025_144043-A__000334-000742",
+  "wada": 35.33876001741289,
+  "vad": 31.413935266624303,
+  "snr": 33.376347642018594,
+  "wada_saturated": false
+ },
+ {
+  "domain": "atc_atco2",
+  "id": "atco2_test-set-1h_LKPR_RUZYNE_Tower_134_560MHz_20201025_144043-B__000744-001212",
+  "wada": 27.244983901810514,
+  "vad": 25.13581523116635,
+  "snr": 26.19039956648843,
+  "wada_saturated": false
+ }
+]

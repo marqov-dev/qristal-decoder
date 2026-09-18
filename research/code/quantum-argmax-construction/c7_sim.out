@@ -1,0 +1,15 @@
+GATE oracle p(l|y) [ctc_forward] vs toolkit brute_ctc AND my own enumeration AND Born marginal of A|0>: 1500 labellings, worst abs err 4.44e-16 -> PASS
+GATE Durr-Hoyer returned label has p == p* (brute force): 200 tables, 0 failures -> PASS
+exact-label matches (ties excluded from the gate): 198/200
+
+Per-config summary (means):
+ T  W     kind   n   NL      p* 1/sqrt p* rounds E[r] exact 1+ln(1/p*) G_search G_detect G_tot/inv G_srch/inv
+ 3  2    peaky  50  3.0   0.764      1.16   0.18       1.25       1.28      0.1     24.9     21.78       0.11
+ 4  2 rational  50  3.0   0.679      1.23   0.36       1.33       1.41      0.2     24.9     20.53       0.16
+ 3  3    peaky  50  9.0   0.557      1.41   0.40       1.57       1.65      0.3     27.9     20.24       0.19
+ 4  3 rational  50 15.0   0.331      1.78   0.96       1.99       2.14      1.2     33.9     19.71       0.60
+
+ALL 200 tables: mean rounds 0.47 (exact E incl. initial sample 1.53; bound 1+ln(1/p*) 1.62)
+  mean G_search/(1/sqrt p*) = 0.27   (theory: <= 9/sqrt(p*) using BBHT's 9/2 per round)
+  mean G_detect/(1/sqrt p*) = 20.30   (theory: ~K*kappa/2 = 12)
+  max rounds 3, max G_total 62, min p* 0.1765

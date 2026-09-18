@@ -1,0 +1,6 @@
+GATE (a) class_posterior vs brute force over all W^T paths (exact Fractions): 192 (table,DFA) instances, 237120 paths summed, 148 with nonzero mass, 0 mismatches -> PASS
+GATE (b) class_posterior vs sum of ctc_forward over enumerated L (|l|<=T, exact Fractions): 192 instances, 57756 labellings summed, 148 with nonzero mass, 0 mismatches -> PASS
+GATE (c) L=Sigma* gives exactly 1 and L={l} gives exactly ctc_forward(l) (+ toolkit float forward to 1e-12): 160 checks, 0 mismatches -> PASS  [0.5s]
+GATE numpy / float implementations vs exact Fractions (T<=40, W<=8, |Q|<=30): 60 checks, worst rel err 1.00e-15 -> PASS
+GATE word-pattern DFAs (+ intersect/union/difference/complement) vs Python re on rendered text: 44000 checks, 0 mismatches, sizes [5, 5, 6, 4, 6, 7] -> PASS
+ALL GATES PASS

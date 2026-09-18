@@ -1,0 +1,17 @@
+T4/clean/P8                                                            T=255 status=ok       sec=   19.0 gen=  6838104 expF=  107 D= 58 p*=9.283e-01 p2=2.202e-02 margin=42.168 verify=True greedy/p*=1.000
+T4/10dB/P0                                                             T=292 status=ok       sec=   38.2 gen= 11637307 expF=  120 D= 85 p*=4.532e-03 p2=3.878e-03 margin=1.168 verify=True greedy/p*=1.000
+T4/10dB/P10                                                            T=279 status=ok       sec=   32.6 gen= 10822162 expF=   93 D= 81 p*=5.316e-02 p2=2.291e-02 margin=2.321 verify=True greedy/p*=1.000
+T4/5dB/P1                                                              T=240 status=ok       sec=   17.9 gen=  7012572 expF=  106 D= 57 p*=2.623e-22 p2=2.570e-22 margin=1.021 verify=True greedy/p*=0.225
+T4/5dB/P12                                                             T=268 status=ok       sec=   22.1 gen=  7376791 expF=   72 D= 51 p*=2.917e-12 p2=2.899e-12 margin=1.006 verify=True greedy/p*=0.356
+T4/0dB/P6                                                              T=281 status=ok       sec=   73.8 gen= 41464174 expF= 1324 D= 23 p*=1.383e-25 p2=1.351e-25 margin=1.023 verify=True greedy/p*=0.076
+T4/0dB/P14                                                             T=112 status=ok       sec=    0.9 gen=  1038097 expF=   29 D= 19 p*=3.019e-05 p2=2.944e-05 margin=1.025 verify=True greedy/p*=1.000
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_MEE071_0192089_0192700           T=305 status=ok       sec=   46.2 gen= 15479788 expF=  169 D=107 p*=1.043e-17 p2=1.040e-17 margin=1.003 verify=True greedy/p*=0.829
+T7/base960h__ami_sdm__AMI_EN2002a_sdm_MEE073_0208436_0208731           T=147 status=ok       sec=    3.3 gen=  3293471 expF=   97 D= 48 p*=2.739e-05 p2=2.215e-05 margin=1.236 verify=True greedy/p*=1.000
+T7/base960h__atc_uwb__uwb-atcc_TWR-A64ueL_000128_000777_PI             T=324 status=ok       sec=   24.2 gen=  7841264 expF=   65 D= 57 p*=1.112e-18 p2=1.098e-18 margin=1.013 verify=True greedy/p*=0.119
+T7/base960h__atc_uwb__uwb-atcc_TWR-a8R9jE_000700_001023_PIAT           T=161 status=ok       sec=    3.5 gen=  3114570 expF=   65 D= 46 p*=8.907e-12 p2=8.603e-12 margin=1.035 verify=True greedy/p*=0.624
+T7/base960h__torgo_ctl__torgo_ctl_3                                    T=322 status=ok       sec=   38.4 gen=  9947373 expF=  121 D= 72 p*=9.715e-01 p2=1.181e-02 margin=82.230 verify=True greedy/p*=1.000
+T7/base960h_dys__torgo_dys__torgo_dys_3                                T=209 status=ok       sec=    6.9 gen=  3228030 expF=   48 D= 32 p*=2.888e-04 p2=2.711e-04 margin=1.065 verify=True greedy/p*=0.735
+T7/base960h_dys__torgo_dys__torgo_dys_7                                T=247 status=ok       sec=   13.5 gen=  5220989 expF=   75 D= 38 p*=1.789e-06 p2=1.693e-06 margin=1.057 verify=True greedy/p*=1.000
+T7/torgoft__atc_uwb__uwb-atcc_TWR-A64ueL_000128_000777_PI              T=324 status=ok       sec=    1.1 gen=   320512 expF=    3 D=  1 p*=4.607e-03 p2=3.149e-03 margin=1.463 verify=True greedy/p*=1.000
+T7/torgoft__atc_uwb__uwb-atcc_TWR-a8R9jE_000700_001023_PIAT            T=161 status=ok       sec=    0.2 gen=   158816 expF=    3 D=  1 p*=6.906e-02 p2=2.331e-02 margin=2.963 verify=True greedy/p*=1.000
+T7/torgoft__torgo_dys__torgo_dys_3                                     T=209 status=ok       sec=    0.4 gen=   206432 expF=    3 D=  1 p*=3.112e-02 p2=1.367e-02 margin=2.276 verify=True greedy/p*=1.000

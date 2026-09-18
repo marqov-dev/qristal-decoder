@@ -1,0 +1,245 @@
+## T=16: 50 cells (0s)
+   band m>= #cells max exp/D                     (cell) max n_off max gen/T2 max R_off max K_u max K
+        1.0     50     10.75 peaky W=5 conf=0.5 s=0 m=1.01        39       6.56      1.91       8     8
+       1.05     43      3.00 peaky W=5 conf=0.7 s=0 m=1.18        10       6.56      1.84       6     8
+        1.2     36      1.29 peaky W=4 conf=0.5 s=1 m=1.24         2       3.78      1.84       6     8
+        1.5     28      1.00 peaky W=4 conf=0.7 s=0 m=1.70         0       3.56      0.00       0     8
+        2.0     25      1.00 peaky W=4 conf=0.8 s=0 m=2.89         0       3.56      0.00       0     8
+        4.0     16      1.00 peaky W=4 conf=0.9 s=0 m=6.60         0       3.56      0.00       0     8
+          T      3      1.00       alt rho=0.99 m=99.00         0       1.98      0.00       0     8
+    peaky W=4 conf=0.55 s=0    m=   1.003 D=  6 exp=    15 exp/D=   2.50 n_off=    9 gen/T2=   1.52 K=  6 maxR_off=1.35
+    peaky W=4 conf=0.5 s=0     m=   1.004 D=  6 exp=    16 exp/D=   2.67 n_off=   10 gen/T2=   1.86 K=  8 maxR_off=1.87
+    peaky W=4 conf=0.5 s=2     m=   1.009 D=  6 exp=    16 exp/D=   2.67 n_off=   10 gen/T2=   3.54 K=  7 maxR_off=1.91
+    peaky W=5 conf=0.6 s=0     m=   1.010 D=  4 exp=    13 exp/D=   3.25 n_off=    9 gen/T2=   2.70 K=  5 maxR_off=1.81
+    peaky W=5 conf=0.55 s=0    m=   1.012 D=  4 exp=    18 exp/D=   4.50 n_off=   14 gen/T2=   3.30 K=  5 maxR_off=1.79
+    peaky W=5 conf=0.5 s=0     m=   1.012 D=  4 exp=    43 exp/D=  10.75 n_off=   39 gen/T2=   4.56 K=  6 maxR_off=1.65
+    peaky W=5 conf=0.5 s=1     m=   1.046 D=  5 exp=    10 exp/D=   2.00 n_off=    4 gen/T2=   3.61 K=  8 maxR_off=1.22
+    peaky W=5 conf=0.5 s=2     m=   1.074 D=  6 exp=    16 exp/D=   2.67 n_off=   10 gen/T2=   6.56 K=  8 maxR_off=1.41
+    peaky W=4 conf=0.6 s=2     m=   1.099 D=  5 exp=     7 exp/D=   1.40 n_off=    2 gen/T2=   1.63 K=  7 maxR_off=1.50
+    peaky W=4 conf=0.55 s=1    m=   1.108 D=  7 exp=     8 exp/D=   1.14 n_off=    1 gen/T2=   2.32 K=  8 maxR_off=1.52
+    peaky W=4 conf=0.6 s=0     m=   1.152 D=  5 exp=     7 exp/D=   1.40 n_off=    2 gen/T2=   1.39 K=  6 maxR_off=1.22
+    peaky W=4 conf=0.55 s=2    m=   1.164 D=  5 exp=     9 exp/D=   1.80 n_off=    4 gen/T2=   2.25 K=  6 maxR_off=1.56
+    peaky W=5 conf=0.7 s=0     m=   1.180 D=  3 exp=     9 exp/D=   3.00 n_off=    6 gen/T2=   1.84 K=  4 maxR_off=1.28
+    peaky W=5 conf=0.55 s=1    m=   1.198 D=  5 exp=     7 exp/D=   1.40 n_off=    2 gen/T2=   2.44 K=  6 maxR_off=1.46
+    alt rho=0.55               m=   1.222 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K=  8 maxR_off=0.00
+    alt rho=0.55               m=   1.222 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K=  8 maxR_off=0.00
+    peaky W=4 conf=0.5 s=1     m=   1.239 D=  7 exp=     9 exp/D=   1.29 n_off=    2 gen/T2=   2.50 K=  8 maxR_off=1.84
+    peaky W=5 conf=0.55 s=2    m=   1.239 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   3.78 K=  7 maxR_off=0.00
+    peaky W=4 conf=0.7 s=2     m=   1.249 D=  4 exp=     4 exp/D=   1.00 n_off=    0 gen/T2=   1.08 K=  6 maxR_off=0.00
+    peaky W=4 conf=0.6 s=1     m=   1.255 D=  7 exp=     9 exp/D=   1.29 n_off=    2 gen/T2=   2.30 K=  8 maxR_off=1.58
+    peaky W=5 conf=0.6 s=1     m=   1.438 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   2.05 K=  6 maxR_off=0.00
+    peaky W=5 conf=0.6 s=2     m=   1.442 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   3.50 K=  7 maxR_off=0.00
+    peaky W=4 conf=0.7 s=0     m=   1.698 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.37 K=  6 maxR_off=0.00
+    peaky W=4 conf=0.7 s=1     m=   1.894 D=  7 exp=     7 exp/D=   1.00 n_off=    0 gen/T2=   1.79 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.8 s=0     m=   1.969 D=  3 exp=     3 exp/D=   1.00 n_off=    0 gen/T2=   1.75 K=  4 maxR_off=0.00
+    peaky W=4 conf=0.8 s=2     m=   2.002 D=  4 exp=     4 exp/D=   1.00 n_off=    0 gen/T2=   0.95 K=  5 maxR_off=0.00
+    peaky W=5 conf=0.7 s=2     m=   2.133 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   3.56 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.7 s=1     m=   2.227 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.98 K=  6 maxR_off=0.00
+    alt rho=0.7                m=   2.333 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K=  8 maxR_off=0.00
+    alt rho=0.7                m=   2.333 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K=  8 maxR_off=0.00
+    peaky W=4 conf=0.8 s=0     m=   2.890 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.37 K=  6 maxR_off=0.00
+    peaky W=4 conf=0.8 s=1     m=   3.158 D=  7 exp=     7 exp/D=   1.00 n_off=    0 gen/T2=   1.79 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.8 s=2     m=   3.450 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   3.56 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.8 s=1     m=   3.874 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.98 K=  6 maxR_off=0.00
+    peaky W=4 conf=0.9 s=2     m=   4.428 D=  4 exp=     4 exp/D=   1.00 n_off=    0 gen/T2=   0.95 K=  5 maxR_off=0.00
+    peaky W=5 conf=0.9 s=0     m=   4.434 D=  3 exp=     3 exp/D=   1.00 n_off=    0 gen/T2=   1.75 K=  4 maxR_off=0.00
+    peaky W=4 conf=0.9 s=0     m=   6.596 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.37 K=  6 maxR_off=0.00
+    peaky W=4 conf=0.9 s=1     m=   6.923 D=  7 exp=     7 exp/D=   1.00 n_off=    0 gen/T2=   1.79 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.9 s=2     m=   7.308 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   3.56 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.9 s=1     m=   8.870 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.98 K=  6 maxR_off=0.00
+    alt rho=0.9                m=   9.000 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K=  8 maxR_off=0.00
+    alt rho=0.9                m=   9.000 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K=  8 maxR_off=0.00
+    peaky W=4 conf=0.95 s=2    m=   9.393 D=  4 exp=     4 exp/D=   1.00 n_off=    0 gen/T2=   0.95 K=  5 maxR_off=0.00
+    peaky W=5 conf=0.95 s=0    m=   9.419 D=  3 exp=     3 exp/D=   1.00 n_off=    0 gen/T2=   1.75 K=  4 maxR_off=0.00
+    peaky W=4 conf=0.95 s=0    m=  14.078 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.37 K=  6 maxR_off=0.00
+    peaky W=4 conf=0.95 s=1    m=  14.430 D=  7 exp=     7 exp/D=   1.00 n_off=    0 gen/T2=   1.79 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.95 s=2    m=  15.250 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   3.56 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.95 s=1    m=  18.872 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.98 K=  6 maxR_off=0.00
+    alt rho=0.99               m=  99.000 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K=  8 maxR_off=0.00
+    alt rho=0.99               m=  99.000 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K=  8 maxR_off=0.00
+## T=24: 50 cells (1s)
+   band m>= #cells max exp/D                     (cell) max n_off max gen/T2 max R_off max K_u max K
+        1.0     50     77.86 peaky W=4 conf=0.5 s=0 m=1.00       537      19.20      2.61      10    12
+       1.05     32     11.78 peaky W=4 conf=0.5 s=1 m=1.09        97       9.35      2.08       9    12
+        1.2     25      1.00 peaky W=4 conf=0.8 s=1 m=1.59         0       2.75      0.00       0    12
+        1.5     22      1.00 peaky W=4 conf=0.8 s=1 m=1.59         0       2.75      0.00       0    12
+        2.0     17      1.00 peaky W=4 conf=0.9 s=1 m=3.42         0       2.75      0.00       0    12
+        4.0      9      1.00 peaky W=4 conf=0.95 s=1 m=7.16         0       2.75      0.00       0    12
+          T      2      1.00       alt rho=0.99 m=99.00         0       0.50      0.00       0    12
+    peaky W=4 conf=0.5 s=0     m=   1.000 D=  7 exp=   545 exp/D=  77.86 n_off=  537 gen/T2=  18.82 K=  9 maxR_off=2.08
+    peaky W=4 conf=0.5 s=2     m=   1.000 D=  7 exp=   321 exp/D=  45.86 n_off=  313 gen/T2=  14.13 K=  8 maxR_off=1.95
+    peaky W=4 conf=0.55 s=0    m=   1.000 D=  7 exp=   347 exp/D=  49.57 n_off=  340 gen/T2=  14.24 K=  7 maxR_off=2.14
+    peaky W=4 conf=0.55 s=2    m=   1.000 D=  6 exp=    90 exp/D=  15.00 n_off=   83 gen/T2=   7.89 K=  9 maxR_off=1.97
+    peaky W=4 conf=0.6 s=0     m=   1.000 D=  6 exp=   200 exp/D=  33.33 n_off=  194 gen/T2=   9.56 K=  7 maxR_off=2.22
+    peaky W=4 conf=0.6 s=2     m=   1.000 D=  5 exp=    66 exp/D=  13.20 n_off=   60 gen/T2=   5.55 K=  6 maxR_off=1.99
+    peaky W=4 conf=0.7 s=0     m=   1.000 D=  5 exp=    56 exp/D=  11.20 n_off=   51 gen/T2=   3.86 K=  7 maxR_off=2.25
+    peaky W=4 conf=0.7 s=2     m=   1.000 D=  4 exp=    22 exp/D=   5.50 n_off=   18 gen/T2=   2.41 K=  5 maxR_off=1.89
+    peaky W=4 conf=0.8 s=2     m=   1.000 D=  3 exp=     5 exp/D=   1.67 n_off=    2 gen/T2=   0.90 K=  4 maxR_off=1.59
+    peaky W=5 conf=0.55 s=1    m=   1.000 D=  6 exp=   147 exp/D=  24.50 n_off=  141 gen/T2=   9.24 K=  9 maxR_off=2.53
+    peaky W=5 conf=0.5 s=0     m=   1.000 D=  8 exp=    55 exp/D=   6.88 n_off=   47 gen/T2=   7.01 K= 12 maxR_off=1.68
+    peaky W=5 conf=0.5 s=2     m=   1.000 D= 10 exp=    49 exp/D=   4.90 n_off=   39 gen/T2=   5.72 K= 11 maxR_off=2.46
+    peaky W=5 conf=0.55 s=2    m=   1.002 D=  9 exp=    40 exp/D=   4.44 n_off=   31 gen/T2=   4.65 K= 10 maxR_off=1.64
+    peaky W=5 conf=0.5 s=1     m=   1.007 D=  7 exp=   315 exp/D=  45.00 n_off=  308 gen/T2=  19.20 K= 11 maxR_off=2.49
+    peaky W=4 conf=0.6 s=1     m=   1.009 D=  7 exp=    80 exp/D=  11.43 n_off=   73 gen/T2=   5.14 K=  9 maxR_off=2.61
+    peaky W=4 conf=0.7 s=1     m=   1.023 D=  6 exp=    18 exp/D=   3.00 n_off=   12 gen/T2=   1.77 K=  7 maxR_off=1.76
+    peaky W=4 conf=0.8 s=0     m=   1.028 D=  4 exp=    11 exp/D=   2.75 n_off=    7 gen/T2=   1.69 K=  5 maxR_off=2.27
+    peaky W=5 conf=0.6 s=2     m=   1.037 D=  8 exp=    34 exp/D=   4.25 n_off=   26 gen/T2=   3.87 K=  9 maxR_off=1.57
+    peaky W=5 conf=0.7 s=0     m=   1.060 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.23 K=  7 maxR_off=0.00
+    peaky W=4 conf=0.55 s=1    m=   1.087 D=  9 exp=    96 exp/D=  10.67 n_off=   87 gen/T2=   7.55 K= 10 maxR_off=2.05
+    peaky W=4 conf=0.5 s=1     m=   1.089 D=  9 exp=   106 exp/D=  11.78 n_off=   97 gen/T2=   9.35 K= 10 maxR_off=2.02
+    peaky W=5 conf=0.55 s=0    m=   1.105 D=  6 exp=    23 exp/D=   3.83 n_off=   17 gen/T2=   2.94 K=  8 maxR_off=1.56
+    peaky W=5 conf=0.6 s=1     m=   1.130 D=  5 exp=    31 exp/D=   6.20 n_off=   26 gen/T2=   3.54 K=  7 maxR_off=2.08
+    peaky W=5 conf=0.7 s=1     m=   1.161 D=  5 exp=    13 exp/D=   2.60 n_off=    8 gen/T2=   1.94 K=  6 maxR_off=1.46
+    peaky W=5 conf=0.6 s=0     m=   1.173 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   1.76 K=  9 maxR_off=0.00
+    alt rho=0.55               m=   1.222 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 12 maxR_off=0.00
+    alt rho=0.55               m=   1.222 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 12 maxR_off=0.00
+    peaky W=5 conf=0.8 s=1     m=   1.440 D=  4 exp=     4 exp/D=   1.00 n_off=    0 gen/T2=   1.66 K=  5 maxR_off=0.00
+    peaky W=5 conf=0.7 s=2     m=   1.511 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   2.75 K=  9 maxR_off=0.00
+    peaky W=4 conf=0.9 s=2     m=   1.560 D=  2 exp=     2 exp/D=   1.00 n_off=    0 gen/T2=   0.39 K=  3 maxR_off=0.00
+    peaky W=4 conf=0.9 s=0     m=   1.562 D=  3 exp=     3 exp/D=   1.00 n_off=    0 gen/T2=   0.92 K=  4 maxR_off=0.00
+    peaky W=4 conf=0.8 s=1     m=   1.591 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   1.16 K=  6 maxR_off=0.00
+    peaky W=5 conf=0.8 s=0     m=   1.767 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.22 K=  6 maxR_off=0.00
+    alt rho=0.7                m=   2.333 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 12 maxR_off=0.00
+    alt rho=0.7                m=   2.333 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 12 maxR_off=0.00
+    peaky W=5 conf=0.8 s=2     m=   2.576 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   2.75 K=  9 maxR_off=0.00
+    peaky W=5 conf=0.9 s=1     m=   3.235 D=  4 exp=     4 exp/D=   1.00 n_off=    0 gen/T2=   1.66 K=  5 maxR_off=0.00
+    peaky W=4 conf=0.95 s=0    m=   3.315 D=  3 exp=     3 exp/D=   1.00 n_off=    0 gen/T2=   0.92 K=  4 maxR_off=0.00
+    peaky W=4 conf=0.95 s=2    m=   3.316 D=  2 exp=     2 exp/D=   1.00 n_off=    0 gen/T2=   0.39 K=  3 maxR_off=0.00
+    peaky W=4 conf=0.9 s=1     m=   3.423 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   1.16 K=  6 maxR_off=0.00
+    peaky W=5 conf=0.9 s=0     m=   3.962 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.22 K=  6 maxR_off=0.00
+    peaky W=5 conf=0.9 s=2     m=   5.881 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   2.75 K=  9 maxR_off=0.00
+    peaky W=5 conf=0.95 s=1    m=   6.861 D=  4 exp=     4 exp/D=   1.00 n_off=    0 gen/T2=   1.66 K=  5 maxR_off=0.00
+    peaky W=4 conf=0.95 s=1    m=   7.155 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   1.16 K=  6 maxR_off=0.00
+    peaky W=5 conf=0.95 s=0    m=   8.394 D=  5 exp=     5 exp/D=   1.00 n_off=    0 gen/T2=   1.22 K=  6 maxR_off=0.00
+    alt rho=0.9                m=   9.000 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 12 maxR_off=0.00
+    alt rho=0.9                m=   9.000 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 12 maxR_off=0.00
+    peaky W=5 conf=0.95 s=2    m=  12.537 D=  8 exp=     8 exp/D=   1.00 n_off=    0 gen/T2=   2.75 K=  9 maxR_off=0.00
+    alt rho=0.99               m=  99.000 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 12 maxR_off=0.00
+    alt rho=0.99               m=  99.000 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 12 maxR_off=0.00
+## T=32: 50 cells (3s)
+   band m>= #cells max exp/D                     (cell) max n_off max gen/T2 max R_off max K_u max K
+        1.0     50     67.18 peaky W=5 conf=0.5 s=0 m=1.00       728      64.49      2.65      17    19
+       1.05     37      6.42 peaky W=4 conf=0.55 s=1 m=1.12        65      10.29      2.41      11    16
+        1.2     32      1.17 peaky W=4 conf=0.8 s=2 m=1.24         2       3.65      1.63      10    16
+        1.5     25      1.00 peaky W=4 conf=0.8 s=0 m=2.33         0       3.20      0.00       0    16
+        2.0     22      1.00 peaky W=4 conf=0.8 s=0 m=2.33         0       3.20      0.00       0    16
+        4.0     14      1.00 peaky W=4 conf=0.9 s=0 m=5.28         0       3.20      0.00       0    16
+          T      2      1.00       alt rho=0.99 m=99.00         0       0.50      0.00       0    16
+    peaky W=5 conf=0.6 s=0     m=   1.001 D= 10 exp=    50 exp/D=   5.00 n_off=   40 gen/T2=   6.92 K= 14 maxR_off=2.41
+    peaky W=5 conf=0.5 s=0     m=   1.002 D= 11 exp=   739 exp/D=  67.18 n_off=  728 gen/T2=  64.49 K= 13 maxR_off=2.65
+    peaky W=4 conf=0.5 s=2     m=   1.002 D= 11 exp=   352 exp/D=  32.00 n_off=  340 gen/T2=  24.33 K= 19 maxR_off=2.02
+    peaky W=4 conf=0.55 s=0    m=   1.002 D= 12 exp=    60 exp/D=   5.00 n_off=   48 gen/T2=   7.19 K= 15 maxR_off=2.38
+    peaky W=4 conf=0.55 s=2    m=   1.005 D= 10 exp=   200 exp/D=  20.00 n_off=  189 gen/T2=  12.88 K= 13 maxR_off=2.10
+    peaky W=5 conf=0.5 s=1     m=   1.006 D= 12 exp=    97 exp/D=   8.08 n_off=   85 gen/T2=  10.33 K= 15 maxR_off=2.02
+    peaky W=4 conf=0.6 s=0     m=   1.010 D= 13 exp=    34 exp/D=   2.62 n_off=   21 gen/T2=   4.41 K= 16 maxR_off=1.73
+    peaky W=4 conf=0.6 s=2     m=   1.011 D=  9 exp=   146 exp/D=  16.22 n_off=  137 gen/T2=   9.08 K= 14 maxR_off=2.18
+    peaky W=4 conf=0.5 s=0     m=   1.024 D= 13 exp=    62 exp/D=   4.77 n_off=   49 gen/T2=   8.56 K= 14 maxR_off=2.23
+    peaky W=4 conf=0.7 s=2     m=   1.025 D=  8 exp=    24 exp/D=   3.00 n_off=   16 gen/T2=   2.25 K= 10 maxR_off=1.70
+    peaky W=5 conf=0.55 s=0    m=   1.031 D= 11 exp=   110 exp/D=  10.00 n_off=   99 gen/T2=  15.10 K= 14 maxR_off=2.18
+    peaky W=4 conf=0.6 s=1     m=   1.043 D= 12 exp=    39 exp/D=   3.25 n_off=   27 gen/T2=   4.13 K= 14 maxR_off=2.11
+    peaky W=4 conf=0.5 s=1     m=   1.043 D= 12 exp=   213 exp/D=  17.75 n_off=  201 gen/T2=  15.09 K= 16 maxR_off=2.30
+    peaky W=5 conf=0.5 s=2     m=   1.057 D= 12 exp=    63 exp/D=   5.25 n_off=   51 gen/T2=  10.29 K= 15 maxR_off=1.72
+    peaky W=4 conf=0.7 s=1     m=   1.079 D= 10 exp=    19 exp/D=   1.90 n_off=    9 gen/T2=   1.92 K= 11 maxR_off=1.70
+    peaky W=5 conf=0.55 s=1    m=   1.116 D= 10 exp=    28 exp/D=   2.80 n_off=   18 gen/T2=   3.84 K= 11 maxR_off=2.04
+    peaky W=4 conf=0.55 s=1    m=   1.122 D= 12 exp=    77 exp/D=   6.42 n_off=   65 gen/T2=   6.76 K= 12 maxR_off=2.41
+    peaky W=5 conf=0.55 s=2    m=   1.156 D= 12 exp=    20 exp/D=   1.67 n_off=    8 gen/T2=   4.67 K= 13 maxR_off=1.70
+    alt rho=0.55               m=   1.222 D= 16 exp=    16 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 16 maxR_off=0.00
+    alt rho=0.55               m=   1.222 D= 16 exp=    16 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 16 maxR_off=0.00
+    peaky W=4 conf=0.8 s=2     m=   1.239 D=  6 exp=     7 exp/D=   1.17 n_off=    1 gen/T2=   0.77 K=  7 maxR_off=1.35
+    peaky W=5 conf=0.6 s=2     m=   1.286 D= 12 exp=    14 exp/D=   1.17 n_off=    2 gen/T2=   3.65 K= 13 maxR_off=1.44
+    peaky W=5 conf=0.7 s=0     m=   1.289 D= 10 exp=    11 exp/D=   1.10 n_off=    1 gen/T2=   2.80 K= 10 maxR_off=1.38
+    peaky W=5 conf=0.6 s=1     m=   1.302 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   2.52 K= 11 maxR_off=0.00
+    peaky W=4 conf=0.7 s=0     m=   1.379 D= 12 exp=    13 exp/D=   1.08 n_off=    1 gen/T2=   1.71 K= 12 maxR_off=1.63
+    peaky W=4 conf=0.8 s=1     m=   1.599 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   1.29 K= 10 maxR_off=0.00
+    peaky W=5 conf=0.7 s=2     m=   1.726 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   3.20 K= 13 maxR_off=0.00
+    peaky W=5 conf=0.7 s=1     m=   1.902 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   2.51 K= 11 maxR_off=0.00
+    peaky W=5 conf=0.8 s=0     m=   2.026 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   2.66 K= 10 maxR_off=0.00
+    peaky W=4 conf=0.8 s=0     m=   2.330 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   1.56 K= 12 maxR_off=0.00
+    alt rho=0.7                m=   2.333 D= 16 exp=    16 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 16 maxR_off=0.00
+    alt rho=0.7                m=   2.333 D= 16 exp=    16 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 16 maxR_off=0.00
+    peaky W=4 conf=0.9 s=2     m=   2.691 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   0.69 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.8 s=2     m=   2.727 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   3.20 K= 13 maxR_off=0.00
+    peaky W=5 conf=0.8 s=1     m=   3.175 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   2.51 K= 11 maxR_off=0.00
+    peaky W=4 conf=0.9 s=1     m=   3.378 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   1.29 K= 10 maxR_off=0.00
+    peaky W=5 conf=0.9 s=0     m=   4.457 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   2.66 K= 10 maxR_off=0.00
+    peaky W=4 conf=0.9 s=0     m=   5.284 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   1.56 K= 12 maxR_off=0.00
+    peaky W=4 conf=0.95 s=2    m=   5.670 D=  6 exp=     6 exp/D=   1.00 n_off=    0 gen/T2=   0.69 K=  7 maxR_off=0.00
+    peaky W=5 conf=0.9 s=2     m=   5.966 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   3.20 K= 13 maxR_off=0.00
+    peaky W=4 conf=0.95 s=1    m=   7.085 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   1.29 K= 10 maxR_off=0.00
+    peaky W=5 conf=0.9 s=1     m=   7.124 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   2.51 K= 11 maxR_off=0.00
+    alt rho=0.9                m=   9.000 D= 16 exp=    16 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 16 maxR_off=0.00
+    alt rho=0.9                m=   9.000 D= 16 exp=    16 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 16 maxR_off=0.00
+    peaky W=5 conf=0.95 s=0    m=   9.430 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   2.66 K= 10 maxR_off=0.00
+    peaky W=4 conf=0.95 s=0    m=  11.247 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   1.56 K= 12 maxR_off=0.00
+    peaky W=5 conf=0.95 s=2    m=  12.592 D= 12 exp=    12 exp/D=   1.00 n_off=    0 gen/T2=   3.20 K= 13 maxR_off=0.00
+    peaky W=5 conf=0.95 s=1    m=  15.101 D= 10 exp=    10 exp/D=   1.00 n_off=    0 gen/T2=   2.51 K= 11 maxR_off=0.00
+    alt rho=0.99               m=  99.000 D= 16 exp=    16 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 16 maxR_off=0.00
+    alt rho=0.99               m=  99.000 D= 16 exp=    16 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 16 maxR_off=0.00
+## T=48: 50 cells (49s)
+   band m>= #cells max exp/D                     (cell) max n_off max gen/T2 max R_off max K_u max K
+        1.0     50    693.20 peaky W=5 conf=0.5 s=0 m=1.00     10383     162.18      3.10      23    24
+       1.05     34      4.00 peaky W=4 conf=0.6 s=2 m=1.09        47       3.44      2.32      15    24
+        1.2     29      1.60 peaky W=5 conf=0.6 s=2 m=1.21         9       3.44      1.96      14    24
+        1.5     22      1.00 peaky W=4 conf=0.8 s=1 m=1.86         0       2.45      0.00       0    24
+        2.0     19      1.00 peaky W=4 conf=0.8 s=2 m=2.26         0       2.45      0.00       0    24
+        4.0     12      1.00 peaky W=4 conf=0.9 s=2 m=5.25         0       2.45      0.00       0    24
+          T      2      1.00       alt rho=0.99 m=99.00         0       0.50      0.00       0    24
+    peaky W=5 conf=0.55 s=2    m=   1.000 D= 16 exp=   112 exp/D=   7.00 n_off=   96 gen/T2=  15.62 K= 20 maxR_off=1.93
+    peaky W=5 conf=0.5 s=2     m=   1.000 D= 17 exp=   409 exp/D=  24.06 n_off=  392 gen/T2=  49.14 K= 23 maxR_off=2.28
+    peaky W=4 conf=0.55 s=1    m=   1.000 D= 17 exp=  1587 exp/D=  93.35 n_off= 1569 gen/T2=  33.09 K= 22 maxR_off=3.02
+    peaky W=5 conf=0.6 s=0     m=   1.001 D= 15 exp=   115 exp/D=   7.67 n_off=  100 gen/T2=   7.71 K= 17 maxR_off=2.20
+    peaky W=5 conf=0.55 s=0    m=   1.001 D= 15 exp=   343 exp/D=  22.87 n_off=  328 gen/T2=  22.33 K= 18 maxR_off=2.52
+    peaky W=5 conf=0.5 s=0     m=   1.002 D= 15 exp= 10398 exp/D= 693.20 n_off=10383 gen/T2= 162.18 K= 20 maxR_off=2.54
+    peaky W=4 conf=0.6 s=1     m=   1.002 D= 16 exp=   105 exp/D=   6.56 n_off=   89 gen/T2=   6.72 K= 20 maxR_off=2.26
+    peaky W=4 conf=0.5 s=0     m=   1.004 D= 17 exp=  1988 exp/D= 116.94 n_off= 1971 gen/T2=  73.99 K= 23 maxR_off=2.82
+    peaky W=4 conf=0.5 s=1     m=   1.007 D= 18 exp=  4042 exp/D= 224.56 n_off= 4023 gen/T2=  65.83 K= 24 maxR_off=2.73
+    peaky W=4 conf=0.6 s=0     m=   1.007 D= 15 exp=   496 exp/D=  33.07 n_off=  481 gen/T2=  16.08 K= 19 maxR_off=3.10
+    peaky W=4 conf=0.55 s=0    m=   1.010 D= 16 exp=   454 exp/D=  28.38 n_off=  438 gen/T2=  32.55 K= 22 maxR_off=2.89
+    peaky W=5 conf=0.6 s=1     m=   1.011 D= 14 exp=    87 exp/D=   6.21 n_off=   73 gen/T2=   7.78 K= 15 maxR_off=2.01
+    peaky W=4 conf=0.5 s=2     m=   1.015 D= 19 exp=  2037 exp/D= 107.21 n_off= 2017 gen/T2=  77.70 K= 20 maxR_off=2.69
+    peaky W=4 conf=0.55 s=2    m=   1.019 D= 18 exp=   592 exp/D=  32.89 n_off=  573 gen/T2=  18.21 K= 20 maxR_off=2.81
+    peaky W=5 conf=0.55 s=1    m=   1.024 D= 15 exp=   295 exp/D=  19.67 n_off=  280 gen/T2=  22.63 K= 18 maxR_off=2.32
+    peaky W=5 conf=0.5 s=1     m=   1.030 D= 15 exp=  2431 exp/D= 162.07 n_off= 2416 gen/T2= 119.35 K= 19 maxR_off=2.48
+    peaky W=4 conf=0.8 s=0     m=   1.076 D= 12 exp=    14 exp/D=   1.17 n_off=    2 gen/T2=   1.12 K= 13 maxR_off=1.70
+    peaky W=4 conf=0.7 s=0     m=   1.079 D= 13 exp=    36 exp/D=   2.77 n_off=   23 gen/T2=   2.22 K= 15 maxR_off=2.32
+    peaky W=4 conf=0.6 s=2     m=   1.086 D= 16 exp=    64 exp/D=   4.00 n_off=   47 gen/T2=   2.67 K= 17 maxR_off=2.17
+    peaky W=5 conf=0.7 s=0     m=   1.102 D= 13 exp=    26 exp/D=   2.00 n_off=   13 gen/T2=   2.94 K= 14 maxR_off=1.42
+    peaky W=5 conf=0.7 s=2     m=   1.153 D= 15 exp=    15 exp/D=   1.00 n_off=    0 gen/T2=   2.05 K= 16 maxR_off=0.00
+    peaky W=5 conf=0.6 s=2     m=   1.213 D= 15 exp=    24 exp/D=   1.60 n_off=    9 gen/T2=   3.44 K= 18 maxR_off=1.96
+    alt rho=0.55               m=   1.222 D= 24 exp=    24 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 24 maxR_off=0.00
+    alt rho=0.55               m=   1.222 D= 24 exp=    24 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 24 maxR_off=0.00
+    peaky W=4 conf=0.7 s=1     m=   1.246 D= 15 exp=    18 exp/D=   1.20 n_off=    3 gen/T2=   1.74 K= 16 maxR_off=1.74
+    peaky W=4 conf=0.7 s=2     m=   1.296 D= 17 exp=    17 exp/D=   1.00 n_off=    0 gen/T2=   1.42 K= 17 maxR_off=0.00
+    peaky W=5 conf=0.8 s=2     m=   1.304 D= 14 exp=    14 exp/D=   1.00 n_off=    0 gen/T2=   1.83 K= 15 maxR_off=0.00
+    peaky W=5 conf=0.7 s=1     m=   1.354 D= 13 exp=    13 exp/D=   1.00 n_off=    0 gen/T2=   2.22 K= 13 maxR_off=0.00
+    peaky W=5 conf=0.8 s=0     m=   1.816 D= 13 exp=    13 exp/D=   1.00 n_off=    0 gen/T2=   2.45 K= 14 maxR_off=0.00
+    peaky W=4 conf=0.8 s=1     m=   1.861 D= 15 exp=    15 exp/D=   1.00 n_off=    0 gen/T2=   1.40 K= 16 maxR_off=0.00
+    peaky W=4 conf=0.9 s=0     m=   1.938 D= 11 exp=    11 exp/D=   1.00 n_off=    0 gen/T2=   0.94 K= 12 maxR_off=0.00
+    peaky W=5 conf=0.8 s=1     m=   2.232 D= 13 exp=    13 exp/D=   1.00 n_off=    0 gen/T2=   2.19 K= 13 maxR_off=0.00
+    peaky W=4 conf=0.8 s=2     m=   2.263 D= 17 exp=    17 exp/D=   1.00 n_off=    0 gen/T2=   1.42 K= 17 maxR_off=0.00
+    alt rho=0.7                m=   2.333 D= 24 exp=    24 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 24 maxR_off=0.00
+    alt rho=0.7                m=   2.333 D= 24 exp=    24 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 24 maxR_off=0.00
+    peaky W=5 conf=0.9 s=2     m=   2.773 D= 14 exp=    14 exp/D=   1.00 n_off=    0 gen/T2=   1.83 K= 15 maxR_off=0.00
+    peaky W=4 conf=0.9 s=1     m=   3.924 D= 15 exp=    15 exp/D=   1.00 n_off=    0 gen/T2=   1.40 K= 16 maxR_off=0.00
+    peaky W=5 conf=0.9 s=0     m=   3.982 D= 13 exp=    13 exp/D=   1.00 n_off=    0 gen/T2=   2.45 K= 14 maxR_off=0.00
+    peaky W=4 conf=0.95 s=0    m=   4.054 D= 11 exp=    11 exp/D=   1.00 n_off=    0 gen/T2=   0.94 K= 12 maxR_off=0.00
+    peaky W=5 conf=0.9 s=1     m=   5.029 D= 13 exp=    13 exp/D=   1.00 n_off=    0 gen/T2=   2.19 K= 13 maxR_off=0.00
+    peaky W=4 conf=0.9 s=2     m=   5.247 D= 17 exp=    17 exp/D=   1.00 n_off=    0 gen/T2=   1.42 K= 17 maxR_off=0.00
+    peaky W=5 conf=0.95 s=2    m=   5.820 D= 14 exp=    14 exp/D=   1.00 n_off=    0 gen/T2=   1.83 K= 15 maxR_off=0.00
+    peaky W=4 conf=0.95 s=1    m=   8.175 D= 15 exp=    15 exp/D=   1.00 n_off=    0 gen/T2=   1.40 K= 16 maxR_off=0.00
+    peaky W=5 conf=0.95 s=0    m=   8.403 D= 13 exp=    13 exp/D=   1.00 n_off=    0 gen/T2=   2.45 K= 14 maxR_off=0.00
+    alt rho=0.9                m=   9.000 D= 24 exp=    24 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 24 maxR_off=0.00
+    alt rho=0.9                m=   9.000 D= 24 exp=    24 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 24 maxR_off=0.00
+    peaky W=5 conf=0.95 s=1    m=  10.717 D= 13 exp=    13 exp/D=   1.00 n_off=    0 gen/T2=   2.19 K= 13 maxR_off=0.00
+    peaky W=4 conf=0.95 s=2    m=  11.242 D= 17 exp=    17 exp/D=   1.00 n_off=    0 gen/T2=   1.42 K= 17 maxR_off=0.00
+    alt rho=0.99               m=  99.000 D= 24 exp=    24 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 24 maxR_off=0.00
+    alt rho=0.99               m=  99.000 D= 24 exp=    24 exp/D=   1.00 n_off=    0 gen/T2=   0.50 K= 24 maxR_off=0.00
+## T=64: 50 cells (2656s)
+   band m>= #cells max exp/D                     (cell) max n_off max gen/T2 max R_off max K_u max K
+        1.0     50    894.00 peaky W=4 conf=0.5 s=1 m=1.02     21431     891.26      3.42      32    36
+       1.05     29     14.35 peaky W=4 conf=0.7 s=0 m=1.08       227      10.30      2.75      20    32
+        1.2     26      1.44 peaky W=4 conf=0.8 s=0 m=1.39         7       2.84      2.15      20    32
+        1.5     19      1.00 peaky W=4 conf=0.8 s=2 m=2.04         0       2.84      0.00       0    32
+        2.0     18      1.00 peaky W=4 conf=0.8 s=2 m=2.04         0       2.84      0.00       0    32
+        4.0     11      1.00 peaky W=4 conf=0.9 s=2 m=4.46         0       2.84      0.00       0    32
+          T      2      1.00       alt rho=0.99 m=99.00         0       0.50      0.00       0    32

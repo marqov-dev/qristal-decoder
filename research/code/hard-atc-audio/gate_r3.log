@@ -1,0 +1,2 @@
+GATE python vs C on r3__atc_atco2_hard__atco2_test-set-1h_LSGS_SION_Tower_118_3MHz_20210502_065945-D__000012-000312 T=149 W=31 blank=28: python p*=2.653967e-05 p2=2.585245e-05 exp=29 gen=309810 sec=15.7 | C p*=2.653967e-05 p2=2.585245e-05 exp=29 gen=309810 sec=0.32 -> PASS
+GATE python vs C on r3__atc_atco2_hard__atco2_test-set-1h_LSGS_SION_Tower_118_3MHz_20210503_082715-D__000606-000907 T=150 W=31 blank=28: python p*=6.222409e-10 p2=5.646963e-10 exp=35 gen=1989390 sec=96.7 | C p*=6.222409e-10 p2=5.646963e-10 exp=35 gen=1989390 sec=1.73 -> PASS

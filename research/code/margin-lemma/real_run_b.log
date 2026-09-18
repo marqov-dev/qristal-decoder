@@ -1,0 +1,5 @@
+T4/5dB/P14: T=112 W=32 D=22 p*=0.001393 (ctc_forward 0.001393) p2=0.001244 margin=1.12 exp_final=22 n_off=0 K=23 Kd(max symbol)=23 maxK_off=0 maxR_off=0.000 maxKeff_off=0.00 gen=1021388 exp2=26 sec=81
+   Kd per symbol: [23, 23, 23, 23, 22, 23, 23, 23, 22, 23, 22, 23, 21, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23]
+T4/0dB/P14: T=112 W=32 D=19 p*=3.019e-05 (ctc_forward 3.019e-05) p2=2.944e-05 margin=1.025 exp_final=20 n_off=1 K=20 Kd(max symbol)=20 maxK_off=20 maxR_off=1.121 maxKeff_off=1.20 gen=1037818 exp2=29 sec=69
+   Kd per symbol: [20, 20, 20, 20, 20, 20, 20, 20, 19, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+   off-path u=len10 last=(21, 8, 25) B/p*=1.0930 K_u=20 support=102 R=1.121 maxc/p*=0.9753

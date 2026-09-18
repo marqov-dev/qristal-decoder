@@ -1,0 +1,3 @@
+random T=32 W=8 inst 0: p*=1.449e-14 D=16 1/p*=6.90e+13 exactbwd exp=183 gen=89012 bwd_exp=12533 sec=0.91 capped=False
+random T=32 W=8 inst 1: p*=2.487e-14 D=17 1/p*=4.02e+13 exactbwd exp=315 gen=200984 bwd_exp=28397 sec=2.69 capped=False
+random T=32 W=8 inst 2: p*=1.128e-14 D=17 1/p*=8.86e+13 exactbwd exp=742 gen=260603 bwd_exp=36487 sec=3.57 capped=False

@@ -1,0 +1,8 @@
+spread_pair {'m': 3, 'q': 0.5} T=16 W=5 D=4 p=0.0046 exp_final=8 exp_back=69 gen=308 max_sub_exp=7 sec=0.00113 capped=False g_exp=184 g_gen=736 g_capped=False g_sec=0.00189 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+spread_pair {'m': 3, 'q': 0.5} T=16 W=5 D=5 p=0.00561 exp_final=15 exp_back=94 gen=436 max_sub_exp=10 sec=0.00151 capped=False g_exp=164 g_gen=656 g_capped=False g_sec=0.0017 agree=True p_fwd_ok=True beam_ok=True beam_same=True
+spread_pair {'m': 3, 'q': 0.5} T=32 W=5 D=10 p=2.81e-05 exp_final=74 exp_back=1379 gen=5812 max_sub_exp=73 sec=0.121 capped=False g_exp=28452 g_gen=113808 g_capped=False g_sec=2.24 agree=True p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=32 W=5 D=10 p=2.44e-05 exp_final=93 exp_back=923 gen=4064 max_sub_exp=70 sec=0.104 capped=False g_exp=35014 g_gen=140056 g_capped=False g_sec=3.41 agree=True p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=64 W=5 D=17 p=2.59e-10 exp_final=4302 exp_back=45174 gen=197904 max_sub_exp=3386 sec=18.8 capped=False g_exp=50001 g_gen=200001 g_capped=True g_sec=37.6 p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=64 W=5 D=19 p=1.02e-09 exp_final=449 exp_back=22742 gen=92764 max_sub_exp=1133 sec=5.51 capped=False g_exp=50001 g_gen=200001 g_capped=True g_sec=38.7 p_fwd_ok=True beam_ok=True beam_same=True
+spread_pair {'m': 3, 'q': 0.5} T=128 W=5 D=- p=- exp_final=0 exp_back=100001 gen=400001 max_sub_exp=5004 sec=12.1 capped=True g_exp=50001 g_gen=200001 g_capped=True g_sec=9.44
+spread_pair {'m': 3, 'q': 0.5} T=128 W=5 D=- p=- exp_final=0 exp_back=100001 gen=400001 max_sub_exp=3706 sec=8.35 capped=True g_exp=50001 g_gen=200001 g_capped=True g_sec=10.3

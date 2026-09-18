@@ -1,0 +1,7 @@
+GATE T9 prob() vs brute force: 11716 labellings, worst rel err 1.88e-15 -> PASS
+GATE T9 graves bound vs toolkit prefix_prob: 400 prefixes, worst abs err 3.33e-16 -> PASS
+GATE (a) decomposition p(u.v) == sum_t ok*g (exact Fraction): 320 triples, mismatches 0 -> PASS
+GATE (b) H_c(t) exact-backward vs brute-force max_v g_v(t) (exact Fraction): 110 tables, 1329 cells, mismatches 0 -> PASS
+GATE (c1) argmax vs brute force, random T<=8 W<=3: {'n': 300, 'wrong_exactbwd': 0, 'wrong_graves': 0, 'ties': 0}
+GATE (c2) argmax vs brute force, peaky T<=8 W<=4: {'n': 100, 'wrong_exactbwd': 0, 'wrong_graves': 0, 'ties': 0}
+GATE (c3) argmax vs brute force, W in {5,8} T<=6: {'n': 100, 'wrong_exactbwd': 0, 'wrong_graves': 0, 'ties': 0}  (1s)

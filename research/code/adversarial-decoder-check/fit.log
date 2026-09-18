@@ -1,0 +1,44 @@
+family         kw                            W   n capped | gen = A*(1/p*)^alpha  alpha | gen = C*T^beta  beta | max gen/(0.1 T^2 W^2) | max expF/D | worst T
+alt3           {}                            3   8      0 |       233   0.32 |      1.09  2.07 |      1.7 (T=128) |    1.3 | T=128
+alt3_blankgap  {}                            3   4      0 |       194   1.10 |     0.799  1.99 |      0.9 (T=16) |    1.0 | T=128
+coupled        {}                            3   8      0 |       123   0.31 |      0.66  2.15 |      1.6 (T=64) |    2.1 | T=96
+degenerate     {}                            5  18      2 |       360   0.30 |    0.0575  3.41 |    100.2 (T=96) | 1342.4 | T=96
+flat           {}                            3   6      0 |        13   0.71 |     0.933  2.02 |      1.1 (T=32) |    2.2 | T=32
+flat           {}                            4  10      0 |      5.68   0.80 |    0.0019  5.51 |    293.7 (T=28) | 1890.3 | T=28
+flat           {}                            5  17      2 |      3.34   0.82 |  0.000133  7.32 |   1561.5 (T=22) | 11809.7 | T=22
+flat           {}                            8   4      0 |      2.27   0.77 |   0.00084  7.78 |    281.0 (T=12) | 2177.2 | T=12
+flatnoise      {"eps": 0.001}                5   6      0 |      3.32   0.82 |  0.000391  6.86 |    259.0 (T=18) | 1640.1 | T=18
+flatnoise      {"eps": 0.01}                 4   5      0 |      5.55   0.80 |   0.00349  5.26 |     99.7 (T=24) |  558.4 | T=24
+neartie        {"spread": 1}                 3   4      0 |       128   0.10 |       0.5  2.00 |      0.6 (T=16) |    1.0 | T=128
+neartie        {"spread": 3}                 3  10      1 |      34.2   0.50 |   0.00473  3.68 |     14.6 (T=96) |  123.2 | T=96
+neartie_soft   {"conf": 0.45, "eps": 0.02}   5   6      0 |       823   0.15 |     0.652  2.88 |     34.2 (T=32) |   35.7 | T=64
+peaky          {"conf": 0.5}                 5  22      5 |       251   0.31 |   0.00504  4.63 |    227.8 (T=56) |  620.8 | T=64
+peaky          {"conf": 0.6}                 5  18      2 |  1.04e+03   0.17 |     0.201  3.15 |     53.0 (T=80) |  128.0 | T=96
+peaky          {"conf": 0.6}                32   3      1 |  7.53e+03   0.15 |       192  1.77 |      1.0 (T=16) |    1.0 | T=32
+peaky          {"conf": 0.8}                 5   3      0 |  4.64e+03   0.08 |     0.179  2.50 |      1.0 (T=200) |    1.2 | T=200
+peaky          {"conf": 0.8}                32   4      1 |  1.21e+04   0.25 |       102  1.98 |      1.0 (T=16) |    1.0 | T=64
+spread         {"m": 4, "q": 0.5}            5   8      0 |       116   0.36 |     0.351  2.12 |      0.2 (T=128) |    1.0 | T=128
+spread_pair    {"m": 3, "q": 0.5}            5  20      2 |       169   0.28 |   0.00695  3.92 |     19.3 (T=64) |  253.1 | T=96
+uniform_random {}                            5   8      0 |       239   0.24 |     0.124  3.48 |     15.4 (T=40) |   14.7 | T=40
+uniform_random {}                            8   6      0 |   1.1e+03   0.15 |      1.69  3.20 |     33.4 (T=24) |   19.5 | T=32
+
+--- per-family vs Graves at T in {16,32,64,128} (first-run instances, gcap=2e5 gens unless noted); gen counts, geometric mean over instances ---
+alt3           {}                         W=3: T=16: exactbwd 338 [1.5x law] vs Graves 62 | T=32: exactbwd 1.44e+03 [1.6x law] vs Graves 610 | T=64: exactbwd 5.88e+03 [1.6x law] vs Graves 2.57e+04 | T=128: exactbwd 2.53e+04 [1.7x law] vs Graves 2e+05(CAP)
+alt3_blankgap  {}                         W=3: T=16: exactbwd 198 [0.9x law] vs Graves 16 | T=32: exactbwd 782 [0.8x law] vs Graves 32 | T=64: exactbwd 3.1e+03 [0.8x law] vs Graves 64 | T=128: exactbwd 1.23e+04 [0.8x law] vs Graves 454
+coupled        {}                         W=3: T=16: exactbwd 251 [1.1x law] vs Graves 111 | T=32: exactbwd 1.16e+03 [1.3x law] vs Graves 1.07e+03 | T=64: exactbwd 5.75e+03 [1.6x law] vs Graves 2e+05(CAP) | T=96: exactbwd 1.12e+04 [1.3x law] vs Graves 2e+05(CAP)
+degenerate     {}                         W=5: T=16: exactbwd 1.55e+03 [2.4x law] vs Graves 798 | T=32: exactbwd 4.12e+03 [1.6x law] vs Graves 2.82e+04 | T=64: exactbwd 4.36e+04 [4.3x law] vs Graves 2e+05(CAP) | T=128: exactbwd 4e+05(CAP) [9.8x law] vs Graves 2e+05(CAP)
+flat           {}                         W=3: T=8: exactbwd 62 [1.1x law] vs Graves 30 | T=12: exactbwd 142 [1.1x law] vs Graves 70 | T=16: exactbwd 254 [1.1x law] vs Graves 138 | T=20: exactbwd 398 [1.1x law] vs Graves 270 | T=24: exactbwd 574 [1.1x law] vs Graves 518 | T=32: exactbwd 1.02e+03 [1.1x law] vs Graves 2.14e+03
+flat           {}                         W=4: T=8: exactbwd 264 [2.6x law] vs Graves 327 | T=12: exactbwd 1.31e+03 [5.7x law] vs Graves 2.37e+03 | T=16: exactbwd 5.59e+03 [13.7x law] vs Graves 1.26e+04 | T=20: exactbwd 2.28e+04 [35.7x law] vs Graves 6.64e+04
+flat           {}                         W=5: T=8: exactbwd 788 [4.9x law] vs Graves 2.48e+03 | T=10: exactbwd 2.5e+03 [10.0x law] vs Graves 8.12e+03 | T=12: exactbwd 7.67e+03 [21.3x law] vs Graves 2.73e+04 | T=14: exactbwd 2.32e+04 [47.4x law] vs Graves 8.99e+04 | T=16: exactbwd 6.98e+04 [109.1x law] vs Graves 2e+05(CAP) | T=20: exactbwd 4e+05(CAP) [400.0x law] vs Graves 2e+05(CAP) | T=24: exactbwd 4e+05(CAP) [277.8x law] vs Graves 2e+05(CAP)
+neartie        {"spread": 1}              W=3: T=16: exactbwd 128 [0.6x law] vs Graves 510 | T=32: exactbwd 512 [0.6x law] vs Graves 1.31e+05 | T=64: exactbwd 2.05e+03 [0.6x law] vs Graves 2e+05(CAP) | T=128: exactbwd 8.19e+03 [0.6x law] vs Graves 2e+05(CAP)
+neartie        {"spread": 3}              W=3: T=16: exactbwd 142 [0.6x law] vs Graves 82 | T=32: exactbwd 1.48e+03 [1.6x law] vs Graves 1.77e+03 | T=64: exactbwd 1.9e+04 [5.2x law] vs Graves 2e+05(CAP) | T=128: exactbwd 4e+05(CAP) [27.1x law] vs Graves 2e+05(CAP)
+neartie_soft   {"conf": 0.45, "eps": 0.02} W=5: T=16: exactbwd 1.21e+03 [1.9x law] vs Graves 1.6e+04 | T=32: exactbwd 3.64e+04 [14.2x law] vs Graves 2e+05(CAP) | T=64: exactbwd 6.62e+04 [6.5x law] vs Graves 2e+05(CAP)
+peaky          {"conf": 0.5}              W=5: T=16: exactbwd 2.41e+03 [3.8x law] vs Graves 8.14e+03 | T=32: exactbwd 4.62e+04 [18.1x law] vs Graves 2e+05(CAP) | T=64: exactbwd 4e+05(CAP) [39.1x law] vs Graves 2e+05(CAP) | T=128: exactbwd 4e+05(CAP) [9.8x law] vs Graves 2e+05(CAP)
+peaky          {"conf": 0.6}              W=5: T=16: exactbwd 1.12e+03 [1.8x law] vs Graves 1.68e+03 | T=32: exactbwd 9.59e+03 [3.7x law] vs Graves 2e+05(CAP) | T=64: exactbwd 1.04e+05 [10.2x law] vs Graves 2e+05(CAP) | T=128: exactbwd 4e+05(CAP) [9.8x law] vs Graves 2e+05(CAP)
+peaky          {"conf": 0.6}              W=32: T=16: exactbwd 2.59e+04 [1.0x law] vs Graves 3.08e+04 | T=32: exactbwd 8.84e+04 [0.8x law] vs Graves 5e+04(CAP) | T=64: exactbwd 4e+05(CAP) [1.0x law] vs Graves 5e+04(CAP)
+peaky          {"conf": 0.8}              W=5: T=128: exactbwd 3.25e+04 [0.8x law] vs Graves 2e+05(CAP)
+peaky          {"conf": 0.8}              W=32: T=16: exactbwd 2.59e+04 [1.0x law] vs Graves 1.02e+03 | T=32: exactbwd 8.84e+04 [0.8x law] vs Graves 3.91e+03 | T=64: exactbwd 4e+05(CAP) [1.0x law] vs Graves 5e+04(CAP)
+spread         {"m": 4, "q": 0.5}         W=5: T=16: exactbwd 120 [0.2x law] vs Graves 33.5 | T=32: exactbwd 556 [0.2x law] vs Graves 191 | T=64: exactbwd 2.39e+03 [0.2x law] vs Graves 5.57e+03 | T=128: exactbwd 9.81e+03 [0.2x law] vs Graves 2e+05(CAP)
+spread_pair    {"m": 3, "q": 0.5}         W=5: T=16: exactbwd 366 [0.6x law] vs Graves 695 | T=32: exactbwd 4.86e+03 [1.9x law] vs Graves 1.26e+05 | T=64: exactbwd 1.35e+05 [13.2x law] vs Graves 2e+05(CAP) | T=128: exactbwd 4e+05(CAP) [9.8x law] vs Graves 2e+05(CAP)
+uniform_random {}                         W=5: T=16: exactbwd 1.78e+03 [2.8x law] vs Graves 2.2e+04 | T=24: exactbwd 8.85e+03 [6.1x law] vs Graves 2e+05(CAP) | T=32: exactbwd 2.49e+04 [9.7x law] vs Graves 2e+05(CAP) | T=40: exactbwd 4.1e+04 [10.3x law] vs Graves 2e+05(CAP)
+uniform_random {}                         W=8: T=16: exactbwd 1.17e+04 [7.1x law] vs Graves 2e+05(CAP) | T=24: exactbwd 4.83e+04 [13.1x law] vs Graves 2e+05(CAP) | T=32: exactbwd 1.06e+05 [16.2x law] vs Graves 2e+05(CAP)

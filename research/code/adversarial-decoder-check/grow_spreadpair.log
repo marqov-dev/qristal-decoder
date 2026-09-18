@@ -1,0 +1,12 @@
+spread_pair {'m': 3, 'q': 0.5} T=16 W=5 D=4 p=0.0046 exp_final=8 exp_back=69 gen=308 max_sub_exp=7 sec=0.00112 capped=False p_fwd_ok=True beam_ok=True beam_same=True
+spread_pair {'m': 3, 'q': 0.5} T=16 W=5 D=5 p=0.00561 exp_final=15 exp_back=94 gen=436 max_sub_exp=10 sec=0.00145 capped=False p_fwd_ok=True beam_ok=True beam_same=True
+spread_pair {'m': 3, 'q': 0.5} T=32 W=5 D=10 p=2.81e-05 exp_final=74 exp_back=1379 gen=5812 max_sub_exp=73 sec=0.0569 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=32 W=5 D=10 p=2.44e-05 exp_final=93 exp_back=923 gen=4064 max_sub_exp=70 sec=0.0739 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=48 W=5 D=12 p=9.09e-08 exp_final=1203 exp_back=11551 gen=51016 max_sub_exp=1034 sec=1.05 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=48 W=5 D=15 p=1.78e-07 exp_final=188 exp_back=3874 gen=16248 max_sub_exp=203 sec=0.275 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=64 W=5 D=20 p=9.06e-10 exp_final=484 exp_back=8389 gen=35492 max_sub_exp=569 sec=0.853 capped=False p_fwd_ok=True beam_ok=True beam_same=True
+spread_pair {'m': 3, 'q': 0.5} T=64 W=5 D=20 p=4.09e-10 exp_final=4830 exp_back=43579 gen=193636 max_sub_exp=2702 sec=4.11 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=80 W=5 D=26 p=2.73e-12 exp_final=1645 exp_back=36449 gen=152376 max_sub_exp=1294 sec=3.3 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=80 W=5 D=23 p=4.38e-12 exp_final=2029 exp_back=61498 gen=254108 max_sub_exp=2280 sec=5.34 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=96 W=5 D=27 p=5.27e-14 exp_final=1373 exp_back=65731 gen=268416 max_sub_exp=1815 sec=6.53 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+spread_pair {'m': 3, 'q': 0.5} T=96 W=5 D=27 p=1.07e-13 exp_final=2302 exp_back=80524 gen=331304 max_sub_exp=3157 sec=8.54 capped=False p_fwd_ok=True beam_ok=True beam_same=False

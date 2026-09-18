@@ -1,0 +1,6 @@
+uniform_random {} T=16 W=8 D=9 p=3.27e-08 exp_final=80 exp_back=2130 gen=15470 max_sub_exp=83 sec=0.298 capped=False g_exp=28572 g_gen=200001 g_capped=True g_sec=3.52 p_fwd_ok=True beam_ok=True beam_same=False
+uniform_random {} T=16 W=8 D=9 p=1.39e-07 exp_final=36 exp_back=1226 gen=8834 max_sub_exp=51 sec=0.188 capped=False g_exp=28572 g_gen=200001 g_capped=True g_sec=4.37 p_fwd_ok=True beam_ok=True beam_same=True
+uniform_random {} T=24 W=8 D=13 p=3.89e-11 exp_final=49 exp_back=2662 gen=18977 max_sub_exp=110 sec=0.715 capped=False g_exp=28572 g_gen=200001 g_capped=True g_sec=12.6 p_fwd_ok=True beam_ok=True beam_same=False
+uniform_random {} T=24 W=8 D=13 p=3.11e-11 exp_final=254 exp_back=17333 gen=123109 max_sub_exp=544 sec=7.32 capped=False g_exp=28572 g_gen=200001 g_capped=True g_sec=12 p_fwd_ok=True beam_ok=True beam_same=True
+uniform_random {} T=32 W=8 D=17 p=1.83e-14 exp_final=135 exp_back=15947 gen=112574 max_sub_exp=454 sec=11.7 capped=False g_exp=28572 g_gen=200001 g_capped=True g_sec=12.8 p_fwd_ok=True beam_ok=True beam_same=False
+uniform_random {} T=32 W=8 D=17 p=2.09e-14 exp_final=154 exp_back=14090 gen=99708 max_sub_exp=283 sec=3.3 capped=False g_exp=28572 g_gen=200001 g_capped=True g_sec=19.7 p_fwd_ok=True beam_ok=True beam_same=False

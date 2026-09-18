@@ -1,0 +1,10 @@
+peaky {'conf': 0.6} T=32 W=5 D=6 p=3.8e-06 exp_final=462 exp_back=4871 gen=21332 max_sub_exp=248 sec=0.362 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+peaky {'conf': 0.6} T=32 W=5 D=8 p=3.55e-06 exp_final=66 exp_back=1845 gen=7644 max_sub_exp=67 sec=0.13 capped=False p_fwd_ok=True beam_ok=True beam_same=True
+peaky {'conf': 0.6} T=48 W=5 D=12 p=5.4e-09 exp_final=571 exp_back=30423 gen=123976 max_sub_exp=907 sec=2.17 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+peaky {'conf': 0.6} T=48 W=5 D=15 p=5.41e-09 exp_final=70 exp_back=3340 gen=13640 max_sub_exp=72 sec=0.214 capped=False p_fwd_ok=True beam_ok=True beam_same=True
+peaky {'conf': 0.6} T=64 W=5 D=23 p=2.05e-11 exp_final=176 exp_back=24547 gen=98892 max_sub_exp=204 sec=1.84 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+peaky {'conf': 0.6} T=64 W=5 D=20 p=1.15e-11 exp_final=485 exp_back=21159 gen=86576 max_sub_exp=742 sec=1.58 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+peaky {'conf': 0.6} T=80 W=5 D=23 p=3.01e-14 exp_final=2945 exp_back=209106 gen=848204 max_sub_exp=4131 sec=19.4 capped=False p_fwd_ok=True beam_ok=True beam_same=False
+peaky {'conf': 0.6} T=80 W=5 D=21 p=3.96e-14 exp_final=1199 exp_back=96060 gen=389036 max_sub_exp=2255 sec=7.74 capped=False p_fwd_ok=True beam_ok=True beam_same=True
+peaky {'conf': 0.6} T=96 W=5 D=30 p=7.74e-17 exp_final=656 exp_back=67294 gen=271800 max_sub_exp=875 sec=5.62 capped=False p_fwd_ok=True beam_ok=True beam_same=True
+peaky {'conf': 0.6} T=96 W=5 D=33 p=9.45e-17 exp_final=74 exp_back=17192 gen=69064 max_sub_exp=218 sec=1.23 capped=False p_fwd_ok=True beam_ok=True beam_same=False

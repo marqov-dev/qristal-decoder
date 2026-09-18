@@ -1,0 +1,86 @@
+  rand T=6 W=3               D=3 p*=0.1328 margin=1.203 K=3 exp_final=4 off=1 maxK_off=3 maxR_off=1.319 maxKeff_off=2.415 N(p*/2K)=15
+  peaky0.8 T=6 W=3           D=3 p*=0.3845 margin=2.473 K=4 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=6
+  peaky0.6 T=6 W=3           D=3 p*=0.1969 margin=1.111 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=10
+  blankdom0.6 T=6 W=3        D=1 p*=0.1283 margin=1 K=2 exp_final=3 off=1 maxK_off=2 maxR_off=1.039 maxKeff_off=1.456 N(p*/2K)=9
+  pinned d=1 T=6 W=3         D=3 p*=0.2061 margin=1.077 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=7
+  pinned d=3 T=6 W=3         D=2 p*=0.2657 margin=1.219 K=2 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=4
+  tworate T=6 W=3            D=2 p*=0.2489 margin=1.49 K=2 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=4
+  rand T=6 W=4               D=4 p*=0.04411 margin=1.18 K=4 exp_final=5 off=1 maxK_off=2 maxR_off=1.378 maxKeff_off=1.66 N(p*/2K)=49
+  peaky0.8 T=6 W=4           D=2 p*=0.3786 margin=5.963 K=3 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=2
+  peaky0.6 T=6 W=4           D=3 p*=0.1324 margin=2.184 K=4 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=13
+  blankdom0.6 T=6 W=4        D=1 p*=0.07617 margin=1 K=2 exp_final=1 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=13
+  pinned d=1 T=6 W=4         D=3 p*=0.132 margin=1.375 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=9
+  pinned d=3 T=6 W=4         D=3 p*=0.2364 margin=1.497 K=2 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=4
+  tworate T=6 W=4            D=2 p*=0.2177 margin=1.49 K=2 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=4
+  rand T=6 W=5               D=3 p*=0.01327 margin=1.066 K=4 exp_final=5 off=2 maxK_off=2 maxR_off=1.249 maxKeff_off=1.97 N(p*/2K)=169
+  peaky0.8 T=6 W=5           D=2 p*=0.3028 margin=5.418 K=3 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=2
+  peaky0.6 T=6 W=5           D=1 p*=0.07399 margin=1.806 K=2 exp_final=1 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=8
+  blankdom0.6 T=6 W=5        D=1 p*=0.05412 margin=1 K=1 exp_final=1 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=5
+  pinned d=1 T=6 W=5         D=3 p*=0.1052 margin=1.929 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=13
+  pinned d=3 T=6 W=5         D=3 p*=0.2609 margin=1.313 K=2 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=3
+  tworate T=6 W=5            D=2 p*=0.1909 margin=1.49 K=2 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=4
+  alt0.7 T=6 W=3             D=3 p*=0.343 margin=2.333 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=7
+  rand T=8 W=3               D=3 p*=0.1168 margin=1.588 K=4 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=19
+  peaky0.8 T=8 W=3           D=2 p*=0.2625 margin=2.009 K=3 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=7
+  peaky0.6 T=8 W=3           D=3 p*=0.0981 margin=1.005 K=4 exp_final=4 off=1 maxK_off=3 maxR_off=1.477 maxKeff_off=2.178 N(p*/2K)=20
+  blankdom0.6 T=8 W=3        D=2 p*=0.09133 margin=1 K=3 exp_final=3 off=1 maxK_off=2 maxR_off=1.186 maxKeff_off=1.742 N(p*/2K)=17
+  pinned d=1 T=8 W=3         D=3 p*=0.1339 margin=1.492 K=4 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=12
+  pinned d=3 T=8 W=3         D=2 p*=0.1597 margin=1.043 K=3 exp_final=3 off=1 maxK_off=2 maxR_off=1.142 maxKeff_off=1.558 N(p*/2K)=9
+  tworate T=8 W=3            D=2 p*=0.1753 margin=1.443 K=3 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=10
+  rand T=8 W=4               D=4 p*=0.01774 margin=1 K=5 exp_final=5 off=1 maxK_off=3 maxR_off=1.246 maxKeff_off=2.461 N(p*/2K)=141
+  peaky0.8 T=8 W=4           D=2 p*=0.2159 margin=2.01 K=2 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=4
+  peaky0.6 T=8 W=4           D=3 p*=0.05695 margin=1.9 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=25
+  blankdom0.6 T=8 W=4        D=1 p*=0.03702 margin=1 K=2 exp_final=1 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=37
+  pinned d=1 T=8 W=4         D=3 p*=0.06398 margin=1.581 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=20
+  pinned d=3 T=8 W=4         D=3 p*=0.1754 margin=1.965 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=8
+  tworate T=8 W=4            D=2 p*=0.1457 margin=1.443 K=3 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=10
+  rand T=8 W=5               D=5 p*=0.005328 margin=1.201 K=5 exp_final=7 off=2 maxK_off=4 maxR_off=1.266 maxKeff_off=2.473 N(p*/2K)=450
+  peaky0.8 T=8 W=5           D=3 p*=0.2222 margin=7.709 K=4 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=5
+  peaky0.6 T=8 W=5           D=1 p*=0.0262 margin=1 K=2 exp_final=1 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=21
+  blankdom0.6 T=8 W=5        D=1 p*=0.0262 margin=1 K=2 exp_final=1 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=21
+  pinned d=1 T=8 W=5         D=3 p*=0.04289 margin=1.303 K=3 exp_final=4 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=21
+  pinned d=3 T=8 W=5         D=3 p*=0.2128 margin=2.071 K=3 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=7
+  tworate T=8 W=5            D=2 p*=0.1217 margin=1.443 K=3 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=10
+  alt0.7 T=8 W=3             D=4 p*=0.2401 margin=2.333 K=4 exp_final=4 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=11
+  rand T=10 W=3              D=4 p*=0.07427 margin=1.065 K=4 exp_final=8 off=4 maxK_off=4 maxR_off=1.359 maxKeff_off=2.021 N(p*/2K)=32
+  peaky0.8 T=10 W=3          D=2 p*=0.1631 margin=1.054 K=2 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=7
+  peaky0.6 T=10 W=3          D=3 p*=0.06232 margin=1.164 K=4 exp_final=5 off=2 maxK_off=3 maxR_off=1.477 maxKeff_off=2.649 N(p*/2K)=34
+  blankdom0.6 T=10 W=3       D=3 p*=0.05801 margin=1 K=3 exp_final=5 off=2 maxK_off=3 maxR_off=1.377 maxKeff_off=2.587 N(p*/2K)=30
+  pinned d=1 T=10 W=3        D=5 p*=0.07423 margin=1.031 K=4 exp_final=7 off=2 maxK_off=3 maxR_off=1.222 maxKeff_off=1.831 N(p*/2K)=28
+  pinned d=3 T=10 W=3        D=3 p*=0.1095 margin=1.197 K=3 exp_final=4 off=1 maxK_off=2 maxR_off=1.37 maxKeff_off=1.894 N(p*/2K)=15
+  tworate T=10 W=3           D=3 p*=0.1082 margin=1.056 K=3 exp_final=4 off=1 maxK_off=2 maxR_off=1.207 maxKeff_off=1.62 N(p*/2K)=14
+  rand T=10 W=4              D=5 p*=0.0184 margin=1.088 K=6 exp_final=7 off=2 maxK_off=3 maxR_off=1.64 maxKeff_off=2.162 N(p*/2K)=160
+  peaky0.8 T=10 W=4          D=3 p*=0.1888 margin=2.939 K=4 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=4
+  peaky0.6 T=10 W=4          D=4 p*=0.02362 margin=1 K=5 exp_final=6 off=2 maxK_off=3 maxR_off=1.343 maxKeff_off=1.679 N(p*/2K)=83
+  blankdom0.6 T=10 W=4       D=2 p*=0.01979 margin=1 K=3 exp_final=4 off=2 maxK_off=2 maxR_off=1.12 maxKeff_off=1.661 N(p*/2K)=64
+  pinned d=1 T=10 W=4        D=5 p*=0.03494 margin=1.322 K=4 exp_final=5 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=54
+  pinned d=3 T=10 W=4        D=3 p*=0.1094 margin=1.16 K=3 exp_final=4 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=13
+  tworate T=10 W=4           D=3 p*=0.08547 margin=1.056 K=3 exp_final=4 off=1 maxK_off=2 maxR_off=1.207 maxKeff_off=1.62 N(p*/2K)=14
+  rand T=10 W=5              D=6 p*=0.002183 margin=1.219 K=6 exp_final=7 off=1 maxK_off=4 maxR_off=1.242 maxKeff_off=1.858 N(p*/2K)=985
+  peaky0.8 T=10 W=5          D=2 p*=0.1357 margin=2.696 K=2 exp_final=2 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=5
+  peaky0.6 T=10 W=5          D=3 p*=0.0141 margin=1.492 K=4 exp_final=3 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=86
+  blankdom0.6 T=10 W=5       D=1 p*=0.01185 margin=1 K=2 exp_final=1 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=81
+  pinned d=1 T=10 W=5        D=5 p*=0.02459 margin=1.861 K=4 exp_final=5 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=47
+  pinned d=3 T=10 W=5        D=3 p*=0.1503 margin=1.262 K=3 exp_final=4 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=9
+  tworate T=10 W=5           D=3 p*=0.06791 margin=1.056 K=3 exp_final=4 off=1 maxK_off=2 maxR_off=1.207 maxKeff_off=1.62 N(p*/2K)=14
+  alt0.7 T=10 W=3            D=5 p*=0.1681 margin=2.333 K=5 exp_final=5 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=16
+  pinned d=1 T=14 W=3        D=5 p*=0.03483 margin=1.203 K=5 exp_final=10 off=4 maxK_off=4 maxR_off=1.511 maxKeff_off=2.985 N(p*/2K)=70
+  tworate T=14 W=3           D=3 p*=0.05646 margin=1.111 K=4 exp_final=6 off=3 maxK_off=3 maxR_off=1.408 maxKeff_off=2.384 N(p*/2K)=38
+  rand T=14 W=3              D=6 p*=0.02988 margin=1.228 K=6 exp_final=11 off=5 maxK_off=6 maxR_off=1.697 maxKeff_off=3.626 N(p*/2K)=106
+  pinned d=1 T=14 W=4        D=7 p*=0.01001 margin=1.104 K=5 exp_final=8 off=1 maxK_off=3 maxR_off=1.33 maxKeff_off=1.887 N(p*/2K)=211
+  tworate T=14 W=4           D=3 p*=0.04031 margin=1.111 K=4 exp_final=6 off=3 maxK_off=3 maxR_off=1.408 maxKeff_off=2.384 N(p*/2K)=40
+  rand T=14 W=4              D=6 p*=0.003086 margin=1.092 K=7 exp_final=9 off=3 maxK_off=4 maxR_off=1.169 maxKeff_off=2 N(p*/2K)=935
+  pinned d=1 T=18 W=3        D=7 p*=0.01728 margin=1.337 K=6 exp_final=10 off=2 maxK_off=5 maxR_off=1.622 maxKeff_off=3.351 N(p*/2K)=174
+  tworate T=18 W=3           D=4 p*=0.03026 margin=1.219 K=5 exp_final=7 off=3 maxK_off=4 maxR_off=1.534 maxKeff_off=2.952 N(p*/2K)=84
+  rand T=18 W=3              D=8 p*=0.01533 margin=1.209 K=8 exp_final=8 off=0 maxK_off=0 maxR_off=0 maxKeff_off=0 N(p*/2K)=281
+  pinned d=1 T=18 W=4        D=7 p*=0.003288 margin=1.101 K=5 exp_final=11 off=3 maxK_off=4 maxR_off=1.583 maxKeff_off=2.829 N(p*/2K)=448
+  tworate T=18 W=4           D=4 p*=0.01953 margin=1.219 K=5 exp_final=7 off=3 maxK_off=4 maxR_off=1.534 maxKeff_off=2.952 N(p*/2K)=91
+  rand T=18 W=4              D=9 p*=0.0007378 margin=1.049 K=9 exp_final=26 off=17 maxK_off=8 maxR_off=1.788 maxKeff_off=4.145 N(p*/2K)=3959
+(329s)
+GATE G1a instrumented pipeline == t9core.decode_exactbwd (mode, p*, exp_final, gen_back, gen): 78 checks, violations 0 -> PASS
+GATE G1b brute-force (Fraction) p*, p2 == decoder p*, second_best p2 (T<=10): 66 checks, violations 0 -> PASS
+GATE G1c Lemma 3 on every expanded node: S_d(u) <= sum_{v in V_u} p(u.v), B(u) == max(p(u), S_d(u)): 341 checks, violations 0 -> PASS
+GATE G1d Theorem A per node: off-path expanded u has sum_{V_u} p(u.v) >= p*, K_u >= margin, max_v p(u.v) >= p*/K_u: 79 checks, violations 0 -> PASS
+GATE G1e Theorem A a priori: margin > K  =>  no off-path expansion and exp_final <= D+1: 78 checks, violations 0 -> PASS
+GATE G1f enumerate_above(p*/2K) == brute-force near-mode set (T<=10): 66 checks, violations 0 -> PASS
+GATE G1g Theorem B per depth: #off-path expanded at depth j <= (2/m)(N(p*/2K)-1): 62 checks, violations 0 -> PASS
